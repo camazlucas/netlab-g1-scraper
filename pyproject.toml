@@ -1,0 +1,32 @@
+[project]
+name = "g1-scraper"
+version = "0.1.0"
+description = "Correção de rotina de web scraping da busca do G1 (desafio NetLab UFRJ)"
+authors = [{ name = "Lucas Camaz Ferreira" }]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["requests (>=2.34.2,<3.0.0)", "beautifulsoup4 (>=4.15.0,<5.0.0)"]
+
+[tool.poetry]
+packages = [{ include = "g1_scraper", from = "src" }]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["legacy"]  # código original fica intocado
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.1.1,<10.0.0)",
+    "ruff (>=0.16.7,<0.17.0)"
+]

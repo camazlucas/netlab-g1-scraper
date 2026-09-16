@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Ambientes e caches
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editores e SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# CSV que o legado cria se for executado a partir da raiz por engano
+/g1_lgpd.csv
+
+# ATENÇÃO: data/output, data/reference e data/baseline são entregáveis
+# e NÃO devem ser ignorados.
