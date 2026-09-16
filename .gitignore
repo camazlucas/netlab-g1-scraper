@@ -29,3 +29,5 @@ logs/
 
 # ATENÇÃO: data/output, data/reference e data/baseline são entregáveis
 # e NÃO devem ser ignorados.
+
+data/baseline/api/paginacao_size_500.json

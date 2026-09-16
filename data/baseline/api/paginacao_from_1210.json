@@ -1,0 +1,273 @@
+[
+  {
+    "search_profile": "sp_g1_globo_com",
+    "query": "g1.info_query_recency",
+    "params": {
+      "from": 1210,
+      "q": "lgpd",
+      "size": 10
+    },
+    "result": {
+      "took": 32,
+      "status": 200,
+      "hits": {
+        "hits": [
+          {
+            "_id": "http://g1.be.globoi.com/noticia/1301018/fast",
+            "_score": 0.13375978,
+            "_source": {
+              "body": "\n\tA Universidade do Estado de Santa Catarina (Udesc) de Joinvillex está com inscrições abertas para curso gratuito de Libras, até dia 9 de agosto. Foram disponibilizadas 30 vagas e qualquer pessoa pode participar.\n\n\t“A iniciativa faz parte de um projeto de extensão e é voltado para qualquer pessoa interessada”, diz Isabela Vargas, assessora de comunicação da Udesc de Joinville. O curso com carga horária de 20 horas será ministrado pela professora e educadora especial, Mariane Rodrigues de Souza.\n\n\tAs aulas começam dia 13 de agosto e devem ir até 12 de novembro, todas as terças-feiras, das 7h30 às 8h45. Será emitido certificado ao final do curso.  Os interessados devem se inscrever no site da Udesc.\n\n\tA Libras, Língua Brasileira de Sinais, é a comunicação utilizada principalmente pela comunidade surda brasileira. Cada país tem sua própria língua de sinais. Nos Estados Unidos, por exemplo, a língua utilizada é a ASL - American Sign Language ou língua de sinais americana e em Portugal a LGP - língua gestual portuguesa.\n\n\t\n\t \n\n\t ",
+              "caption": "",
+              "issued": "2013-08-01T12:35:51-0300",
+              "modified": "2013-08-01T12:35:51-0300",
+              "publisher": "G1",
+              "section": [
+                "SC",
+                "Santa Catarina"
+              ],
+              "site": "G1",
+              "species": "Matéria",
+              "thumbnail": "",
+              "title": "Curso de Libras da Udesc está com inscrições abertas até 9 de agosto",
+              "url": "https://measures.globo.com/v1/click?c=busca-headless&h=61d358cdedf6916d7539e6ced45fb335f5683f183e08e01939c3540419936f7e2bfc6f51bb59552b878c6bd653b0e5b0c69eef529179015375a2a7caf8bbf3ab&k=globocom.busca-headless&pa=122&po=1&q=lgpd&qid=g1.info_query_recency&rid=3ebae74f08c4a662c6a71a1cb25ecc3c&t=g1&ts=1789575396&u=https%3A%2F%2Fg1.globo.com%2Fsc%2Fsanta-catarina%2Fnoticia%2F2013%2F08%2Fcurso-de-libras-da-udesc-esta-com-inscricoes-abertas-ate-9-de-agosto.html"
+            },
+            "highlight": {
+              "body": [
+                "Nos Estados Unidos, por exemplo, a língua utilizada é a ASL - American Sign Language ou língua de sinais americana e em Portugal a <em>LGP</em>"
+              ]
+            }
+          },
+          {
+            "_id": "http://g1.be.globoi.com/noticia/146556/fast",
+            "_score": 0.12289652,
+            "_source": {
+              "body": "Madri, 4 out (EFE).- O número de desempregados na Espanha superou de novo em setembro os quatro milhões de pessoas, ao aumentar 1,2% (48.102 pessoas) em relação ao mês de agosto, informaram fontes oficiais.\nAssim, o número de desempregados registrados nos serviços públicos de emprego chegou a 4.017.763, segundo dados do Ministério do Trabalho e Imigração da Espanha.\nEm um ano o desemprego aumentou em 308.316 pessoas (8,3%).\nO desemprego subiu sobretudo no setor de serviços, com mais 53.585 parados (2,3%), seguido do grupo sem emprego anterior, entre o qual aumentou 12.106 (3,5%), enquanto caiu na construção, em 9.738 (1,3%); na indústria, 4.299 (0,9%); e em agricultura, 3.552 (2,9%). EFE\nlgp/ma",
+              "caption": "",
+              "issued": "2010-10-04T04:20:03-0300",
+              "modified": "2010-10-04T04:20:03-0300",
+              "publisher": "G1",
+              "section": [
+                "Mundo"
+              ],
+              "site": "G1",
+              "species": "Matéria",
+              "thumbnail": "",
+              "title": "\nDesempregados na Espanha superam de novo 4 milhões de pessoas em setembro\n\t",
+              "url": "https://measures.globo.com/v1/click?c=busca-headless&h=9af30abc535fbedaf2d49447b5bc66fc994452b9d4e503947ae2906e0aed564d85a58120995d5670ef4291fa5e9c8bf6bd556581bd95d8f17b83866330396946&k=globocom.busca-headless&pa=122&po=2&q=lgpd&qid=g1.info_query_recency&rid=3ebae74f08c4a662c6a71a1cb25ecc3c&t=g1&ts=1789575396&u=https%3A%2F%2Fg1.globo.com%2Fmundo%2Fnoticia%2F2010%2F10%2Fdesempregados-na-espanha-superam-de-novo-4-milhoes-de-pessoas-em-setembro.html"
+            },
+            "highlight": {
+              "body": [
+                "EFE\n<em>lgp</em>/ma"
+              ]
+            }
+          },
+          {
+            "_id": "http://g1.be.globoi.com/noticia/792263/fast",
+            "_score": 0.12119204,
+            "_source": {
+              "body": "\n\tA poupança da Caixa Econômica Federal acumulou R$ 6,71 bilhões de captação líquida no primeiro semestre do ano, um crescimento de 189% em comparação ao mesmo período do ano passado.\n\n\tsaiba mais\n\t\n\t\t\tMesmo com mudanças, captação da poupança bate recorde para maio\n\t\n\n\tNo mês de junho, a captação líquida foi de R$ 1,67 bilhão, o melhor resultado para o mês de junho dos últimos 10 anos e 74% superior ao captado no mesmo período de 2011.\n\tPara o vice-presidente de Pessoa Física da CAIXA, Fábio Lenza, o resultado está lgado à rentabilidade do investimento. “Os brasileiros perceberam, rapidamente, que a mudança na regra de remuneração da poupança garantiu a boa rentabilidade do produto, que continua isento de Imposto de Renda e sem taxas de administração”, disse em nota.\n\n\tNo acumulado do mês de junho até o dia 27, as cadernetas de todos os bancos registraram captação líquida positiva de R$ 2,272 bilhões, segundo dados preliminares do BC. O valor foi gerado pelos depósitos que alcançaram R$ 87,5 bilhões e superaram os saques de R$ 85,2 bilhões no período.\n\n\tAlterações na poupança\n\tPelas novas regras definidas pelo governo federal, a poupança passou a ser atrelada aos juros básicos da economia, rendendo 70% da aplicação, mais a Taxa Referencial. Esse novo formato de rendimento da poupança foi aplicado, porém, somente quando a taxa básica de juros, definida pelo Banco Central, atingiu 8,5% ao ano – acionando o chamado \"gatilho\" para a mudança.\n\n\tPela regra anterior, que vigorava desde 1991, a poupança não podia render menos de 6,17% ao ano, mais TR. A nova regra vale somente para depósitos feitos de 4 de maio em diante. A modalidade continua isenta do Imposto de Renda e sem a cobrança de taxa de administração.",
+              "caption": "",
+              "issued": "2012-07-03T18:47:55-0300",
+              "modified": "2012-07-03T18:47:55-0300",
+              "publisher": "G1",
+              "section": [
+                "Economia",
+                "Últimas notícias"
+              ],
+              "site": "Economia",
+              "species": "Matéria",
+              "thumbnail": "",
+              "title": "Captação líquida da poupança da Caixa cresce 189% no semestre",
+              "url": "https://measures.globo.com/v1/click?c=busca-headless&h=69ce660e448f3c17bb016183d001925793134977e98f9372ba861e4509976005f9c984df4363fdbb11ad3f162362ddb090976b68652e4a44925fc0f0772dc9cc&k=globocom.busca-headless&pa=122&po=3&q=lgpd&qid=g1.info_query_recency&rid=3ebae74f08c4a662c6a71a1cb25ecc3c&t=g1&ts=1789575396&u=https%3A%2F%2Fg1.globo.com%2Feconomia%2Fnoticia%2F2012%2F07%2Fcaptacao-liquida-da-poupanca-da-caixa-cresce-189-no-semestre.html"
+            },
+            "highlight": {
+              "body": [
+                "Para o vice-presidente de Pessoa Física da CAIXA, Fábio Lenza, o resultado está <em>lgado</em> à rentabilidade do investimento."
+              ]
+            }
+          },
+          {
+            "_id": "7bef1d2f-c5bd-47c6-bfd2-86b465f3aaa2",
+            "_score": 0.12049436,
+            "_source": {
+              "body": "Startup brasileira de educação para surdos é finalista do mais importante prêmio de tecnologia para ensino do mundo\nMarcos Gama e Darley Goulart\nA startup brasileira Signa, que oferece uma plataforma de educação online para surdos, é uma das 30 finalistas do Prêmio Next Billion Edtech, que será realizado em 23 e 24 de abril, em Dubai, durante o Global Education & Skill Forum. Os três primeiros colocados levam US$ 25 mil, e serão escolhidos por um júri composto por investidores, educadores e especialistas em \"edtech\" –tecnologia educacional – de todo o mundo.\n“Foi uma surpresa, não estava no nosso radar”, diz Fabíola Rocha, co-fundadora e diretora geral da Signa, que tem sede em Florianópolis, SC. Para ela, a empresa atendeu a dois pontos importantes da premiação: trabalhar com educação e impactar pessoas que tenham dificuldade de ter acesso – seja por problemas financeiros ou por dificuldades “operacionais”. “No nosso caso, trabalhamos com surdos que não necessariamente não tenham dinheiro. Mas não existe oferta de produtos e serviços para eles”, diz a diretora.\nA plataforma online de educação e capacitação para pessoas surdas, em Libras (língua brasileira de sinais) e com legendas, não tem concorrentes no Brasil, e mesmo no mundo. E o conteúdo é feito praticamente todo pela comunidade surda – seja produzido pela própria Signa, seja pela comunidade, de uma forma similar ao YouTube, por exemplo.\n“Nós temos muitos surdos no Brasil que são formados e sabem muito bem Libras, têm experiência muito grande em alguma área específica, e que têm total potencial para produzir conteúdo. Ainda assim, nós fazíamos muita coisa 'em casa’”, lembra Fabíola. Mas a estratégia esbarrava no gargalo da alta demanda e da equipe reduzida. Foi aí que surgiu a ideia de criar um “marketplace”, ou seja, capacitar a comunidade surda para produzir conteúdo – e ganhar uma comissão por isso.\n“Decidimos produzir um material ensinando tudo sobre como fazer cursos online, da ementa até o final. E aí a gente oferece isso para a comunidade surda para que eles possam produzir seu próprio curso e, ao final, ter a possibilidade de colocar seu conteúdo dentro da Signa”, conta Fabíola. \nA diretora lembra ainda que o “marketplace” da Signa é o primeiro passo para uma internacionalização do serviço. “Imagine que teríamos que produzir conteúdo em outra língua sinais, para os EUA, por exemplo – afinal, eles não usam Libras. Seria muito complexo pensar tudo do zero. Assim, nós chegamos para a comunidade, mostramos que eles podem produzir e isso se torna viável em um tempo menor”.\nUma das startups vencedoras do Prêmio Next Billion Edtech de 2018 foi a Chatterbox, que oferece cursos de idiomas através de uma plataforma de baixo consumo de banda - e com aulas oferecidas por refugiados. Isso mostra que, além da tecnologia e da proposta educacional, a inclusão social tem papel fundamental na escolha dos jurados. E essa é uma das missões da Signa, diz Fabíola.\n\"A gente traz pessoas surdas pra equipe, e não faria sentido preparar os surdos para o mercado, mas não trazê-los para a gente. Damos cursos de Libras para todos na empresa. E, como fazemos reuniões diárias, é muito interessante ver como essa integração acontece. Para a gente, é uma experiência muito legal, que mudou muito a motivação da equipe”.\nFabíola Rocha, co-fundadora e diretora geral da Signa, que tem sede em Florianópolis, SC\nMarcos Gama e Darley Goulart\nSegundo o Censo de 2010 realizado pelo IBGE, 9,7 milhões de pessoas têm deficiência auditiva. Pouca gente sabe, mas a Libras é uma das línguas oficiais do Brasil desde 2002 - tendo o mesmo status que o português. Mas engana-se quem pensa que é apenas uma transcrição gestual de nosso idioma. \nA Libras uma língua com estrutura gramatical própria e com organização das informações é totalmente diferente do português. Por isso, a língua de sinais utilizada em Portugal (LGP) é um sistema completamente diferente do nosso - assim como a usada nos Estados Unidos (ASL). E um dado curioso: 80% dos surdos do mundo são analfabetos nas línguas escritas. Ou seja, boa parte da comunidade é alfabetizada em Libras - e sequer entende o português.\n“Tem surdos que não sabem escrever, que é o caso do meu pai, que nunca foi educado no português. Ele usa Libras, que é seu meio de comunicação. Tem surdos que sabem um pouco das duas línguas, e tem surdos que não sabem Libras: só sabem o português. Dá para imaginar a complexidade de criar uma plataforma para a comunidade?’, diz Fabíola, que é uma “Coda”, sigla em inglês para “filho de um adulto surdo” (child of a deaf adult).\nA Signa vai apresentar seu projeto no Global Education & Skills Forum (um “pitch”, no jargão das startups). Mas, no anúncio final, serão chamados ao palco principal apenas seis startups, e dentre elas as três melhores serão premiadas com US$ 25 mil. O grande vencedor também receberá o troféu do Prêmio Next Billion. \nAs 30 startups selecionadas para a final do Prêmio Next Billion são: Talk2U, OxEd, Whetu, Signa, SimBi, Moi Social Learning, Kuwala, Etudesk, PraxiLabs, Langbot, Seppo, Lesson App, Eneza, Aveti Learning Pvt. Ltd., Utter, Dost, Solve Education, M-Shule, eLimu, Wizenoze Ltd, ScholarX, Sabaq, Silabuz, Zelda, MTabe, Ubongo, Fineazy, TeachPitch, Big Picture Learning/Imblaze e  Augmented Learning.",
+              "caption": "A plataforma online de educação e capacitação para pessoas surdas, em Libras (língua brasileira de sinais) e com legendas, não tem concorrentes no Brasil ou no mundo. Conteúdo é quase todo desenvolvido pela comunidade surda.",
+              "issued": "2019-03-08T16:46:35.502Z",
+              "modified": "2019-03-08T17:44:17.091Z",
+              "publisher": "G1",
+              "section": [
+                "G1",
+                "SC",
+                "Santa Catarina",
+                "G1",
+                "Economia",
+                "Tecnologia",
+                "G1",
+                "Educação"
+              ],
+              "species": "Matéria",
+              "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/J/U/YMkbExSMWcHAoeRpaG2g/equipe-signa.jpg",
+              "title": "Startup brasileira de educação para surdos é finalista de prêmio internacional de tecnologia para ensino",
+              "url": "https://measures.globo.com/v1/click?c=busca-headless&h=caf337ed4f57e1995a5ec7ba9eaeaa0815fd0bf8184b9067f11d76cbde71a6c03e4ba1574725e9d2a2621e22aac550c15ef2621fc10f093b7d43a82cd50bf64f&k=globocom.busca-headless&pa=122&po=4&q=lgpd&qid=g1.info_query_recency&rid=3ebae74f08c4a662c6a71a1cb25ecc3c&t=g1&ts=1789575396&u=https%3A%2F%2Fg1.globo.com%2Feducacao%2Fnoticia%2F2019%2F03%2F08%2Fstartup-brasileira-de-educacao-para-surdos-e-finalista-de-premio-internacional-de-tecnologia-para-ensino.ghtml"
+            },
+            "highlight": {
+              "body": [
+                "Por isso, a língua de sinais utilizada em Portugal (<em>LGP</em>) é um sistema completamente diferente do nosso - assim como a usada nos Estados"
+              ]
+            }
+          },
+          {
+            "_id": "http://g1.be.globoi.com/noticia/441022/fast",
+            "_score": 0.11614389,
+            "_source": {
+              "body": "Madri, 30 ago (EFE).- A inflação anualizada na Espanha caiu pelo quarto mês consecutivo e ficou em 2,9% em agosto, dois décimos menos que em julho, segundo o indicador antecipado do Índice de Preços ao Consumidor (IPC) publicado nesta terça-feira pelo Instituto Nacional de Estatística (INE).\nOs preços dos combustíveis e lubrificantes, assim como os dos alimentos e das bebidas não alcoólicas, foram os que mais tiveram influência no IPC de agosto.\nO INE também publicou nesta terça o indicador antecipado do IPC harmonizado (IPCA), que mede a evolução dos preços com o mesmo método em todos os países da zona do euro. Por este método, a inflação anualizada ficou em 2,7% em agosto, três décimos menos com relação ao mês anterior.\nO indicador antecipado é um avanço do IPC, cujo dado definitivo será conhecido em 13 de setembro, e não costuma variar de forma significativa.\nOs preços apresentaram uma evolução em alta desde setembro do ano passado, quando a inflação anualizada foi de 2,1%, e alcançaram seu máximo em abril deste ano, chegando a 3,8%.\nEm maio, embora o IPC tenha continuado a subir, aumentou em menor escala, até ser de 3,5%, e, desde esse mês, continuou sua moderação. EFE\nlgp/pa",
+              "caption": "",
+              "issued": "2011-08-30T07:12:21-0300",
+              "modified": "2011-08-30T07:12:21-0300",
+              "publisher": "G1",
+              "section": [
+                "Mundo"
+              ],
+              "site": "G1",
+              "species": "Matéria",
+              "thumbnail": "",
+              "title": "\nInflação na Espanha cai 2 décimos, para 2,9%\n\t",
+              "url": "https://measures.globo.com/v1/click?c=busca-headless&h=d641d452c15d380b2106464d496f326ef29037120baf002500d2de2c38b5646a846236af53d3e58ab573901a6c1ca8240c647a396847f339aeb0888814858680&k=globocom.busca-headless&pa=122&po=5&q=lgpd&qid=g1.info_query_recency&rid=3ebae74f08c4a662c6a71a1cb25ecc3c&t=g1&ts=1789575396&u=https%3A%2F%2Fg1.globo.com%2Fmundo%2Fnoticia%2F2011%2F08%2Finflacao-na-espanha-cai-2-decimos-para-29.html"
+            },
+            "highlight": {
+              "body": [
+                "EFE\n<em>lgp</em>/pa"
+              ]
+            }
+          },
+          {
+            "_id": "http://g1.be.globoi.com/noticia/2329731/fast",
+            "_score": 0.11555113,
+            "_source": {
+              "body": "\n\tPain Gaming venceu Desafio Internacional no Chile e se classificou para mundial de 'League of Legends' (Foto: Divulgação/Riot Games)\n\n\tA Pain Gaming, representante brasileira no Campeonato Mundial de \"League of Legends\" deste ano, já sabe quem irá enfrentar na primeira etapa do torneio. A campeã do CBLoL 2015 e do Desafio Internacional irá jogar contra as equipes Counter Logic Gaming (CLG), dos EUA; Flash Wolves, de Taiwan; e KOO Tigers, da Coreia do Sul.\n\n\tsaiba mais\n\t\n\t\t\t'League of Legends': G1 mostra como foi a final no estádio do Palmeiras; veja\n\t\t\n\t\t\tPain Gaming vence Circuito Brasileiro de 'League of Legends', o CBLoL\n\t\t\n\t\t\t'League of Legends': Brasil consegue fazer torneio internacional, diz Riot\n\t\n\n\tA fase de grupos do mundial de \"League of Legends\" foi definida em sorteio no último sábado (12) e começa em 1º de outubro, em Paris, na França. Cada equipe irá jogar contra seus oponentes duas vezes, em partidas melhor de um: ou seja, quem ganhar a primeira, leva, com exceção da necessidade de algum desempate.\n\n\tA Pain comemorou a definição em seu perfil no Twitter, dizendo \"O sonho está vivo!\". Talvez porque a equipe brasileira não vá encarar logo de cara nenhum dos bicho-papões do cenário internacional de \"LoL\", como as ex-campeãs SK Telecom T1 (2013) e Fnatic (2011) e as perigosíssimas Cloud 9 e LGD Gaming. A Samsung Galaxy White, campeã de 2014, não conseguiu se classificar.\n\n\tAssim como no ano passado, o mundial de \"League of Legends\" irá pagar US$ 1 milhão ao vencedor. O segundo lugar fica com um prêmio de consolação de US$ 250 mil.\n\n\tEsquema do torneio\n\tA primeira fase dura duas semanas. A partir de 15 de outubro, o mundial de \"League of Legends\" vai a Londres, no Reino Unido, para as quartas de final. Em seguida, as semis acontecem em Bruxelas, na Bélgica, com a grande final marcada para 31 de outubro em uma arena de Berlim, na Alemanha.\n\n\t\"O Campeonato Mundial de 'League of Legends' é o grande momento do ano para todos os fãs de eSports. Estamos muito contentes em mais uma vez contar com um representante brasileiro na competição\", diz Fabio Massuda, gerente de eSports da Riot Games, em nota. \"Se depender dos últimos desempenhos da equipe, temos certeza que eles realizarão um ótimo mundial\", afirma.\n\n\tBoa fase dos BR\n\tA classificação da Pain para o mundial comprova a boa fase do cenário brasileiro de \"League of Legends\". Em 2014, a Kabum, vencedora do CBLoL do ano passado, também disputou o campeonato, que se estendeu por Taipei, Cingapura e Coreia do Sul. Os brasileiros foram eliminados ainda na primeira fase, mas não venderam barato: tiraram do torneio os europeus da Alliance.",
+              "caption": "Pain Gaming, campeã do CBLoL 2015, é representante brasileira no torneio.\nCompetição começa em 1º de outubro; final é em arena de Berlim no dia 31.",
+              "issued": "2015-09-14T17:34:37-0300",
+              "modified": "2015-09-14T17:55:44-0300",
+              "publisher": "G1",
+              "section": [
+                "Games",
+                "Tecnologia e Games",
+                "Últimas notícias"
+              ],
+              "site": "G1",
+              "species": "Matéria",
+              "thumbnail": "http://s2.glbimg.com/oPbUe81suOYPrRFx1lhcpIsPAf4=/90x68/s.glbimg.com/jo/g1/f/original/2015/09/08/painleagueoflegendsmundial.jpg",
+              "title": "'League of Legends': Brasil pega EUA, Taiwan e Coreia do Sul no mundial",
+              "url": "https://measures.globo.com/v1/click?c=busca-headless&h=4d25a16aad828d7fea884f34cf46157a9a3a896670e34f10ee8121bcbef42b3a418722d0c9056ec701fe2def1982c49bdcc79e73dfb5d9ab07f34a3fb8ba9b45&k=globocom.busca-headless&pa=122&po=6&q=lgpd&qid=g1.info_query_recency&rid=3ebae74f08c4a662c6a71a1cb25ecc3c&t=g1&ts=1789575396&u=https%3A%2F%2Fg1.globo.com%2Ftecnologia%2Fgames%2Fnoticia%2F2015%2F09%2Fleague-legends-brasil-pega-eua-taiwan-e-coreia-do-sul-no-mundial.html"
+            },
+            "highlight": {
+              "body": [
+                "bicho-papões do cenário internacional de \"LoL\", como as ex-campeãs SK Telecom T1 (2013) e Fnatic (2011) e as perigosíssimas Cloud 9 e <em>LGD</em>"
+              ]
+            }
+          },
+          {
+            "_id": "http://g1.be.globoi.com/noticia/934883/fast",
+            "_score": 0.11365158,
+            "_source": {
+              "body": "A Bolsa de Nova York terá três ofertas públicas iniciais na próxima sexta-feira. Duas delas serão cisões de companhias que já têm capital aberto, a Dean Foods e a Marathon Petroleum.\nA Dean Foods, maior produtora de laticínios dos Estados Unidos em receita, transformará o negócio de produtos orgânicos e à base de soja em uma companhia independente, a WhiteWave. A empresa pretende arrecadar US$ 300 milhões com a emissão de 20 milhões de ações, para quitar dívidas.\nAs vendas anuais da WhiteWave aumentaram quase 60% nos últimos cinco anos, atingindo US$ 1,9 bilhão em 2011. Cerca de quatro quintos das vendas vêm da América do Norte, enquanto as marcas europeias Alpro e Provamel, de bebidas à base de soja e alimentos, respondem pelo restante.\nA Dean permanecerá com uma fatia de 88% na WhiteWave depois da oferta, segundo documento entregue à Securities and Exchange Commission (SEC), órgão que fiscaliza o mercado de capitais americano. No último mês a empresa confirmou que também cogita a venda do negócio de laticínios Morningstar, o menor de seus três segmentos.\nA MPLX, unidade da refinaria Marathon Petroleum, venderá 15 milhões de ações, para captar US$ 300 milhões no mercado. A MPLX opera um sistema de tubulações para transporte de petróleo bruto, que se estende pelo centro-oeste americano, assim como em partes dos Estados da Louisiana e do Texas.\nA Lehigh Gas Partners, que opera postos de combustíveis nos Estados Unidos, deve fazer a menor operação, com a oferta de seis milhões de papéis, em um negócio avaliado em US$ 120 milhões. A empresa será listada sob o código LGP.",
+              "caption": "",
+              "issued": "2012-10-19T21:06:03-0300",
+              "modified": "2012-10-19T21:06:04-0300",
+              "publisher": "G1",
+              "section": "Economia",
+              "site": "Economia",
+              "species": "Matéria",
+              "thumbnail": "",
+              "title": "Bolsa de Nova York terá três aberturas de capital  na próxima semana",
+              "url": "https://measures.globo.com/v1/click?c=busca-headless&h=6e864408bb3cd8ec44506e47eca0695265e3bd348efe0f0fa85e2277d5d214de98f865ff54214048a5dd2b145acea4d854665da025f9470ef68974363307a3e0&k=globocom.busca-headless&pa=122&po=7&q=lgpd&qid=g1.info_query_recency&rid=3ebae74f08c4a662c6a71a1cb25ecc3c&t=g1&ts=1789575396&u=https%3A%2F%2Fg1.globo.com%2Feconomia%2Fnoticia%2F2012%2F10%2Fbolsa-de-nova-york-tera-tres-aberturas-de-capital-na-proxima-semana.html"
+            },
+            "highlight": {
+              "body": [
+                "A empresa será listada sob o código <em>LGP</em>."
+              ]
+            }
+          },
+          {
+            "_id": "http://g1.be.globoi.com/noticia/165525/fast",
+            "_score": 0.10749675,
+            "_source": {
+              "body": "Madri, 27 out (EFE).- As duas centrais sindicais majoritárias da Espanha, Comissões Operárias (CCOO) e União Geral de Trabalhadores (UGT), convocaram novas manifestações contra a política econômica do Governo para os dias 15 e 18 de dezembro.\nOs secretários gerais de ambos os sindicatos, Ignacio Fernández Toxo, da CCOO, e Cándido Méndez, da UGT, disseram hoje que as razões pelas quais foi convocada a greve geral de 29 de setembro ainda persistem, em decorrência da reforma trabalhista aprovada em junho.\nNo dia 15 de dezembro, os sindicatos espanhóis planejam fazer um conjunto de mobilizações \"conectadas\" com a segunda jornada de ação sindical na Europa, que antecederá a cúpula de chefes de Estado da União Europeia (UE), prevista para o dia 16, enquanto no dia 18 haverá manifestações \"maciças\" em toda a Espanha.\nA greve geral de setembro foi a primeira enfrentada pelo Governo do socialista José Luis Rodríguez Zapatero. Com adesão parcial dos trabalhadores, a mobilização não chegou a interromper os transportes e muitos serviços, mas conseguiu suspender a produção em setores da indústria.\nOs sindicatos consideram que a reforma trabalhista \"barateia a demissão\" sem contribuir para flexibilizar o mercado de trabalho, acabar com a precariedade nem criar novos empregos em um país que tem 4,6 milhões de desempregados, mais de 20% da população ativa. EFE\nlgp/mm",
+              "caption": "",
+              "issued": "2010-10-27T10:20:03-0200",
+              "modified": "2010-10-27T10:20:03-0200",
+              "publisher": "G1",
+              "section": [
+                "Mundo"
+              ],
+              "site": "G1",
+              "species": "Matéria",
+              "thumbnail": "",
+              "title": "\nSindicatos espanhóis convocam manifestações para meados de dezembro\n\t",
+              "url": "https://measures.globo.com/v1/click?c=busca-headless&h=90eefdf8a73ff453ca40ac9c08c796d2c891f86a222a772e1480f9dc5d53cc3c0a4433f267e0f1fb92978bf0dfc2b7b0ccea5eee59bc1f4c8eb2ab580dc69a72&k=globocom.busca-headless&pa=122&po=8&q=lgpd&qid=g1.info_query_recency&rid=3ebae74f08c4a662c6a71a1cb25ecc3c&t=g1&ts=1789575396&u=https%3A%2F%2Fg1.globo.com%2Fmundo%2Fnoticia%2F2010%2F10%2Fsindicatos-espanhois-convocam-manifestacoes-para-meados-de-dezembro.html"
+            },
+            "highlight": {
+              "body": [
+                "EFE\n<em>lgp</em>/mm"
+              ]
+            }
+          },
+          {
+            "_id": "c9876711-5308-411b-9cf9-be99258f6556",
+            "_score": 0.0705791,
+            "_source": {
+              "body": "Curso para empreendedores em unidade do Sebrae\nSebrae/Divulgação\nCapacitação e atualização devem ser diretrizes aos empreendedores que almejam o sucesso. Pelo menos é o que recomenda o Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebrae), um dos principais órgãos de fomento aos negócios no país.\nA partir da aplicação das informações obtidas em cursos, palestras, workshops e outros eventos, o empresário pode gerar conhecimento dentro da própria empresa, promover inovação de processos, produtos e serviços, agregando valor e aumentando a lucratividade.\nO G1, em parceria com a EPTV, afiliada da TV Globo, publica esta semana a série \"Futuro Patrão\", com reportagens sobre empreendedorismo.\nQuiz: você tem perfil empreendedor? Faça o teste e descubra!\nQuiz: veja 6 mitos e verdades sobre se tornar empreendedor\nA região de Ribeirão Preto (SP) oferece diversos tipos de cursos de capacitação gratuitos e com preços acessíveis, para auxiliar os empreendedores a alcançarem os objetivos. Confira a relação abaixo:\nSupera Parque\nO Parque de Inovação e Tecnologia de Ribeirão Preto (Supera Parque) oferece formação a quem pretende empreender, incentiva a aprendizagem em tecnologia, além de promoves projetos usando a tecnologia e o empreendedorismo na resolução de problemas sociais.\nEstudantes dos ensinos fundamental e médio também podem participar de ações cujo objetivo é promover uma educação empreendedora, desenvolvendo competências, como trabalho em equipe, liderança, planejamento, criatividade, resiliência, entre outros. \nEm formato de imersão, com cerca de 30 horas de conteúdo, o curso “Empreende” também ensina modernas técnicas de empreendedorismo, como Business Model Canvas, Estratégia do Oceano Azul e Desing Thinking. Em 2020, as aulas acontecem nas seguintes datas:\n12 a 16 de fevereiro\n5 a 9 de maio\n11 a 15 de agosto\n10 a 14 de novembro\nEm parceria com a ESC21, o Supera Parque também realiza uma “Oficina de Robótica” para alunos dos ensinos fundamental, médio e superior, com o objetivo de colocar os jovens em contato com técnicas de programação e despertar a criatividade.\nCrianças, adolescentes e professores podem participar das oficinas de “Empreendedorismo e Sustentabilidade”, com duração de 90 minutos. A proposta das aulas é desmistificar os dois temas de forma lúdica.\nCom sede no Supera Parque, o Centro de Capacitação do PISO – APL de Software de Ribeirão Preto oferece mentoria e treinamento para profissionais de tecnologia da informação. Mais informações podem ser obtidas pelo e-mail piso@piso.org.br\nEmpresas, startups, pessoas físicas, investidores e demais interessados em inovação também podem participar do “Membership”, um programa de associados para fortalecer e unificar o ecossistema empreendedor de Ribeirão Preto. \nO Supera Parque está localizado na Avenida Nadir Aguiar, n.º 1.805, no bairro Monte Alegre. Mais informações podem ser obtidas pelo telefone (16) 3315-0735. As inscrições para cursos, palestras e outros eventos devem ser feitas no site da instituição.\nAcirp\nA Associação Comercial e Industrial de Ribeirão Preto (Acirp) oferece cursos presenciais e online com o objetivo de promover o desenvolvimento empresarial, capacitando empresários e colaboradores.\nA programação de atividades até dezembro pode ser consultada no site da instituição, que também mantém 14 núcleos setoriais para apoiar empresários de diversos segmentos por meio do Programa Empreender, em parceria com o Sebrae.\nMicro e pequenos empreendedores ainda contam com o serviço do \"Sebrae Aqui\", na Distrital Oeste da Acirp, na Avenida Dom Pedro I, n.º 642, no bairro Ipiranga. Os atendimentos acontecem de segunda a sexta-feira, das 8h às 17h45.\nCentro Universitário Estácio\nO Laboratório de Prática de Gestão (LPG) do Centro Universitário Estácio em Ribeirão Preto oferece atendimentos contábil e fiscal, de gestão de carreiras, de novos negócios e de empreendedorismo, de segunda a sexta-feira, das 18h às 20h.\nEntre os serviços oferecidos estão elaboração de currículos, cursos de informática, consultoria na área de liderança e gestão, além do registro de Cadastro Nacional de Pessoa Jurídica (CNPJ) para microempreendedores individuais (MEIs).\nPodem ser atendidos moradores cuja renda não ultrapasse quatro salários mínimos, ou R$ 3,9 mil, e empresários cujo faturamento anual seja até R$ 1 milhão. \nO LGP também promove palestras sempre na primeira quarta-feira de cada mês, das 19h às 21h, abordando temas relacionados à gestão, empreendedorismo e carreira. As inscrições podem ser feitas pelo e-mail alessandra.santana@estacio.br\nO Centro está localizado na Rua Abrão Issa Halack, n.º 980, na Ribeirânia.\nUSP Ribeirão Preto\nA Faculdade de Economia, Administração e Contabilidade (FEA-RP) da USP possui um Núcleo de Empreendedores aberto à comunidade. A programação de palestras, cursos e eventos gratuitos está disponível na página no Facebook.\nAlém disso, a FEA-RP possui o programa “StarYou”, que é uma espécie de pré-aceleradora de startups, cujo objetivo é desenvolver a mentalidade empreendedora e ajudar a transformar uma ideia em negócio. As inscrições ocorrem sempre em julho.\nJá o programa “Pontapé” tem como proposta desenvolver o empreendedorismo social dentro de escolas públicas, envolvendo alunos do ensino médio. As inscrições ocorrem sempre no mês de julho e as aulas acontecem na FEA-RP.\nO Núcleo de Empreendedores também é responsável pelo Programa Integrado de Capacitação Empreendedora (Pice), que capacita micro e pequenos empresários, a partir de workshops, para reduzir o índice de encerramentos de empreendimentos. \nA FEA-RP está localizada no campus da USP, na Avenida Bandeirantes, n.º 3.900, na Vila Monte Alegre, em Ribeirão Preto.\nSebrae Ribeirão\nO Sebrae também oferece atividades em Ribeirão Preto. As ações acontecem na unidade localizada na Rua Inácio Luiz Pinto, n.º 280, no Alto da Boa Vista. Confira a programação:\n“Inove para ganhar mais”: 29 de novembro, das 9h15 às 12h15\nComeçar Bem – Formalização: 29 de novembro, das 9h15 às 13h15\nPalestra “Empretec”: 2 e 16 de dezembro, das 19h às 21h\nUni-Facef\nO Centro Universitário Municipal de Franca (Uni-Facef) possui um Núcleo de Apoio Fiscal (NAF) em parceria com a Receita Federal, que oferece suporte contábil e fiscal a pessoas físicas, microempresas, microempreendedores individuais e entidades sem fins lucrativos.\nO Uni-Facef está localizado na Avenida Sete de Setembro, s/n.º, ao lado do Teatro Municipal José Cyrino Goulart. Mais informações podem ser obtidas pelo telefone (16) 3713-4616.\nSebrae Franca\nO Sebrae promove um encontro empresarial com Fred Rocha, especialista em varejo. Durante a palestra, Fred explica como atingir as metas de fim de ano com motivação e foco nas vendas. A inscrição é gratuita e deve ser feita com antecedência pela internet.\n“Encontro Empresarial - Motivação e Vendas”: dia 9 de dezembro, das 19h às 22h\nO evento será realizado no auditório central da Universidade de Franca (Unifran), na Avenida Doutor Armando de Sales Oliveira, n.º 201. Mais informações podem ser obtidas no Sebrae, no telefone (16) 3111-9900.\nUnifeb\nO Centro Universitário da Fundação Educacional de Barretos (Unifeb) e a Casa dos Engenheiros e Arquitetos de Barretos realiza, palestras com o jornalista Marcelo Tas e o pesquisador Gil Giardelli. As inscrições deve ser feitas pelo e-mail engenhariaparavida.unifeb.edu.br\nOs participantes devem levar um litro de leite obrigatoriamente. As doações serão destinadas a entidades sociais do município. Os eventos ocorrem no Teatro do Unifeb, localizado na Avenida Professor Roberto Frade Monte, n.º 389, em Barretos.\n“O impacto da transformação digital no relacionamento com o cliente” – com Marcelo Tas: dia 28 de novembro, das 18h30 às 22h\n“Tempo Pós-Normal e o Mundo VUCA - Volátil, Incerto, Complexo e Ambíguo” – com Gil Giardelli: dia 29 de novembro, das 18h às 19h\nSebrae Barretos\nO Sebrae realiza a oficina “Começar Bem – Formalização” em 5 de dezembro, entre 19h e 23h, na unidade localizada na Rua 14, n.º 735, no Centro. O evento é gratuito. Mais informações podem ser obtidas pelo telefone (17) 3321-6470.\nPrefeitura de Barretos\nAs secretarias municipais de Desenvolvimento Econômico e de Indústria, Comércio e Emprego de Barretos oferecem curso para “garçom – barman e camareira” na Carreta – Unidade Móvel de Hospitalidade do Via Rápida Emprego.\nA data de início das aulas ainda não foi definida, mas as inscrições já podem ser feitas no Posto de Atendimento ao Trabalhador (PAT) no Poupatempo, localizado ao lado do North Shopping, na Via Conselheiro Antônio Prado, nº 1.400. \nFundo Social de Barretos\nO Fundo Social de Solidariedade de Barretos oferece cursos de salgado, panificação, confeitaria, rotisserie, assistente de cabeleireiro, construção civil e assentador de pisos em parceria com o Fundo Social de São Paulo.\nAs inscrições devem ser feitas na Rua 26, n.º 929, de segunda a sexta-feira, das 8h às 16h. Os candidatos devem ter idade mínima de 16 anos, levar cópia do RG e de um comprovante de endereço. \nConfira abaixo os cursos ministrados no Centro Municipal Profissionalizante (Cemup), localizado na Avenida Três, n.º 1280, no bairro Ortega\nSalgado: segundas-feiras, das 08h às 11h\nPanificação: segundas-feiras, das 13h às 16h, e quartas-feiras, das 8h às 11h\nRotisserie: quartas-feiras, das 13h às 16h\nAssistente de cabeleireiro: terças-feiras, das 13h às 17h, e quartas-feiras, das 13h às 17h\nConfira abaixo os cursos ministrados no Centro Municipal de Educação de Jovens e Adultos (Cemeja), localizado no Projeto Daniela Cristina de Lima, no bairro São Francisco.\nConstrução civil: terças e quintas-feiras, das 19h às 22h\nAssentador de pisos: terças e quintas-feiras, das 19h às 22h\nCentro Profissionalizante de Barretos\nO Centro Municipal Profissionalizante Professor Jorge Olegário de Abreu (Cemup) de Barretos realiza cursos gratuitos de formação profissionalizantes. A unidade está localizada na Avenida Três, n.º 1.280. Mais informações podem ser obtidas pelo telefone (17) 3325-1731.\nArtesanato em feltro (10 vagas): idade mínima 15 anos\nBoneca de pano (10 vagas): idade mínima 15 anos\nDecoupagem (10 vagas): idade mínima 15 anos\nForração em caixa com tecido (10 vagas): idade mínima 15 anos\nForração francesa (10 vagas): idade mínima 15 anos\nPintura em MDF e gesso (10 vagas): idade mínima 15 anos\nPintura em tecido (6 vagas): idade mínima 14 anos\nPintura em Tecido “patch” (6 vagas): idade mínima 14 anos\nPintura em fralda (6 vagas): idade mínima 14 anos\nBordado a mão (12 vagas): idade mínima 15 anos\nBordado a máquina (12 vagas): idade mínima 15 anos\nBordado em fita (12 vagas): idade mínima 12 anos\nCabeleireiro (10 vagas): idade mínima 16 anos\nComida de boteco e salgado (12 vagas): idade mínima 12 anos\nConfeitaria e panificação (12 vagas): idade mínima 12 anos\nCorte e costura (10 vagas): idade mínima 15 anos\nCostura industrial (10 vagas): idade mínima 18 anos\nCulinária (12 vagas): idade mínima 12 anos\nDecoração de bolo (10 vagas): idade mínima 15 anos\nDepilação (6 vagas): idade mínima 18 anos\nDocinho de festa (10 vagas): idade mínima 15 anos\nLingerie (10 vagas): idade mínima 15 anos\nManicure e pedicure (6 vagas): idade mínima 18 anos\nDesigner de sobrancelha (4 vagas): idade mínima 16 anos\nPatch aplique (12 vagas): idade mínima 15 anos\nPatch sem agulha (10 vagas): idade mínima 15 anos\nPatchwork (10 vagas): idade mínima 18 anos\nTricô e Crochê: 12 alunos, idade mínima 12 anos\nAbrolhos (12 vagas): idade mínima 12 anos\nArraiolo (12 vagas): idade mínima 12 anos\nCrochê de grampo (12 vagas): idade mínima 12 anos\nCrochê de lápis (12 vagas): idade mínima 12 anos\nSebrae Jaboticabal\nEm parceria com a Prefeitura de Jaboticabal, a Incubadora Empresarial e o Instituto Tecnológico, o Sebrae oferece um curso voltado à gestão de sites. As inscrições custam R$ 140, divididos em duas parcelas. Mais informações podem ser obtidas pelo telefone (16) 3203-3398.\n\"Na Media Sebrae\": dias 26 e 27 de novembro, das 19h às 22h\nInitial plugin text\nVeja mais notícias da região no G1 Ribeirão Preto e Franca",
+              "caption": "Prefeituras, associações comerciais, unidades do Sebrae e universidades oferecem atividades, inclusive online, para capacitar empreendedores e orientar candidatos.",
+              "featuredImage": {
+                "thumborUrl": "https://s2.glbimg.com/glZn6SRFuo2yuwo5gMVxyi2H6BU=/600x0/filters:quality(70)/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/w/E/ekqi2zSSuBOewvvqBKAg/arte-futuro-patrao-site-2.png"
+              },
+              "issued": "2019-11-22T14:32:40.172Z",
+              "modified": "2019-11-22T14:59:21.805Z",
+              "publisher": "G1",
+              "section": [
+                "G1",
+                "SP",
+                "Ribeirão Preto e Franca"
+              ],
+              "species": "Matéria",
+              "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/w/E/ekqi2zSSuBOewvvqBKAg/arte-futuro-patrao-site-2.png",
+              "title": "Região de Ribeirão Preto tem cursos para empresários e quem deseja abrir o próprio negócio",
+              "url": "https://measures.globo.com/v1/click?c=busca-headless&h=5a0a35057cd678900c5c580b73295b07d4a8ba716786ffdb7715c40f3414d9429ad0db4b887f81a8f2882f237cc707dd757c7db9377269819b78941c805d2fae&k=globocom.busca-headless&pa=122&po=9&q=lgpd&qid=g1.info_query_recency&rid=3ebae74f08c4a662c6a71a1cb25ecc3c&t=g1&ts=1789575396&u=https%3A%2F%2Fg1.globo.com%2Fsp%2Fribeirao-preto-franca%2Fnoticia%2F2019%2F11%2F22%2Fregiao-de-ribeirao-preto-tem-cursos-para-empresarios-e-quem-deseja-abrir-o-proprio-negocio.ghtml"
+            },
+            "highlight": {
+              "body": [
+                "O <em>LGP</em> também promove palestras sempre na primeira quarta-feira de cada mês, das 19h às 21h, abordando temas relacionados à gestão,"
+              ]
+            }
+          }
+        ],
+        "max_score": 20792.73,
+        "total": {
+          "relation": "eq",
+          "value": 1219
+        }
+      },
+      "aggregations": {
+        "species": {
+          "buckets": [
+            {
+              "doc_count": 1124,
+              "key": "Matéria"
+            },
+            {
+              "doc_count": 73,
+              "key": "Vídeo On Demand"
+            },
+            {
+              "doc_count": 22,
+              "key": "Blog"
+            }
+          ],
+          "doc_count_error_upper_bound": 0,
+          "sum_other_doc_count": 0
+        }
+      }
+    },
+    "status": 200
+  }
+]

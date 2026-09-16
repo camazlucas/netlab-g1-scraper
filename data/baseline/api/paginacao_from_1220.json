@@ -1,0 +1,43 @@
+[
+  {
+    "search_profile": "sp_g1_globo_com",
+    "query": "g1.info_query_recency",
+    "params": {
+      "from": 1220,
+      "q": "lgpd",
+      "size": 10
+    },
+    "result": {
+      "took": 13,
+      "status": 200,
+      "hits": {
+        "max_score": 20792.486,
+        "total": {
+          "relation": "eq",
+          "value": 1219
+        }
+      },
+      "aggregations": {
+        "species": {
+          "buckets": [
+            {
+              "doc_count": 1124,
+              "key": "Matéria"
+            },
+            {
+              "doc_count": 73,
+              "key": "Vídeo On Demand"
+            },
+            {
+              "doc_count": 22,
+              "key": "Blog"
+            }
+          ],
+          "doc_count_error_upper_bound": 0,
+          "sum_other_doc_count": 0
+        }
+      }
+    },
+    "status": 200
+  }
+]

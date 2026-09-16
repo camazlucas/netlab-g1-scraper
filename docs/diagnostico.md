@@ -136,7 +136,50 @@ entre outros. `total` = 1219 resultados para "lgpd".
 - **Anúncios:** 3 dos 10 primeiros hits têm `pubeditorial` (Especial Publicitário).
 - **Relevância e ordem:** vários títulos não citam LGPD, e a ordem não é estritamente
   cronológica.
-  
+
 ## 8. Paginação
 
-(etapa 4)
+### 8.1 Relação entre `page=N` e a API
+- O site ignora o parâmetro `page` da URL: em `page=0`, `1` e `2` a requisição
+  `POST v1/search` envia `from=0, size=10` (verificado no DevTools).
+- A paginação real acontece pelo botão "Ver mais", que envia uma nova requisição
+  com `from` incrementado de 10 e `size=10`, contendo apenas a consulta
+  `g1.info_query_recency` (sem os blocos auxiliares).
+- Isso explica, junto com a S1, por que o laço `page=0..4` do código original
+  obtinha sempre o mesmo HTML (etapa 1).
+
+### 8.2 Incremento e sobreposição (`scripts/inspecao_paginacao.py`)
+- `from=0`, `10` e `20` retornam 10 hits cada, sem sobreposição de URLs reais.
+- A API aceita o corpo apenas com a consulta principal.
+
+### 8.3 Fim dos resultados e limite (`scripts/inspecao_paginacao_fim.py`)
+- `from=1210` retorna 9 hits; `from=1215` retorna 4 (total = 1219).
+- A partir de `from=1219`: HTTP 200, mas a chave `hits.hits` não existe
+  (não é uma lista vazia).
+- `from=9990` responde normalmente; `from=10000` retorna HTTP 400 com corpo `{}`.
+  Hipótese: limite `from + size ≤ 10000` do Elasticsearch. Não afeta a coleta
+  de "lgpd" (1219 resultados).
+
+### 8.4 Tamanho da página (`scripts/inspecao_paginacao_size.py`)
+- `size=20`, `50`, `100` e `500` retornam a quantidade pedida.
+- `size=20` é idêntico a `from=0` + `from=10`, na mesma ordem.
+- Decisão: manter `size=10`, igual ao site, para reduzir a carga no servidor.
+
+### 8.5 Estabilidade (`scripts/inspecao_paginacao_estabilidade.py`)
+- 5 repetições de `from=0, size=50`: mesmo `total`, mesma ordem e mesmo conjunto;
+  os 10 primeiros coincidem com a coleta da questão 1, feita minutos antes.
+- O `max_score` varia entre execuções mais espaçadas (≈20784 → 20710).
+  Hipótese: o perfil `info_query_recency` pondera recência.
+
+### 8.6 Consequências para o scraper
+- Paginar pela API com `from` de 10 em 10, e não pela URL `page=N`.
+- Parar quando `hits.get("hits", [])` estiver vazio ou `from >= total`,
+  sem depender de erro HTTP.
+- Limitação: se notícias novas forem publicadas durante a coleta, resultados
+  podem se deslocar entre páginas (duplicatas ou lacunas). Mitigação: coleta em
+  execução única e deduplicação pela URL real.
+
+- O arquivo `paginacao_size_500.json` (3,7 MB) não é versionado; pode ser
+  regenerado com o script.
+  
+Evidências: `data/baseline/api/paginacao_*.json` e `estabilidade_rep_*.json`.
