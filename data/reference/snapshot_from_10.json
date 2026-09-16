@@ -1,0 +1,484 @@
+{
+  "coletado_em": "2026-09-16T17:13:26-03:00",
+  "status_http": 200,
+  "corpo_requisicao": [
+    {
+      "search_profile": "sp_g1_globo_com",
+      "query": "g1.info_query_recency",
+      "params": {
+        "q": "lgpd",
+        "from": 10,
+        "size": 10
+      }
+    }
+  ],
+  "resposta": [
+    {
+      "search_profile": "sp_g1_globo_com",
+      "query": "g1.info_query_recency",
+      "params": {
+        "from": 10,
+        "q": "lgpd",
+        "size": 10
+      },
+      "result": {
+        "took": 49,
+        "status": 200,
+        "hits": {
+          "hits": [
+            {
+              "_id": "8ed62e92-812c-470d-b245-6312bc0eb907",
+              "_score": 1498.0641,
+              "_source": {
+                "body": "ANPD multa TikTok em R$ 153,7 milhões por falhas na proteção de menores\nA multa aplicada contra a ByteDance, dona do TikTok, na terça-feira (25) foi uma medida inédita contra uma empresa de rede social no Brasil.\nA Agência Nacional de Proteção de Dados (ANPD) determinou que a empresa pague R$ 153,7 milhões por violações no tratamento de dados de crianças e adolescentes.\n🗒️ Tem alguma sugestão de reportagem? Envie para o g1\nO órgão concluiu que o TikTok tratou indevidamente dados de menores de idade em desacordo com a Lei Geral de Proteção de Dados (LGPD) e não adotou medidas suficientes para evitar a prática.\nO TikTok afirmou ao g1 que a multa se refere a um período anterior ao seu enquadramento à LGPD e que seguirá dialogando com a agência enquanto avalia medidas cabíveis. O processo permite que a empresa entre com um recurso contra a decisão.\nMulta ao TikTok marca nova fase da ANPD\nA ANPD também determinou que a empresa exclua os dados coletados de forma irregular e apresente um plano de conformidade para reforçar a proteção de menores em sua plataforma.\n\"Os mecanismos adotados pela empresa não foram suficientes para evitar, desde a origem, o tratamento indevido de dados pessoais de crianças e adolescentes\", disse a ANPD, em comunicado, com base na avaliação de sua Superintendência de Fiscalização.\nO caso é diferente de outra decisão tomada pela ANPD neste mês, envolvendo o Discord. Na ocasião, a agência determinou a suspensão das transmissões ao vivo da plataforma no Brasil como medida preventiva, até que a empresa adotasse medidas efetivas para proteger menores durante o uso do serviço.\nPor que o Brasil multou o TikTok e suspendeu lives do Discord? Entenda a diferença entre os casos\nPor que o TikTok foi multado no Brasil? \nA ANPD identificou infrações à LGPD em acessos feitos por usuários sem cadastro, que conseguem assistir a vídeos mesmo sem conta, e com cadastro, que informam os dados pessoais à plataforma.\nSegundo a agência, as violações cometidas pelo TikTok foram:\ncoletar indevidamente dados de menores de idade sem cadastro;\nnão adotar medidas para prevenir a coleta de dados de usuários sem cadastro;\ncoletar indevidamente dados para criar contas de menores de idade;\nnão adotar medidas para prevenir cadastros de menores de idade;\nnão demonstrar medidas que comprovem o cumprimento de normas de proteção de dados.\nSegundo a ANPD, o TikTok tratou dados de forma irregular porque não tinha uma \"hipótese legal válida\" para a prática, ou seja, não cumpria nenhum dos critérios previstos pela LGPD para coletar informações de crianças e adolescentes.\nO TikTok alegou que estava amparado pela hipótese de \"execução de contrato\", aplicada quando usuários aceitam os Termos de Serviço. Mas a ANPD rejeitou a justificativa porque crianças e adolescentes precisariam de representação ou da assistência dos pais para que o contrato fosse validado.\nComo o valor da multa foi definido?\nA multa foi calculada com base no faturamento bruto da ByteDance no Brasil em 2025, excluindo os tributos. A receita da empresa não foi exposta nos documentos porque essa informação é protegida pelo sigilo fiscal.\nEm seu cálculo, a ANPD rejeitou os atenuantes solicitados pela ByteDance, isto é, fatores que levariam a uma redução do valor da multa.\nA empresa disse que apresentou um plano de conformidade que está em vigor desde 2025. Mas a agência alegou que, para reduzir o valor da multa, é preciso ter comprovação de que as medidas do plano foram colocadas em prática.\nQuais são os próximos passos? \nA ByteDance deve pagar a multa em até 20 dias úteis ou entrar com um recurso contra a decisão em até 10 dias úteis. A empresa pode diminuir a quantia a ser paga em 25% se desistir de recorrer e se fizer o pagamento dentro do prazo.\nA dona do TikTok também deverá implementar um plano de conformidade para melhorar a proteção de crianças e adolescentes em sua plataforma.\nPara menores de 16 anos cadastrados, o TikTok deverá aplicar as configurações mais restritas, que só poderão ser alteradas com autorização dos responsáveis. A plataforma também terá que reforçar sistemas de supervisão de pais e implementar filtros de conteúdo mais rigorosos.\nNa versão sem cadastro, o TikTok deverá:\nlimitar a experiência a 12 horas;\nbloquear a publicação de vídeos, os comentários, o envio de mensagens e interações com terceiros;\nimpedir usuários de seguirem outros perfis ou serem seguidos;\nproibir usuários de publicarem ou assistirem a transmissões ao vivo;\nlimitar a personalização de conteúdo;\nsuspender veiculação de anúncios;\nexibir apenas conteúdo apropriado para todas as idades;\nreduzir a coleta de dados para o mínimo necessário, incluindo idioma e região da pessoa, informações sobre o dispositivo para proteção contra fraudes e informações para melhorar o desempenho do aplicativo.\nO que diz o TikTok?\nO TikTok afirmou ao g1 que a segurança de crianças e adolescentes é \"uma prioridade absoluta\" da plataforma e que mantém um diálogo \"transparente e colaborativo\" sobre o assunto com a ANPD.\nA empresa disse ainda que o \"trabalho conjunto resultou em um Plano de Conformidade apresentado e aprovado pela agência em 2025\".\n\"A decisão que impôs a multa se refere a um período anterior (2021) e não reflete as ações previstas nesse plano nem as medidas voluntariamente implementadas desde então, que garantem o cumprimento da LGPD tanto na experiência logada quanto na não logada. Seguiremos dialogando com a ANPD enquanto avaliamos as medidas cabíveis\", disse o TikTok.\nA ANPD está investigando outras plataformas? \nA ANPD iniciou um monitoramento desse setor para mitigar riscos e proteger crianças e adolescentes no ambiente digital. Em coletiva com a imprensa logo após a decisão sobre o TikTok, a agência confirmou que está olhando para outras plataformas, mas não deu detalhes. \nNa última sexta-feira (21), a agência abriu duas ações de fiscalização que envolvem 22 serviços digitais, entre eles redes sociais, plataformas de inteligência artificial e lojas de aplicativos. \nNa lista, estão Instagram, Facebook, X, Discord, YouTube, LinkedIn, Gemini, ChatGPT, Claude, além das lojas de aplicativos de celular App Store e Google Play Store. \nAs empresas terão de informar quais providências já adotaram ou estão desenvolvendo para cumprir as novas regras de proteção dos usuários na internet, focando em crianças, adolescentes e mulheres no ambiente digital.",
+                "caption": "Rede social foi multada em R$ 153,7 milhões por violar regras de tratamento de dados de crianças e adolescentes. Agência determinou que a empresa apresente medidas para reforçar a proteção de menores de idade.",
+                "issued": "2026-08-26T03:00:46.119Z",
+                "modified": "2026-08-26T13:17:40.549Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "Tecnologia",
+                  "G1",
+                  "Economia",
+                  "G1",
+                  "Política"
+                ],
+                "species": "Matéria",
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/U/4/awDZ8iRBOibmSDJYzvSA/ap26023052378716.jpg",
+                "title": "TikTok leva multa inédita no Brasil: o que causou a decisão? E o que muda? Veja perguntas e respostas",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=8cf305804408afb7ca2e0a68061b40a489ba8003af9da2e575d9df9b34d5eb627df77ab7cc352ea99be031ee9fca0f4998dc6e02d6ef04bc370dd1e21ba26eff&k=globocom.busca-headless&pa=2&po=1&q=lgpd&qid=g1.info_query_recency&rid=e0ba58ce1f54bc9e89c66aebe314ecbe&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Ftecnologia%2Fnoticia%2F2026%2F08%2F26%2Ftiktok-leva-multa-inedita-no-brasil-o-que-causou-a-decisao-e-o-que-muda-veja-perguntas-e-respostas.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "g1\nO órgão concluiu que o TikTok tratou indevidamente dados de menores de idade em desacordo com a Lei Geral de Proteção de Dados (<em>LGPD</em>",
+                  "O TikTok afirmou ao g1 que a multa se refere a um período anterior ao seu enquadramento à <em>LGPD</em> e que seguirá dialogando com a agência"
+                ]
+              }
+            },
+            {
+              "_id": "14312548",
+              "_score": 1444.8507,
+              "_source": {
+                "SizeOrDuration": 265031,
+                "body": "Volta às aulas provoca aumento na procura pelo serviço, que registrou filas e estudantes sem entender a documentação necessária.",
+                "description": "Volta às aulas provoca aumento na procura pelo serviço, que registrou filas e estudantes sem entender a documentação necessária.",
+                "issued": "2026-02-03T13:37:59-03:00",
+                "modified": "2026-02-03T13:40:26-03:00",
+                "program": "MGTV 1ª edição - Uberlândia",
+                "publisher": "GloboVideos",
+                "site": "MGTV 1ª edição - Uberlândia",
+                "species": "Vídeo On Demand",
+                "subscriberOnly": false,
+                "thumbnail": "https://s01.video.glbimg.com/160x90/14312548.jpg",
+                "title": "Carteirinha do Passe Livre causa dúvidas com nova exigência de documento da LGPD",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=ae824fe26aa598a563d58c5c04e8900a33073d894ca69b498b8b299867eb6a4e7e13c5cab4df1183d9c5032cdb8b1317f3b14e31d135240ca3a42d673ee5b57f&k=globocom.busca-headless&pa=2&po=2&q=lgpd&qid=g1.info_query_recency&rid=e0ba58ce1f54bc9e89c66aebe314ecbe&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Fmg%2Ftriangulo-mineiro%2Fmg1-uberlandia%2Fvideo%2Fcarteirinha-do-passe-livre-causa-duvidas-com-nova-exigencia-de-documento-da-lgpd-14312548.ghtml"
+              }
+            },
+            {
+              "_id": "635f6868-ad3d-469f-be12-f3e582406402",
+              "_score": 1201.6505,
+              "_source": {
+                "body": "Prefeitura suspende aplicativo de Zona Azul após vazamento de dados em Poços de Caldas\nA Prefeitura de Poços de Caldas (MG) determinou a suspensão temporária do aplicativo da empresa EXP Parking que administra o estacionamento rotativo da cidade e o cancelamento de notificações de irregularidades de estacionamento emitidas desde 2 de julho, após vazamento de dados de clientes. \n\n📲 Siga a página do g1 Sul de Minas no Instagram\n\"A gente quer que a empresa garanta a integridade dos meios de pagamento. A gente está cobrando quais são as ações que eles fizeram imediatamente após o incidente e o que eles estão fazendo, como eles podem garantir a integridade dos pagamentos\", afirmou o diretor do Departamento Municipal de Transporte e Trânsito (Demutran), Douglas Reis Moreira. \nCâmara cobra explicações sobre mudanças na zona azul após reajuste e reclamações em Poços de Caldas (MG)\nEPTV/Reprodução\nA gestão municipal também exigiu que a empresa aceitasse pagamentos por meio de pix. \n\"A gente pediu para que eles implementassem o pagamento via pix dentro do aplicativo, que é um pagamento seguro, que não tenha nenhum tipo de vazamento. A gente está acompanhando de perto para garantir que esse sistema funcione da melhor maneira possível\", disse o diretor. \nA prefeitura foi informada sobre o vazamento na noite de 7 de julho, por usuários da plataforma. Em 8 de julho, o Procon instaurou procedimento administrativo para investigar o incidente, verificar o cumprimento da Lei Geral de Proteção de Dados (LGPD) e do Código de Defesa do Consumidor, além de adotar medidas cautelares para a proteção dos usuários.\nNo mesmo dia, o Departamento Municipal de Trânsito e Transportes notificou a concessionária, exigindo informações sobre o incidente e as providências adotadas. Após receber uma resposta parcial da empresa, considerada insuficiente diante da gravidade da situação, a Prefeitura encaminhou, na sexta-feira (10), uma notificação complementar com novos questionamentos e prazo de 24 horas para manifestação.\nApp de estacionamento é suspenso após suspeita de vazamento de dados em Poços de Caldas\nLEIA TAMBÉM: Invasão de sistema provoca vazamento de dados de clientes da Zona Azul de Poços de Caldas\nA prefeitura pediu a suspensão de novos avisos de irregularidade enquanto a concessionária não comprovar a segurança da plataforma e o ressarcimento dos usuários que efetuaram pagamentos referentes aos avisos emitidos nesse período. \nA EPTV, afiliada da Rede Globo, procurou a EXP Parking para saber se a empresa vai acatar todas essas medidas cautelares. A empresa confirmou o ataque, disse que abriu investigação sobre o caso, mas não respondeu aos questionamentos sobre as solicitações da Prefeitura de Poços de Caldas. \nVazamento foi de nomes, CPFs e dados de cartão de crédito\nEmpresa investiga invasão após vazamento de dados da Zona Azul em Poços de Caldas\nA EXP Parking informou que foi alvo de um ataque que expôs dados pessoais de parte dos clientes que utilizam o aplicativo para reserva de vagas e compra de créditos. \n\"O incidente expôs, sem autorização, alguns dos dados pessoais de uma parcela de clientes que utilizaram o aplicativo da EXP Parking, como: nome, CPF e dados do cartão de crédito usados em transações de compra de créditos. Informações de contato, como telefone e e-mail, não foram comprometidas\", disse em comunicado. \nA empresa informou que adotou medidas técnicas e de governança para conter a invasão assim que identificou o ataque e abriu uma investigação com uma empresa especializada, notificou a Agência Nacional de Proteção de Dados (ANPD) e suspendeu temporariamente os pagamentos com cartão de crédito. \nMedidas preventivas\nO Procon orienta que os usuários da Zona Azul que foram afetados entrem em contato com a operadora do cartão de crédito cadastrado no aplicativo para avaliar o bloqueio e a emissão de uma nova via, monitorem extratos bancários e faturas, ativem alertas de movimentação financeira, desconfiem de mensagens solicitando dados pessoais, consultem o sistema Registrato, do Banco Central, e registrem Boletim de Ocorrência caso identifiquem qualquer indício de fraude.\nCaso haja cobrança pela emissão de segunda via dos cartões, a EXP Parking deverá promover o ressarcimento aos consumidores.\nConsumidores que utilizam o aplicativo do estacionamento rotativo e tenham dúvidas ou identifiquem qualquer movimentação suspeita podem procurar o Procon para receber orientações e registrar reclamações.\nVeja mais notícias da região no g1 Sul de Minas",
+                "caption": "O Procon instaurou procedimento administrativo para investigar o incidente ocorrido em 7 de julho e verificar o cumprimento da LGPD.",
+                "issued": "2026-07-14T15:29:51.694Z",
+                "modified": "2026-07-14T18:14:28.533Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "MG",
+                  "Sul de Minas"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "9t36h",
+                        "text": "A Prefeitura de Poços de Caldas suspendeu temporariamente o aplicativo de estacionamento rotativo EXP Parking após o vazamento de dados de clientes.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "2qd4q",
+                        "text": "O Procon instaurou procedimento administrativo para investigar o incidente ocorrido em 7 de julho e verificar o cumprimento da LGPD.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "e5aup",
+                        "text": "A EXP Parking confirmou o ataque que expôs nome, CPF e dados do cartão de crédito de parte dos usuários do aplicativo.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/I/Z/nk7WmJSgKhCg7l5Cs9Ag/zona-azul.png",
+                "title": "Prefeitura suspende aplicativo de Zona Azul após vazamento de dados de clientes em Poços de Caldas",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=894313a1cc4befe174ada740a6887b49181114a84e498ed4ec6d0da92b811ccd552727254f423ce50a5d65a1794c2b79a053a387d822f69f875de3e836bb4ff3&k=globocom.busca-headless&pa=2&po=3&q=lgpd&qid=g1.info_query_recency&rid=e0ba58ce1f54bc9e89c66aebe314ecbe&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Fmg%2Fsul-de-minas%2Fnoticia%2F2026%2F07%2F14%2Fprefeitura-suspende-aplicativo-de-zona-azul-apos-vazamento-de-dados-de-clientes-em-pocos-de-caldas.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "Procon instaurou procedimento administrativo para investigar o incidente, verificar o cumprimento da Lei Geral de Proteção de Dados (<em>LGPD</em>"
+                ]
+              }
+            },
+            {
+              "_id": "b32e4301-08f3-43dd-b8c6-c4866f545094",
+              "_score": 1193.6854,
+              "_source": {
+                "body": "Fiança Locatícia e LGPD: como proteger dados em um processo tão sensível\nCrédito: Divulgação\nAlugar um imóvel envolve muito mais do que visitar apartamentos e assinar papéis. Por trás de cada contrato, há uma grande quantidade de dados pessoais sensíveis circulando: documentos, comprovantes de renda, informações familiares, contatos, histórico financeiro. Com a entrada em vigor da Lei Geral de Proteção de Dados (LGPD), o mercado imobiliário precisou olhar com mais cuidado para a forma como esses dados são coletados, armazenados, compartilhados e utilizados.\nNesse contexto, a Fiança Locatícia digital ganha um papel ainda mais relevante – e responsável. Plataformas especializadas, como a da Liveb Bank S/A, lidam diariamente com informações sensíveis de milhares de locatários e proprietários, o que exige processos robustos de segurança da informação e governança de dados. Não se trata apenas de tecnologia, mas de cultura de proteção e respeito à privacidade.\nO primeiro ponto de atenção é a coleta de dados. A LGPD determina que as informações solicitadas devem ser adequadas, pertinentes e limitadas ao necessário para a finalidade declarada. Isso significa que o formulário de análise de Fiança Locatícia não pode pedir dados “por padrão”, sem justificativa clara. Cada campo precisa fazer sentido em função da avaliação de crédito e da garantia a ser oferecida. Empresas como a Liveb Bank S/A revisam continuamente esses fluxos para garantir aderência à legislação.\nDepois da coleta, vem a etapa de armazenamento e tratamento. Dados de análise de crédito, documentos e comprovantes precisam ser guardados de forma segura, com controles de acesso, criptografia e políticas claras de retenção e descarte. A LGPD reforça que informações não devem ser mantidas por tempo indefinido sem necessidade. A gestão do ciclo de vida dos dados se torna parte do próprio modelo de negócio.\nOutro ponto crítico é o compartilhamento. No processo de locação, é comum que informações circulem entre imobiliária, proprietário e a empresa de Fiança Locatícia. A lei exige que esse compartilhamento seja transparente para o titular dos dados e que haja base legal adequada para cada uso. Ao trabalhar com parceiros estruturados, como a Liveb Bank S/A, a imobiliária conta com contratos e políticas que definem claramente quem faz o quê, reduzindo o risco de uso indevido.\nA segurança também se estende à interface com o usuário. Plataformas digitais devem ser projetadas para minimizar riscos de vazamento: conexões seguras, autenticação adequada, telas que não exibem dados sensíveis de forma desnecessária e mecanismos de recuperação de senha protegidos. Para o usuário final, essa experiência de segurança muitas vezes é “invisível” – mas é essencial.\nAlém disso, a LGPD garante aos titulares uma série de direitos: acessar seus dados, corrigir informações, solicitar exclusão, saber com quem foram compartilhados, entre outros. Fintechs que trabalham com Fiança Locatícia, como a Liveb Bank S/A, precisam estar preparadas para atender essas solicitações de forma organizada, registrando cada passo e respondendo dentro de prazos razoáveis.\nPara as imobiliárias, a escolha de parceiros alinhados à LGPD é um fator estratégico. Ao optar por uma empresa que leva a sério a proteção de dados, a imobiliária protege não apenas seus clientes, mas também sua própria reputação e sua exposição jurídica. Em caso de incidente, ter uma cadeia de fornecedores com boas práticas de segurança faz toda diferença.\nNa outra ponta, o tema da proteção de dados também ajuda a aumentar a confiança do cliente. Em um momento em que vazamentos de informações se tornaram manchetes frequentes, saber que seus dados estão sendo tratados com responsabilidade se torna um diferencial competitivo. A Fiança Locatícia, nesse contexto, deixa de ser apenas uma solução financeira e passa a representar um compromisso com a seriedade e o cuidado.\nEm síntese, a LGPD veio para ficar – e a Fiança Locatícia digital precisa caminhar em sintonia com ela. Ao estruturar seus processos com foco em compliance e segurança da informação, a Liveb Bank S/A mostra que é possível garantir o aluguel sem abrir mão da proteção daquilo que, para o cliente, é ainda mais valioso do que o imóvel: seus dados pessoais.",
+                "caption": " Garantir o aluguel sem abrir mão da privacidade: entenda o papel da conformidade com a LGPD.",
+                "issued": "2025-11-17T17:18:11.801Z",
+                "modified": "2025-11-17T17:18:12.315Z",
+                "pubeditorial": {
+                  "anunciante": {
+                    "logo_grande": "https://s2-g1.glbimg.com/2gU8pdKG56cczUuDj8jgbuqecV8=/600x0/filters:quality(50)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/G/1/3AyiPTRTAgfUEV1eVAbQ/logo-g1-25-1-.png",
+                    "logo_pequeno": "https://s2-g1.glbimg.com/2gU8pdKG56cczUuDj8jgbuqecV8=/600x0/filters:quality(50)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/G/1/3AyiPTRTAgfUEV1eVAbQ/logo-g1-25-1-.png",
+                    "nome": "Liveb Bank",
+                    "url": "https://livebbank.com.br/"
+                  },
+                  "data_vencimento": "2026-01-06T02:59:00.000Z",
+                  "nome": "Liveb Bank 08/10 a 05/01/26"
+                },
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "SP",
+                  "Campinas e Região",
+                  "Especial Publicitário",
+                  "Liveb Bank - Liveb Bank - Fiança Locatícia"
+                ],
+                "species": "Matéria",
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/K/J/OYuwkBRqAAoFcwClidkA/13.png",
+                "title": "Fiança Locatícia e LGPD: como proteger dados em um processo tão sensível",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=a226029356293e63cbf93fa178493345a05338aee0982b07f6f2b29f313a215aaf4166537c1a05067eba608a77f8a6d8b1ec7d955ee11997c7870c34a0bb774f&k=globocom.busca-headless&pa=2&po=4&q=lgpd&qid=g1.info_query_recency&rid=e0ba58ce1f54bc9e89c66aebe314ecbe&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Fsp%2Fcampinas-regiao%2Fespecial-publicitario%2Fliveb-bank-liveb-bank-fianca-locaticia%2Fnoticia%2F2025%2F11%2F17%2Ffianca-locaticia-e-lgpd-como-proteger-dados-em-um-processo-tao-sensivel.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "A <em>LGPD</em> reforça que informações não devem ser mantidas por tempo indefinido sem necessidade.",
+                  "Para as imobiliárias, a escolha de parceiros alinhados à <em>LGPD</em> é um fator estratégico."
+                ]
+              }
+            },
+            {
+              "_id": "27f575bb-04ec-46f1-a729-bcbb15a4ca09",
+              "_score": 1107.1744,
+              "_source": {
+                "body": "BMW fez ação em parceria com estúdio de cinema em telas de multimídia de carros da marca\nReprodução / Instagram\nNo começo de agosto, proprietários de BMW em mais de 70 países se depararam com um novo ícone na tela da central multimídia dos carros. Ao ligar o veículo, um banner do filme \"Homem-Aranha: Um Novo Dia\" aparece no sistema.\nAo tocar na imagem, o motorista pode iniciar uma animação inspirada no filme. A ação também utiliza recursos do veículo, com efeitos sincronizados entre a iluminação da cabine e a tela da central multimídia. \n✅ Clique aqui para seguir o canal do g1 Carros no WhatsApp\nA campanha é resultado de uma parceria da BMW com a Sony e a Marvel. Os carros da marca também aparecem no filme.\nNas redes sociais de outros países, a iniciativa provocou reações negativas entre proprietários. Parte dos donos de BMW questionou a presença de publicidade na central multimídia e afirmou que não gostaria de receber esse tipo de conteúdo dentro do próprio veículo.\nAgora no g1\nA campanha abriu uma discussão mais ampla: as montadoras podem usar a central multimídia dos carros para vender espaço publicitário? O proprietário pode recusar esse tipo de conteúdo? E o que acontece quando a propaganda é direcionada a partir de dados do motorista?\nO g1 procurou a BMW para saber se a campanha também foi realizada no Brasil, mas não havia recebido resposta até a última atualização desta reportagem. \nA possibilidade de montadoras exibirem publicidade na central multimídia dos carros não é, por si só, proibida no Brasil. Mas a empresa não tem liberdade para transformar a tela do veículo em um espaço publicitário sem limites.\nAnimação do herói Homem-Aranha é exibida em carros da BMW para promover parceria em filme\nReprodução / Instagram\nSegundo especialistas, a forma como os anúncios são apresentados, o uso de dados pessoais, as informações dadas ao consumidor e os efeitos sobre a segurança são alguns dos pontos que precisam ser considerados.\nPara Gisele Karassawa, sócia do VLK Advogados, uma montadora pode explorar comercialmente o sistema do veículo, diretamente ou por meio de parceiros. O fato de a central estar dentro de um bem privado não impede a publicidade, mas também não dá à empresa autorização irrestrita para fazer o que quiser.\nA advogada afirma que a atividade precisa respeitar:\nContrato de compra;\nExpectativas do consumidor;\nCódigo de Defesa do Consumidor (CDC);\nLei Geral de Proteção de Dados (LGPD);\nRegras relacionadas à segurança do produto.\nUma mudança posterior que introduza anúncios invasivos em um veículo vendido sem essa característica pode levantar questionamentos sobre prática abusiva ou falha de informação.\n\"Aceitar os 'Termos’ não significa renunciar à privacidade nem autorizar qualquer uso futuro dos dados”, explica a advogada.\nMesmo que exista uma previsão nos termos de uso do veículo, isso não significa que a montadora tenha autorização para utilizar dados ou alterar a experiência do consumidor de qualquer maneira.\nMas a montadora pode vender espaço publicitário? Para Anderson Silva, advogado, professor universitário e CEO da A2 Paralegal, a resposta é sim.\nSegundo ele, não há uma proibição geral para que a montadora comercialize espaço dentro da interface digital do veículo. Os carros passaram a funcionar também como plataformas conectadas, com software, aplicativos e conteúdo.\nIsso não significa, porém, que qualquer publicidade seja permitida. O anúncio precisa ser transparente, não pode prejudicar funções do veículo, ser abusivo ou comprometer a segurança.\nHá ainda uma preocupação específica com conteúdos exibidos na tela dianteira enquanto o carro está em movimento, já que a legislação de trânsito estabelece regras para evitar a distração do motorista.\n“O limite está na forma como isso é feito. Contrato, LGPD e Código de Defesa do Consumidor precisam caminhar juntos”, diz o advogado.\nSilva também destaca que a existência de uma propaganda na tela, por si só, não significa que a montadora esteja cometendo uma irregularidade. Para haver responsabilidade, é necessário analisar o caso concreto.\nA Lei Geral de Proteção de Dados (LGPD) estabelece regras para o tratamento de informações que possam identificar uma pessoa. No caso de publicidade, ela é relevante quando a montadora usa dados do proprietário ou motorista para decidir qual anúncio será exibido.\nEntre os exemplos estão:\nLocalização;\nPerfil;\nHábitos;\nComportamento do usuário.\nSe a propaganda for simplesmente enviada para todos os veículos de determinado modelo, sem utilização de dados pessoais para selecionar os destinatários, os advogados afirmam que a questão está principalmente relacionada ao direito do consumidor, e não necessariamente à LGPD.\nA situação muda quando existe personalização. Nesse caso, a empresa precisa ter uma base legal para utilizar os dados e respeitar princípios como finalidade, necessidade e transparência.\nSe o tratamento estiver baseado em consentimento, o consumidor pode revogá-lo. Quando a base utilizada for outra, como o legítimo interesse, há outras possibilidades de oposição e questionamento, dependendo de como os dados estão sendo tratados.\nO consumidor precisa aceitar a publicidade?\nKarassawa afirma que uma previsão contratual pode permitir a utilização comercial do sistema, mas a cláusula precisa ser clara, destacada e compreensível.\nO consumidor deve conseguir saber, por exemplo:\nQue poderá receber publicidade;\nQuais dados serão utilizados;\nCom quem eles poderão ser compartilhados;\nComo poderá exercer seus direitos.\nUma referência genérica escondida em um documento extenso, segundo a advogada, não necessariamente resolve a questão.\nSilva segue linha semelhante. Para ele, os termos precisam informar claramente que a central multimídia poderá apresentar comunicações comerciais, conteúdos patrocinados ou campanhas de parceiros. Uma cláusula genérica, porém, não cria uma autorização ilimitada.\n“Não existe uma proibição geral que impeça uma montadora de comercializar espaço publicitário dentro da interface digital do veículo”, diz Silva.\nKarassawa afirma que uma publicidade introduzida posteriormente em um produto que foi vendido originalmente sem essa característica pode ser considerada prática abusiva ou falha de informação, especialmente se for invasiva.\nAlém disso, anúncios que desviem a atenção do motorista podem trazer questões relacionadas à segurança e à responsabilidade civil.\nPor isso, não basta a montadora argumentar que a central multimídia é um sistema conectado e que a tecnologia permite atualizações remotas. É preciso considerar o que foi informado ao consumidor no momento da compra e como a nova função altera a utilização do produto.\nSe o consumidor não quiser\nOs especialistas apontam que o consumidor pode ter direitos diferentes dependendo da maneira como a publicidade é feita.\nSe houver tratamento de dados pessoais, Karassawa afirma que o proprietário pode pedir a interrupção dos anúncios e do uso de seus dados para essa finalidade, inclusive solicitar a exclusão dessas informações quando cabível. Também pode reclamar ao Procon e apresentar uma petição à Autoridade Nacional de Proteção de Dados (ANPD).\n“Não. A LGPD não dá ao consumidor um direito geral de não receber publicidade”, explica Silva.\nO que a lei protege, segundo o advogado, é o uso dos dados pessoais. Portanto, uma campanha genérica e não personalizada é diferente de uma publicidade direcionada a partir de informações coletadas sobre o motorista.\nPara que exista responsabilidade da montadora, é necessário identificar alguma ilegalidade ou dano relevante. Entre as situações que podem ser analisadas estão uso irregular de dados, violação contratual, publicidade abusiva, falha de informação, invasão de privacidade ou risco à segurança.\n“Qualquer consumidor pode procurar a Justiça, mas isso não significa que a simples aparição de uma publicidade no multimídia gere automaticamente direito a indenização”, diz Silva.\nKarassawa acrescenta que, em uma eventual disputa, é importante guardar fotos e vídeos dos anúncios, termos de uso, respostas da montadora e registros relacionados ao uso ou compartilhamento de dados. Essas informações podem ajudar a demonstrar a frequência e o caráter invasivo da publicidade.\nO que diz o Procon\nO Procon-SP adota uma posição de atenção especial à informação e à possibilidade de escolha do consumidor.\nO órgão considera que as centrais multimídia deixaram de ser apenas equipamentos instalados no painel. Elas funcionam cada vez mais como plataformas digitais conectadas à internet, capazes de receber atualizações, notificações, mensagens e ofertas comerciais.\nPor isso, se uma montadora decidir exibir publicidade na tela, o consumidor deve ser informado “antes, de forma clara e ostensiva”, para que possa decidir se aceita ou não esse tipo de comunicação.\nO Procon-SP também defende que o proprietário tenha um mecanismo para recusar os anúncios, principalmente quando eles ocuparem espaço ou funções da interface pela qual o consumidor pagou.\n“É de fundamental importância que seja assegurado ao consumidor um mecanismo de recusa a referida publicidade, evitando que seja imposto de forma permanente ou invasiva, sob pena de caracterizar prática abusiva”, diz em nota o Procon.\nO órgão reforça que o consumidor deve receber informações sobre “quais dados são coletados, para qual finalidade eles serão utilizados, com quem serão compartilhados e como poderá exercer seus direitos”.\nO Procon-SP também destaca as regras da LGPD sobre consentimento. Quando essa for a base utilizada para o tratamento, a manifestação do consumidor precisa ser demonstrável e relacionada a uma finalidade determinada.\nAutorizações genéricas não são válidas, e o consentimento pode ser revogado por um procedimento gratuito e facilitado.\nNa prática, isso significa que uma montadora que queira criar um sistema de publicidade personalizada dentro do carro precisa deixar claro o que está fazendo com os dados e oferecer ao consumidor meios para exercer seus direitos.",
+                "caption": "Publicidade em telas de carros conectados pode ser permitida, mas no Brasil há limites para uso de dados, informação ao consumidor, segurança e possibilidade de recusa.",
+                "issued": "2026-08-20T06:00:47.972Z",
+                "modified": "2026-08-20T06:00:48.715Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "Carros",
+                  "G1",
+                  "Economia"
+                ],
+                "species": "Matéria",
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/1/h/7fhPZqRgyEFVI2ZzGgfQ/bmw-homem-aranha-abre.jpg",
+                "title": "Homem-Aranha na BMW abre discussão: montadoras podem colocar propaganda na tela do carro?",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=68263c51e9a6f6d388baf3401f455cddc05190369465b47a2c3b073f0c3413e1448b2e3410fe4757049e9e0c39a8675d11d1b296f811e6338113f9ea21251971&k=globocom.busca-headless&pa=2&po=5&q=lgpd&qid=g1.info_query_recency&rid=e0ba58ce1f54bc9e89c66aebe314ecbe&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Fcarros%2Fnoticia%2F2026%2F08%2F20%2Fpropaganda-na-tela-do-carro.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "Contrato, <em>LGPD</em> e Código de Defesa do Consumidor precisam caminhar juntos”, diz o advogado.",
+                  "O Procon-SP também destaca as regras da <em>LGPD</em> sobre consentimento."
+                ]
+              }
+            },
+            {
+              "_id": "bdab9cbb-de53-4417-947c-d8c15062a947",
+              "_score": 1071.8209,
+              "_source": {
+                "body": "ANPD multa TikTok em R$ 153,7 milhões por falhas na proteção de menores\nA Agência Nacional de Proteção de Dados (ANPD) multou em R$ 153,7 milhões a ByteDance, dona do TikTok, por falhas no tratamento de dados pessoais de crianças e adolescentes. A decisão foi publicada no Diário Oficial da União nesta terça-feira (25).\nA agência também determinou a eliminação dos dados coletados de forma irregular e estabeleceu que a empresa apresente um plano de conformidade para reforçar a proteção de menores na plataforma.\n🗒️Tem alguma sugestão de reportagem? Envie para o g1\n🔎 A ANPD é uma agência reguladora vinculada ao Ministério da Justiça, cuja missão é zelar pela proteção de dados pessoais.\nSegundo a ANPD, foram identificadas cinco violações à Lei Geral de Proteção de Dados (LGPD) em duas formas de acesso ao TikTok: o \"feed sem cadastro\", que pode ser acessado sem criação de conta, e o \"feed com cadastro\".\nProcurado pelo g1, o TikTok afirmou que a segurança de crianças e adolescentes é \"uma prioridade absoluta\" da plataforma. A rede social disse que mantém \"um diálogo transparente e colaborativo com a ANPD\" sobre o assunto há cinco anos e que \"esse trabalho conjunto resultou em um Plano de Conformidade apresentado e aprovado pela agência em 2025\".\n\"A decisão que impôs a multa se refere a um período anterior (2021) e não reflete as ações previstas nesse plano nem as medidas voluntariamente implementadas desde então, que garantem o cumprimento da LGPD tanto na experiência logada quanto na não logada. Seguiremos dialogando com a ANPD enquanto avaliamos as medidas cabíveis.\", disse o TikTok.\nPor que o Brasil multou o TikTok e suspendeu lives do Discord? \nNo início do mês, a mesma agência havia determinado a suspensão das transmissões ao vivo do Discord no Brasil até que a plataforma adotasse medidas efetivas para proteger crianças e adolescentes durante o uso do serviço.\nA medida foi tomada após o caso de uma menina de 13 anos que teria sido induzida, por um grupo de adolescentes, a cometer suicídio durante uma transmissão na plataforma. A decisão da ANPD contra o TikTok, no entanto, não tem relação com o caso do Discord.\nFalhas encontradas pela ANPD\nNo acesso sem cadastro, a agência concluiu que o TikTok tratava dados de crianças e adolescentes sem uma base legal válida e não adotava medidas suficientes para impedir esse tratamento. \nNo acesso com cadastro, a ANPD apontou problemas semelhantes: a empresa tratava dados desse público para realizar o cadastro sem uma base legal válida e não adotava medidas eficazes para impedir o cadastro de crianças e adolescentes.\nA agência também afirmou que a empresa não demonstrou de forma suficiente que as medidas adotadas eram capazes de garantir o cumprimento das regras de proteção de dados.\nDe acordo com a Superintendência de Fiscalização da ANPD, os mecanismos utilizados pelo TikTok não eram suficientes para evitar, desde o início, o tratamento inadequado de dados de crianças e adolescentes. \nA área técnica também afirmou que faltavam evidências de que as medidas adotadas pela empresa eram efetivas. \nA multa se refere às condutas identificadas no período analisado pela agência. A ByteDance pode recorrer da decisão ao Conselho Diretor da ANPD em até dez dias úteis a partir da notificação, feita na segunda-feira (24).\nTikTok terá de restringir recursos e anúncios\nSede da TikTok nos Estados Unidos\nMike Blake/REUTERS\nComo parte do plano de conformidade, o TikTok deverá adotar medidas específicas para aumentar a proteção de crianças e adolescentes. Entre elas estão:\nPrivacidade: contas de usuários com menos de 16 anos terão, automaticamente, configurações mais restritivas de privacidade. A mudança dessas configurações dependerá de autorização dos responsáveis;\nSupervisão dos pais: a plataforma deverá reforçar os mecanismos de controle parental;\nConteúdo: o TikTok terá de adotar filtros mais rigorosos para limitar o acesso de menores a conteúdos inadequados.\nPara quem acessa a rede social sem criar uma conta, o plano prevê ainda restrições ao uso da plataforma:\nTempo de acesso: a experiência será limitada a 12 horas;\nInterações: o usuário não poderá criar conteúdo, comentar, enviar mensagens diretas ou interagir socialmente;\nSeguidores: não será possível seguir outros usuários nem ser seguido por eles;\nTransmissões ao vivo: o usuário não poderá publicar nem assistir a lives;\nPersonalização: a recomendação de conteúdo será menos personalizada;\nPublicidade: os anúncios serão suspensos no Brasil;\nConteúdo: o acesso ficará restrito a conteúdos adequados para todas as idades.\nO TikTok também deverá reduzir a quantidade de dados coletados nessa modalidade de acesso. \n🔎 Serão utilizados, por exemplo, dados de idioma e região para definir conteúdos relevantes, informações básicas do dispositivo para prevenção de fraudes e dados necessários para melhorar o funcionamento do aplicativo.\nConselho Diretor aprovou plano\nEm outra decisão publicada nesta terça-feira, o Conselho Diretor da ANPD aprovou, em grau de recurso, o plano de conformidade apresentado pela ByteDance. \nA aprovação, porém, inclui a exigência de que a empresa cumpra as regras de verificação de idade previstas no Estatuto Digital da Criança e do Adolescente (ECA Digital), conforme o cronograma definido pela própria agência.\nSegundo a ANPD, as medidas previstas no plano reduzem os riscos identificados no processo, entre elas a suspensão de anúncios, a desativação de transmissões ao vivo e das mensagens diretas no acesso sem cadastro.",
+                "caption": "Agência diz que rede social tratou dados de crianças e adolescentes sem respaldo legal; ByteDance também terá de adotar medidas para ampliar a proteção desse público",
+                "issued": "2026-08-25T10:04:00.869Z",
+                "modified": "2026-08-26T00:01:26.464Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "Tecnologia",
+                  "G1",
+                  "Economia",
+                  "G1",
+                  "Política"
+                ],
+                "species": "Matéria",
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/U/h/wdvGJMSFAkhdVRubrERA/2023-02-24t181204z-1-lynxmpej1n0ri-rtroptp-4-eu-tiktok.jpg",
+                "title": "ANPD multa TikTok em R$ 153,7 milhões por falhas na proteção de menores",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=9b3a28a95c392cfc163f594642b5456b534218a25805bc604f4e747e09f57d84b83f90df723e1a90e312119c8aa207619b6010f4977b811471f70b6d3a31c2da&k=globocom.busca-headless&pa=2&po=6&q=lgpd&qid=g1.info_query_recency&rid=e0ba58ce1f54bc9e89c66aebe314ecbe&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Ftecnologia%2Fnoticia%2F2026%2F08%2F25%2Fanpd-multa-tiktok-por-falhas-na-protecao-de-menores.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "Segundo a ANPD, foram identificadas cinco violações à Lei Geral de Proteção de Dados (<em>LGPD</em>) em duas formas de acesso ao TikTok: o \"",
+                  "não reflete as ações previstas nesse plano nem as medidas voluntariamente implementadas desde então, que garantem o cumprimento da <em>LGPD</em>"
+                ]
+              }
+            },
+            {
+              "_id": "13952279",
+              "_score": 1017.7821,
+              "_source": {
+                "SizeOrDuration": 373640,
+                "body": "Código de Ética Médica e as normas do Sistema Único de Saúde (SUS) também foram violadas após a Prefeitura de Feira de Santana divulgar os dados sigilosos.",
+                "description": "Código de Ética Médica e as normas do Sistema Único de Saúde (SUS) também foram violadas após a Prefeitura de Feira de Santana divulgar os dados sigilosos.",
+                "issued": "2025-09-23T06:00:00-03:00",
+                "modified": "2025-09-23T07:26:17-03:00",
+                "program": "Jornal da Manhã",
+                "publisher": "GloboVideos",
+                "site": "Jornal da Manhã",
+                "species": "Vídeo On Demand",
+                "subscriberOnly": false,
+                "thumbnail": "https://s04.video.glbimg.com/160x90/13952279.jpg",
+                "title": "Vazamento de dados de mais de 600 pessoas com HIV na BA viola Constituição, LGPD e outras",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=1b2517ba730a4d5fd7ef71911fba496c2e1022243cc83b892d52da9b50b78f659326b07a3ebf038e9044d55270524fbba3d614c0accb27b8a09b43586fadc07f&k=globocom.busca-headless&pa=2&po=7&q=lgpd&qid=g1.info_query_recency&rid=e0ba58ce1f54bc9e89c66aebe314ecbe&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Fba%2Fbahia%2Fvideos-jornal-da-manha%2Fvideo%2Fvazamento-de-dados-de-mais-de-600-pessoas-com-hiv-na-ba-viola-constituicao-lgpd-e-outras-13952279.ghtml"
+              }
+            },
+            {
+              "_id": "14030200",
+              "_score": 1010.49756,
+              "_source": {
+                "SizeOrDuration": 279646,
+                "body": "LGPD determina regras aos órgãos públicos para protegerem dados dos cidadãos",
+                "description": "LGPD determina regras aos órgãos públicos para protegerem dados dos cidadãos",
+                "issued": "2025-10-21T08:24:57-03:00",
+                "modified": "2025-10-21T12:46:30-03:00",
+                "program": "Bom Dia Tocantins",
+                "publisher": "GloboVideos",
+                "site": "Bom Dia Tocantins",
+                "species": "Vídeo On Demand",
+                "subscriberOnly": false,
+                "thumbnail": "https://s01.video.glbimg.com/160x90/14030200.jpg",
+                "title": "LGPD determina regras aos órgãos públicos para protegerem dados dos cidadãos",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=b4c72c987ed77408a49e2adf8e8ff24ab2cce39ca4a87ae76e4d428faaf0e9a170c51f7e9f013e36028eca8fe41abc4380aaa5ab2a4052557d786c89695813c5&k=globocom.busca-headless&pa=2&po=8&q=lgpd&qid=g1.info_query_recency&rid=e0ba58ce1f54bc9e89c66aebe314ecbe&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Fto%2Ftocantins%2Fvideos-bom-dia-tocantins%2Fvideo%2Flgpd-determina-regras-aos-orgaos-publicos-para-protegerem-dados-dos-cidadaos-14030200.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "<em>LGPD</em> determina regras aos órgãos públicos para protegerem dados dos cidadãos"
+                ]
+              }
+            },
+            {
+              "_id": "de55c72a-a943-4a48-af53-9e5ab6fc05b4",
+              "_score": 997.48944,
+              "_source": {
+                "body": "Violência contra a mulher\n© Paulo H. Carvalho/Agência Brasília\nDuas novas leis voltadas à prevenção e ao combate à violência contra mulheres, crianças e adolescentes foram sancionadas em Cuiabá, nesta terça-feira (25).\nAs medidas foram divulgadas pela Prefeitura de Cuiabá e propõe a criação de um cadastro de condenados por crimes de estupro e violência doméstica, além da realização permanente de uma campanha contra o abuso sexual infantil.\n✅ Clique aqui para seguir o canal do g1 MT no WhatsApp\nAgora no g1\nCadastro de condenados\nA Lei nº 7.631, de autoria da vereadora Dra. Mara (Pode), cria o Cadastro Municipal de Condenados por Crimes de Estupro e por Crimes Praticados com Violência Doméstica e Familiar contra a Mulher.\nO cadastro vai reunir informações de pessoas condenadas por decisão judicial definitiva enquanto elas estiverem cumprindo a pena. Os dados serão sigilosos e poderão ser acessados apenas por órgãos municipais responsáveis por políticas de prevenção e proteção contra a violência contra a mulher.\nA lei também proíbe o uso das informações para divulgação pública que possa levar à identificação das vítimas.\nEntre os dados que poderão fazer parte do cadastro estão:\nNome completo do condenado;\nNúmero do processo;\nVara onde o processo tramitou;\nTipo de crime;\nData da condenação;\nFotografia, quando disponível;\nSituação do processo;\nPrevisão para o fim do cumprimento da pena.\nA coleta, o armazenamento e o uso dessas informações deverão seguir a Lei Geral de Proteção de Dados (LGPD) e outras regras relacionadas à privacidade e à proteção da dignidade das pessoas.\nO cadastro será complementar aos bancos de dados mantidos pelos governos estadual e federal. A Prefeitura de Cuiabá será responsável pela implantação, manutenção e atualização do sistema, por meio do órgão responsável pelas políticas de defesa dos direitos das mulheres.\nA administração municipal também poderá firmar parcerias com o Judiciário, Ministério Público, Defensoria Pública e forças de segurança.\nCampanha contra o abuso infantil\nA Lei nº 7.632, de autoria do vereador Rafael Ranalli (PL), torna permanente a campanha municipal “Rede de Proteção: Diga Não ao Abuso Infantil”. A iniciativa prevê ações de prevenção e de apoio a crianças e adolescentes vítimas de abuso ou violência sexual.\nEntre as medidas estão o incentivo ao atendimento humanizado e a proteção da dignidade, da privacidade e da saúde física e psicológica das vítimas. A campanha também prevê a distribuição de materiais informativos e educativos sobre como prevenir casos de abuso e violência sexual.\nOutra medida é a realização de ações de informação e conscientização para a população, com a participação das redes de educação e assistência social.\nA lei também prevê a criação de um grupo para ajudar na implementação das ações e estabelece atividades durante o mês de maio, período de mobilização contra o abuso e a exploração sexual de crianças e adolescentes.",
+                "caption": "Medidas propõe a criação de um cadastro de condenados por crimes de estupro e violência doméstica, além da realização permanente de uma campanha contra o abuso sexual infantil.",
+                "issued": "2026-08-26T16:32:58.691Z",
+                "modified": "2026-08-26T16:40:16.890Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "MT",
+                  "Mato Grosso"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "ena94",
+                        "text": "Duas novas leis de prevenção à violência contra mulheres, crianças e adolescentes foram sancionadas, em Cuiabá. As medidas foram divulgadas pela prefeitura municipal.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "bd5kh",
+                        "text": "A Lei 7.631 cria um cadastro municipal de condenados por estupro e violência doméstica. O banco de dados terá informações mantidas sob sigilo.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "14frk",
+                        "text": "Os dados serão acessados apenas por órgãos de proteção municipal, seguindo as regras da LGPD. ",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "elaa2",
+                        "text": "A Lei 7.632 torna permanente a campanha municipal \"Rede de Proteção: Diga Não ao Abuso Infantil\". A iniciativa prevê ações educativas e atendimento humanizado.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/u/cyBtq6T1qpAwFA0LxiKw/para-o-g1-78-.jpg",
+                "title": "Cadastro de agressores e campanha contra abuso infantil: conheça novas leis sancionadas em Cuiabá",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=af9eecdc0e82ab04ec6b85b692458c3911d0597a25086ac3f35b89178b7f6f532b10026708178cebbc6651be105b3869198927fa786a7b343c7ffca30fff9566&k=globocom.busca-headless&pa=2&po=9&q=lgpd&qid=g1.info_query_recency&rid=e0ba58ce1f54bc9e89c66aebe314ecbe&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Fmt%2Fmato-grosso%2Fnoticia%2F2026%2F08%2F26%2Fcadastro-de-agressores-e-campanha-contra-abuso-infantil-conheca-novas-leis-de-cuiaba.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "A coleta, o armazenamento e o uso dessas informações deverão seguir a Lei Geral de Proteção de Dados (<em>LGPD</em>) e outras regras relacionadas"
+                ]
+              }
+            },
+            {
+              "_id": "d411a96f-bf67-4955-afd2-569713947a36",
+              "_score": 988.0657,
+              "_source": {
+                "body": "Mulher encontrou as filmagens na galera do celular do patrão ao pagar por uma marmita.\nArquivo pessoal\nUma mulher de 26 anos descobriu que era filmada nua no banheiro da imobiliária em que trabalhava, em Santa Juliana, no Triângulo Mineiro. Segundo a vítima, as imagens foram feitas pelo ex-patrão, Hélio Borges Júnior, de 53 anos.\nO caso foi registrado pela Polícia Militar (PM) em 29 de junho e é investigado como importunação sexual e registro não autorizado da intimidade sexual. O empresário foi detido e levado à delegacia onde prestou depoimento e admitiu que havia escondido um celular no banheiro para fazer gravações.\n🗒️ Tem alguma sugestão de reportagem? Mande para o g1\nA vítima, que não trabalha mais na empresa, teve o nome omitido para preservar sua identidade. \nA mulher descobriu os vídeos quando o ex-patrão pediu que ela usasse o celular dele para pagar uma marmita. Ao mexer no aparelho, ela afirma ter encontrado abas abertas que levavam a uma pasta com fotos e vídeos em que aparecia nua.\nAgora no g1\nEm nota, o Tribunal de Justiça de Minas Gerais (TJMG) informou que o caso está sob segredo de justiça e por isso não é possível repassar mais informações sobre o ocorrido.\nO g1 entrou em contato com o advogado de Hélio, Cássio Ernani Costa, para pedir um posicionamento sobre o caso, mas não havia obtido resposta até a última atualização desta reportagem. A reportagem questionou à Polícia Civil se Hélio permaneceu preso, mas não obteve retorno. (entenda o caso)\nO Ministério Público do Trabalho (MPT) informou que tomou ciência das irregularidades e determinou a instauração de uma notícia de fato para apurar o caso. Segundo o órgão, como o procedimento está em fase inicial, ainda não há outros elementos ou informações que possam ser divulgados.\nO g1 conversou com especialistas em direito do trabalho para explicar os limites do monitoramento no ambiente de trabalho, os possíveis crimes envolvidos e o que uma vítima deve fazer caso descubra que foi filmada sem autorização.\nEntenda os principais pontos sobre o tema:\nCâmeras no trabalho têm limites?\nFilmar alguém nu sem consentimento é crime?\nQual é a diferença entre assédio sexual e outros crimes?\nA empresa pode ser responsabilizada?\nO que fazer ao descobrir uma câmera escondida?\nVítima pode pedir indenização?\nO que acontece se as imagens forem compartilhadas?\nEx-funcionária também encontrou fotos de suas redes sociais no celular do ex-patrão \nArquivo Pessoal\n1. Câmeras no trabalho têm limites?\nEmpresas podem utilizar sistemas de monitoramento para finalidades legítimas, como segurança de pessoas, proteção patrimonial e acompanhamento de determinadas áreas de trabalho. Esse poder de fiscalização, porém, não é absoluto.\nSegundo a advogada trabalhista Ana Gabriela Burlamaqui, câmeras podem ser instaladas em locais como entradas, corredores, estoques e determinadas áreas operacionais, desde que exista uma finalidade legítima e sejam respeitados critérios como necessidade, proporcionalidade e privacidade.\nO limite está nos espaços em que existe expectativa de intimidade. Banheiros, vestiários e locais destinados à troca de roupa não podem ser monitorados por câmeras.\nA instalação de equipamentos nesses ambientes representa grave violação da privacidade do trabalhador.\n“A câmera escondida é ainda mais problemática. No ambiente de trabalho, sua utilização deve ser absolutamente excepcional e juridicamente justificada. Em locais de intimidade, como banheiros e vestiários, não há justificativa para esse tipo de monitoramento”, afirma Burlamaqui.\nA advogada explica ainda que o monitoramento deve ser transparente. Os trabalhadores precisam ser informados sobre a existência das câmeras e sobre a finalidade da captação das imagens.\nAlém das questões trabalhistas, o monitoramento envolve o tratamento de dados pessoais e, portanto, deve seguir as regras da Lei Geral de Proteção de Dados (LGPD).\nO banheiro é um espaço de absoluta intimidade, e o empregador tem o dever de garantir um ambiente de trabalho seguro e digno. Uma situação como essa pode gerar indenização por danos morais e consequências na esfera criminal.\nA especialista ainda explica que, mesmo que as imagens não tenham sido divulgadas, o simples fato de realizar a gravação clandestina já representa uma violação da intimidade e da dignidade da trabalhadora.\n2. Filmar alguém nu sem consentimento é crime?\nCaso as investigações confirmem que uma pessoa foi filmada nua, em situação íntima e privada, sem consentimento, a conduta pode configurar crime.\nSegundo Bárbara Ferrari, especialista em direito do trabalho, pode haver enquadramento no crime de registro não autorizado da intimidade sexual, previsto no artigo 216-B do Código Penal. A pena é de seis meses a um ano de detenção, além de multa.\nA especialista ressalta, porém, que não é possível definir o crime apenas pela existência da gravação. O enquadramento depende das circunstâncias apuradas, como a forma de instalação e utilização do equipamento, o conteúdo registrado e a participação de cada pessoa envolvida.\nTratando-se de um banheiro, estamos diante de um ambiente com elevado grau de privacidade, o que torna a apuração dos fatos ainda mais grave.\"\n3. Qual é a diferença entre assédio, importunação sexual e registro não autorizado da intimidade?\nEmbora possam ocorrer em contextos semelhantes, assédio sexual, importunação sexual e registro não autorizado da intimidade sexual têm definições diferentes. \nSegundo Ferrari:\nAssédio sexual: ocorre quando alguém utiliza uma posição de superioridade ou ascendência no trabalho para constranger outra pessoa com o objetivo de obter vantagem ou favorecimento sexual;\nImportunação sexual: envolve a prática de ato de natureza sexual sem o consentimento da vítima;\nRegistro não autorizado da intimidade sexual: refere-se à produção de fotos, vídeos ou outros registros de nudez ou de situação sexual íntima e privada sem autorização.\nO fato de o suspeito ser chefe ou empregador é relevante, mas não determina, por si só, o enquadramento criminal.\nNo caso do assédio sexual, por exemplo, a relação de superioridade hierárquica é um dos elementos previstos em lei, mas outros requisitos também precisam estar presentes.\nO Ministério Público do Trabalho (MPT) informou que recebeu 2.131 denúncias de assédio sexual até 1º de setembro de 2026. Em todo o ano de 2025, foram registradas 1.026 denúncias.\nSegundo o MPT, até 1º de setembro deste ano, foram firmados 151 Termos de Ajustamento de Conduta (TACs) relacionados ao tema, ante 39 em todo o ano de 2025.\n4. A empresa pode ser responsabilizada?\nA eventual responsabilidade criminal deve ser atribuída a quem praticou a conduta, a partir do que for apurado nas investigações. Isso, porém, não impede a análise da responsabilidade da empresa nas esferas trabalhista e civil.\nSegundo Burlamaqui, a empresa pode ser responsabilizada por atos praticados por gestores, empregados ou representantes relacionados ao trabalho. \nTambém deve ser avaliado se o empregador adotava medidas de prevenção e se tomou providências adequadas após ter conhecimento da situação.\n“A empresa precisa agir efetivamente: proteger a vítima, preservar provas, evitar retaliações, realizar uma apuração adequada e adotar as medidas cabíveis”, afirma.\nDe acordo com a especialista, a existência de um código de conduta ou de um canal de denúncias, por si só, não é suficiente. A omissão ou uma resposta inadequada diante de uma denúncia pode ampliar a responsabilidade da empresa.\nFerrari lembra ainda que, para empresas que se enquadram nas regras que exigem a constituição da Comissão Interna de Prevenção de Acidentes e de Assédio (CIPA), a Lei nº 14.457/2022 prevê medidas de prevenção e enfrentamento ao assédio e a outras formas de violência no trabalho.\nEntre elas estão procedimentos para recebimento e acompanhamento de denúncias e treinamentos periódicos.\n5. O que fazer ao descobrir uma câmera escondida?\nA primeira orientação é preservar as provas. A vítima deve guardar mensagens, capturas de tela, fotos, vídeos, e-mails e informações sobre o equipamento encontrado, além de identificar possíveis testemunhas.\nO equipamento e os arquivos não devem ser alterados, retirados ou destruídos, para garantir a integridade das evidências.\nTambém é recomendável formalizar a denúncia dentro da empresa, quando houver um canal seguro para isso, como o o setor de Recursos Humanos (RH), canal de ética ou compliance, e guardar o comprovante da comunicação.\nA autoridade policial é responsável pela investigação criminal. A empresa deve ser comunicada para que possa preservar provas, proteger a vítima, impedir retaliações e realizar a apuração interna, quando cabível.\nA vítima também pode procurar a polícia para registrar um boletim de ocorrência e solicitar a investigação do caso.\nJá o Ministério Público do Trabalho (MPT) pode atuar quando houver indícios de violação de direitos trabalhistas que ultrapassem o caso individual, como falhas institucionais ou riscos para outros trabalhadores.\nAs medidas não são necessariamente excludentes. O mesmo fato pode gerar consequências nas esferas criminal, trabalhista e civil.\n6. Vítima pode pedir indenização?\nUma violação grave da intimidade no ambiente de trabalho pode gerar indenização por danos morais, especialmente quando houver violação da privacidade, da imagem e da dignidade da vítima.\nDependendo das circunstâncias e da responsabilidade do empregador, a situação também pode fundamentar um pedido de rescisão indireta do contrato de trabalho. (entenda como funciona) \nNesse caso, o trabalhador solicita à Justiça o encerramento do vínculo empregatício por falta grave do empregador. Se o pedido for reconhecido, ele pode receber verbas semelhantes às de uma demissão sem justa causa.\nNa Justiça do Trabalho, o trabalhador pode cobrar direitos relativos aos cinco anos anteriores ao ajuizamento da ação, desde que o processo seja iniciado em até dois anos após o encerramento do contrato.\n7. O que acontece se as imagens forem compartilhadas?\nSe for confirmado que as imagens foram compartilhadas ou divulgadas sem autorização, haverá uma nova violação da intimidade e da imagem da vítima, ampliando a exposição e os possíveis danos.\nSegundo Ferrari, dependendo do conteúdo e das circunstâncias apuradas, a divulgação pode configurar também o crime previsto no artigo 218-C do Código Penal, que trata da divulgação de cena de sexo, nudez ou pornografia sem consentimento.\nO compartilhamento das imagens também pode aumentar a extensão do dano e ser considerado na avaliação de uma indenização.\nA advogada ressalta que a definição dos crimes, das responsabilidades e das indenizações dependerá das provas reunidas e do que for efetivamente comprovado ao longo das investigações.\nCrescem os números de processos e denúncias por assédio moral no trabalho",
+                "caption": "Caso em Minas Gerais acendeu o alerta sobre o tema. Especialistas explicam a diferença entre assédio ou importunação sexual e registro não autorizado da intimidade.",
+                "issued": "2026-09-05T06:00:00.395Z",
+                "modified": "2026-09-06T10:09:21.522Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "Trabalho e Carreira",
+                  "G1",
+                  "Economia",
+                  "G1",
+                  "MG",
+                  "Triângulo Mineiro"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "5soh0",
+                        "text": "Câmeras podem ser usadas no trabalho para segurança e monitoramento, mas não devem ser instaladas em banheiros, vestiários ou locais de troca de roupa.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "bfa9q",
+                        "text": "Filmar alguém nu sem consentimento pode configurar crime e gerar direito a indenização por danos morais.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "478q6",
+                        "text": "Especialistas explicam a diferença entre assédio sexual, importunação sexual e registro não autorizado da intimidade sexual.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "80mpd",
+                        "text": "Veja como preservar provas, denunciar e buscar indenização em casos desse tipo.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/W/2/Y3ItCATqC7WCvkVun1kA/design-sem-nome-4-.png",
+                "title": "Câmera escondida no banheiro do trabalho: o que diz a lei e como denunciar",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=668992a496180998b2928b47def35f7f4afaecadfc392c4c38673be66d06bc9dd01ddb648fd19ac9f6f01b9a1c58d6f0d662f52fb2798c0e25ebcf8d8c3d4989&k=globocom.busca-headless&pa=2&po=10&q=lgpd&qid=g1.info_query_recency&rid=e0ba58ce1f54bc9e89c66aebe314ecbe&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Ftrabalho-e-carreira%2Fnoticia%2F2026%2F09%2F05%2Fcamera-escondida-no-banheiro-do-trabalho-o-que-diz-a-lei-e-como-denunciar.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "trabalhistas, o monitoramento envolve o tratamento de dados pessoais e, portanto, deve seguir as regras da Lei Geral de Proteção de Dados (<em>LGPD</em>"
+                ]
+              }
+            }
+          ],
+          "max_score": 18409.01,
+          "total": {
+            "relation": "eq",
+            "value": 1219
+          }
+        },
+        "aggregations": {
+          "species": {
+            "buckets": [
+              {
+                "doc_count": 1124,
+                "key": "Matéria"
+              },
+              {
+                "doc_count": 73,
+                "key": "Vídeo On Demand"
+              },
+              {
+                "doc_count": 22,
+                "key": "Blog"
+              }
+            ],
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0
+          }
+        }
+      },
+      "status": 200
+    }
+  ]
+}

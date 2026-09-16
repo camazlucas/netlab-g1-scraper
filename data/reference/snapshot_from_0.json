@@ -1,0 +1,660 @@
+{
+  "coletado_em": "2026-09-16T17:13:25-03:00",
+  "status_http": 200,
+  "corpo_requisicao": [
+    {
+      "search_profile": "sp_g1_globo_com",
+      "query": "g1.info_query_recency",
+      "params": {
+        "q": "lgpd",
+        "from": 0,
+        "size": 10
+      }
+    }
+  ],
+  "resposta": [
+    {
+      "search_profile": "sp_g1_globo_com",
+      "query": "g1.info_query_recency",
+      "params": {
+        "from": 0,
+        "q": "lgpd",
+        "size": 10
+      },
+      "result": {
+        "took": 57,
+        "status": 200,
+        "hits": {
+          "hits": [
+            {
+              "_id": "16db85c0-adca-4015-8ab0-657c7159ad9f",
+              "_score": 18416.303,
+              "_source": {
+                "body": "Ouvir quem convive com a esclerose múltipla e conhecer de perto suas necessidades é o primeiro passo do projeto “Atibaia pela EM”, lançado pela Prefeitura de Atibaia no último sábado (29), durante o 1º Encontro Municipal de Pessoas com Esclerose Múltipla, realizado no Fundo Social de Solidariedade. O evento reuniu participantes para palestras, roda de conversa e troca de informações sobre a doença, dando início à criação de um cadastro municipal.\nAtibaia pela Esclerose Múltipla\nDivulgação\nPessoas com esclerose múltipla que moram em Atibaia podem participar voluntariamente do levantamento por meio do questionário disponível em https://atibaia-pela-em.vercel.app/. As respostas permitirão reunir informações sobre as demandas e os desafios enfrentados por esse público e poderão subsidiar a definição das próximas ações do projeto e serviços de saúde mais adequados, contribuindo para a construção de uma linha de cuidado integral e humanizada.\nEntre as informações solicitadas estão dados sobre o diagnóstico, o tipo de esclerose múltipla, sintomas, acompanhamento com neurologista, medicamentos utilizados e outras questões relacionadas ao cotidiano e aos cuidados de saúde. Todas as respostas fornecidas serão tratadas de forma sigilosa, em conformidade com as disposições da Lei Geral de Proteção de Dados (LGPD).\nContinuidade das ações\nO encontro e o cadastramento dão continuidade às ações previstas na Lei Municipal nº 4.519, de 5 de setembro de 2017, que instituiu em Atibaia a Semana de Esclarecimento e Conscientização sobre a Esclerose Múltipla.\nA proposta do projeto “Atibaia pela EM” é ampliar a escuta e o conhecimento sobre a realidade das pessoas com a doença no município, fortalecendo a articulação de uma rede de cuidado integral e considerando as necessidades apresentadas por esse público.\nPref Atibaia\nDivulgação",
+                "caption": "Projeto “Atibaia pela EM” reúne pessoas com a doença e inicia cadastro para mapear necessidades e fortalecer a rede municipal de cuidado.",
+                "featuredImage": {
+                  "thumborUrl": "https://s2-g1.glbimg.com/L3uvIZta_-cBDL1xKhqnX_9Kp3o=/600x0/filters:quality(50)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/O/q/hrcGhpS4a38yZUxsalKQ/prefeitura-de-atibaia-realiza-1o-encontro-municipal-de-pessoas-com-esclerose-multipla-e-lanca-cadastro-para-ampliar-rede-de-cuidado.jpg"
+                },
+                "issued": "2026-09-16T13:21:02.671Z",
+                "modified": "2026-09-16T13:21:02.948Z",
+                "pubeditorial": {
+                  "anunciante": {
+                    "logo_grande": "http://s2.glbimg.com/AtkfiiU4fmIVZWsB2JUsnkNFxIA=/200x0/filters:quality(70)/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/n/4/q9LuVRTryamXKDcLuWsA/logo-atibaia-multi.png",
+                    "logo_pequeno": "http://s2.glbimg.com/AtkfiiU4fmIVZWsB2JUsnkNFxIA=/200x0/filters:quality(70)/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/n/4/q9LuVRTryamXKDcLuWsA/logo-atibaia-multi.png",
+                    "nome": "Prefeitura de Atibaia",
+                    "url": "http://www.atibaia.sp.gov.br/"
+                  },
+                  "data_vencimento": "2019-11-30T18:41:00.000Z",
+                  "nome": "Prefeitura de Atibaia 0411 - 2"
+                },
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "SP",
+                  "Vale do Paraíba e Região",
+                  "Especial Publicitário",
+                  "Especial Publicitário - Prefeitura de Atibaia",
+                  "Notícias de Atibaia"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/o/V/YyJoKWSnGABpBjwv49Bg/prefeitura-de-atibaia-realiza-1o-encontro-municipal-de-pessoas-com-esclerose-multipla-e-lanca-cadastro-para-ampliar-rede-de-cuidado-3.jpg",
+                "title": "Atibaia realiza 1º Encontro sobre Esclerose Múltipla e lança cadastro",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=78060483863b6086a68e8a2cd2782103ee632fce34b5ab612c55d19375608b1c849c718687f5ec6d44f15069833efbeea251440b9ae936c4e20d2e0a26f87f08&k=globocom.busca-headless&pa=1&po=1&q=lgpd&qid=g1.info_query_recency&rid=38899d19620ed0073b38ccac6c572676&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Fsp%2Fvale-do-paraiba-regiao%2Fespecial-publicitario%2Fprefeitura-de-atibaia%2Fnoticias-de-atibaia%2Fnoticia%2F2026%2F09%2F16%2Fatibaia-realiza-1o-encontro-sobre-esclerose-multipla-e-lanca-cadastro.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "Todas as respostas fornecidas serão tratadas de forma sigilosa, em conformidade com as disposições da Lei Geral de Proteção de Dados (<em>LGPD</em>"
+                ]
+              }
+            },
+            {
+              "_id": "14903650",
+              "_score": 14589.848,
+              "_source": {
+                "SizeOrDuration": 1138304,
+                "body": "Falhas na proteção de dados podem facilitar golpes e outros crimes. Veja esse e outros destaques do quadro.",
+                "description": "Falhas na proteção de dados podem facilitar golpes e outros crimes. Veja esse e outros destaques do quadro.",
+                "issued": "2026-08-26T13:27:11-03:00",
+                "modified": "2026-08-26T13:52:03-03:00",
+                "program": "MGTV 1ª Edição – Zona da Mata",
+                "publisher": "GloboVideos",
+                "site": "MGTV 1ª Edição – Zona da Mata",
+                "species": "Vídeo On Demand",
+                "subscriberOnly": false,
+                "thumbnail": "https://s03.video.glbimg.com/160x90/14903650.jpg",
+                "title": "Integração TEC: mais de 37% dos órgãos e empresas não seguem regras da LGPD",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=82e4e69c50d9cc8ababaf30c92e9150c42f97766a32e32706e4a78b4b2586ed48c9469e27c7be46f7ed6d5a41872d2077cbef1f61857928e001d36a5e06bad04&k=globocom.busca-headless&pa=1&po=2&q=lgpd&qid=g1.info_query_recency&rid=38899d19620ed0073b38ccac6c572676&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Fmg%2Fzona-da-mata%2Fmg1-zona-da-mata%2Fvideo%2Fintegracao-tec-mais-de-37-dos-orgaos-e-empresas-nao-seguem-regras-da-lgpd-14903650.ghtml"
+              }
+            },
+            {
+              "_id": "8fa8b1cf-f2db-4122-a8aa-cedb8495372c",
+              "_score": 9872.577,
+              "_source": {
+                "body": "O EmpregaTrans é realizado pela Aliança Nacional LGBTI+ em parceria com o TRT-MT. \nDivulgação\nEstão abertas até 23 de setembro as inscrições para o projeto EmpregaTrans, que oferece capacitação profissional gratuita para pessoas transexuais e travestis em Cuiabá. O curso tem 30 vagas e prepara os participantes para o mercado formal de trabalho e concursos públicos. \nO formulário de inscrição prevê que total de vagas, 10% serão reservadas prioritariamente a pessoas egressas do sistema prisional ou socioeducativo.\nAs aulas serão realizadas de 7 a 29 de outubro, às quartas e quintas-feiras, das 13h às 16h30, no auditório do Tribunal Regional do Trabalho de Mato Grosso (TRT-MT), em Cuiabá. A formatura está prevista para 4 de novembro.\n✅ Clique aqui para seguir o canal do g1 MT no WhatsApp\nAgora no g1\nO EmpregaTrans é realizado pela Aliança Nacional LGBTI+ em parceria com o TRT-MT. A iniciativa busca ampliar o acesso à qualificação profissional, ao emprego formal e a oportunidades no serviço público.\nO curso\nO curso terá conteúdos relacionados à cidadania, desenvolvimento profissional, direitos trabalhistas e preparação para oportunidades de trabalho e concursos públicos.\nAlém das aulas, os participantes terão acesso a:\nuniforme;\napostila;\ncaderno;\nmochila;\nestojo;\npasse de ônibus diário, com transporte de ida e volta;\nlanche;\napoio psicossocial;\ncertificado emitido pelo TRT-MT.\nA programação também inclui exercícios práticos, estudos de caso, rodas de conversa e atividades para reforçar os conteúdos apresentados.  Os participantes também realizarão uma visita ao complexo-sede do TRT-MT.\nInclusão no mercado de trabalho\nO projeto também prevê orientação profissional e acompanhamento dos participantes durante a capacitação. A iniciativa pretende aproximar as pessoas atendidas de órgãos públicos, empresas privadas e entidades de classe. O atendimento psicossocial faz parte da proposta e busca oferecer suporte durante o processo de qualificação.\nSegundo a organização, os dados fornecidos na inscrição serão tratados de forma confidencial, conforme a Lei Geral de Proteção de Dados (LGPD). O nome social será utilizado prioritariamente nas etapas do projeto.\nSaiba mais:\nQuem pode participar: Pessoas trans com 18 anos ou mais\nVagas: 30\nInscrições: até 23 de setembro, às 23h59.\nLink de inscrição: clique aqui\nAulas: de 7 a 29 de outubro, às quartas e quintas-feiras\nHorário: das 13h às 16h30\nLocal: auditório do TRT-MT, em Cuiabá\nFormatura: 4 de novembro",
+                "caption": "Inscrições seguem até 23 de setembro. Curso será realizado em outubro, com aulas gratuitas, passe de ônibus, lanche, material didático, apoio psicossocial e certificado.",
+                "issued": "2026-09-15T16:35:26.279Z",
+                "modified": "2026-09-15T16:40:53.050Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "MT",
+                  "Mato Grosso"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "4nhi8",
+                        "text": "Pessoas trans de Cuiabá podem se inscrever, até 23 de setembro, em capacitação profissional gratuita com 30 vagas. O curso prepara para o mercado de trabalho.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "8p2r6",
+                        "text": "As aulas ocorrem de 7 a 29 de outubro, no auditório do TRT-MT. A formatura está prevista para 4 de novembro.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "2ecp1",
+                        "text": "O projeto EmpregaTrans oferece conteúdos de cidadania, direitos trabalhistas e suporte psicossocial. As inscrições confidenciais priorizam o uso do nome social dos participantes.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/F/L/DB8CtFTqyRAAsJpi9xlQ/bandeira-trans.jpg",
+                "title": "EmpregaTrans: capacitação gratuita para pessoas trans e travestis abre 30 vagas em Cuiabá; saiba como se inscrever",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=bc00155efef77cf324b3227510c4d825a4a3fa4d2a81f5d65ace3f32eab388320617420bc255319e36e4890ad23c582f0ba92a10093cf3ca27bc3127103fe4b6&k=globocom.busca-headless&pa=1&po=3&q=lgpd&qid=g1.info_query_recency&rid=38899d19620ed0073b38ccac6c572676&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Fmt%2Fmato-grosso%2Fnoticia%2F2026%2F09%2F15%2Fempregatrans-capacitacao-gratuita-para-pessoas-trans-abre-30-vagas-em-cuiaba-saiba-como-se-inscrever.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "a organização, os dados fornecidos na inscrição serão tratados de forma confidencial, conforme a Lei Geral de Proteção de Dados (<em>LGPD</em>"
+                ]
+              }
+            },
+            {
+              "_id": "79f6eb18-9fea-4c43-87f9-d96ac322bb37",
+              "_score": 6536.7373,
+              "_source": {
+                "body": "Novas regras da Anac podem impedir por até 1 ano embarque de passageiros indisciplinados\nEnquanto confusões dentro de aviões se multiplicam em vídeos compartilhados nas redes sociais, a Agência Nacional de Aviação Civil (Anac) implementa nesta segunda-feira (14) um sistema de punições a passageiros indisciplinados, que vai desde multas até a proibição de viajar em voos nacionais de qualquer companhia aérea.\nA prática, conhecida em inglês como no-fly list, ou lista de proibição de voo, já é adotada em alguns países do exterior — nos Estados Unidos, por exemplo, está em vigor desde 2001, após os ataques às Torres Gêmeas, em Nova York.\nEm entrevista à BBC News Brasil, o superintendente da Anac afirma que a medida atende a pedidos dos próprios passageiros e das empresas, diante do aumento dos conflitos no ar.\nSegundo a Associação Brasileira das Empresas Aéreas (Abear) — que representa Latam, Gol e Azul —, foram registrados, em 2025, 1.764 casos de tumultos, brigas e depredações em aviões e aeroportos brasileiros, ante 1.059 em 2024, o que representa uma alta de 66,57% em um ano.\n\"Já tivemos de tudo, desde confusão entre passageiros até disparo acidental de arma e alarme falso de bomba na aeronave, provocado por um passageiro que queria pregar uma peça\", relata Giovano Palma, superintendente da Anac.\nPalma explica que, nas circunstâncias atuais, uma simples briga que obrigue a aeronave a retornar ao aeroporto de origem não apenas causa transtorno para todos os passageiros daquele voo e do seguinte, que utilizaria o mesmo avião, como também obriga a companhia aérea a reacomodar em outra viagem até mesmo quem provocou o conflito.\n\"Além disso, as contramedidas que você consegue adotar são poucas, porque você está dentro de um avião, no ar. O risco para a operação é muito grande, então a gente buscou focar esses casos gravíssimos quando pensamos na lista de proibição de voo\", acrescenta.\nAs sanções administrativas da Anac foram criadas principalmente para atos de indisciplina em voos domésticos regulares e em aeroportos brasileiros — inclusive nas áreas em aeroportos destinadas a passageiros de voos internacionais. Mas as regras não se aplicam a voos internacionais. \nEntenda, a seguir, como funcionará a nova resolução da Anac e o que muda para os passageiros.\nO que pode gerar multa\nO que pode gerar a suspensão de um passageiro\nComo serão aplicadas a multa e a suspensão\nComo o passageiro pode se defender\nComo ficará a proteção de dados pessoais\n1. O que pode gerar multa\nMovimento nas salas de embarque do Aeroporto de Congonhas. (11/12/2025)\nPaulo Pinto/Agência Brasil\nAtos de indisciplina considerados graves vão gerar uma multa de R$ 17,5 mil ao passageiro. São eles:\nViolência física contra funcionários de companhias aéreas ou aeroportos;\nViolência física contra outro passageiro dentro do avião;\nFumar a bordo;\nDanificar ou destruir intencionalmente bens da aeronave, quando isso afeta a operação;\nAmeaçar ou intimidar um membro da tripulação, de forma que afete a segurança do voo;\nFazer falsa comunicação de bomba, explosivos ou armas dentro do avião.\nVoltar ao início.\n2. O que pode gerar a suspensão de um passageiro\nPassageiros podem ser banidos de voar por um ano\nBBC\nAtos de indisciplina considerados gravíssimos levarão o cliente à lista de proibição de voo. A sanção será aplicada pela companhia aérea em que ocorreu o conflito e compartilhada com as demais empresas, que serão obrigadas a barrar aquele passageiro também.\nIsso impedirá o cliente de emitir passagens, fazer check-in e embarcar durante o período da suspensão, que varia de seis meses a um ano.\nSe o passageiro já tiver comprado uma passagem para o período, aliás, terá direito ao reembolso integral, que inclui as tarifas aeroportuárias.\nMas o cliente não receberá qualquer ressarcimento relacionado ao voo em que ocorreu o ato de indisciplina, o que se aplica no caso de conexões ou escalas e haja o impedimento de seguir a viagem.\nO que pode levar à suspensão por 6 meses:\nAdulterar, danificar ou destruir um dispositivo de segurança do avião, mas sem impedir ou dificultar a operação;\nAgredir fisicamente um membro da tripulação, como comissários e pilotos, mas sem impedir ou dificultar a operação;\nCometer violência ou atentado contra a dignidade sexual de tripulante ou passageiro, violando sua integridade física, psíquica ou liberdade sexual.\nO que pode levar à suspensão por um ano:\nAdulterar, danificar ou destruir dispositivo de segurança do avião e isso impedir ou dificultar a operação;\nAgredir fisicamente um membro da tripulação e, com isso, impedir ou dificultar a operação;\nLevar ou manusear explosivos ou armas dentro do avião, salvo exceções previstas em regulamentação;\nEntrar ou tentar entrar na cabine de comando sem autorização;\nFazer qualquer tentativa ilegal de tomar o controle da aeronave.\nVoltar ao início.\n3. Como serão aplicadas a multa e a suspensão\nMovimento no Aeroporto Internacional de São Paulo, em Guarulhos.\nPaulo Pinto/Agência Brasil\nA multa será aplicada pela Anac, por meio de um processo administrativo que vai apurar a infração. A companhia aérea ou o aeroporto deverá comunicar o ocorrido à agência e fornecer as evidências necessárias para comprovar o ato de indisciplina e identificar o passageiro.\nJá a inclusão na lista de proibição de voar será feita pela própria companhia aérea responsável pelo voo, em até cinco dias após a infração, em um sistema compartilhado pelas empresas.\nO passageiro deverá ser comunicado da decisão, com a descrição do ocorrido e os canais para reclamação. Ele terá direito à defesa, e a companhia terá até cinco dias para responder à reclamação.\nSe rever sua decisão, deverá retirar imediatamente o passageiro da lista. O cerceamento do direito de defesa ou a falta de comunicação ao passageiro poderá resultar em multa de R$ 35 mil para a empresa.\nEm casos de infrações graves e gravíssimas, as companhias e os aeroportos terão de guardar por cinco anos os registros que comprovem a ocorrência e a autoria do ato.\nAs próprias empresas também poderão ser multadas se descumprirem as regras. Não aplicar a suspensão em um caso gravíssimo, por exemplo, poderá resultar em multa de R$ 70 mil. Já o descumprimento da obrigação de aderir ao sistema de compartilhamento de dados poderá gerar multa de R$ 70 mil por mês.\nTodas essas medidas passarão por uma reavaliação após dois anos de vigência da resolução. A Anac ficará encarregada de produzir um relatório sobre a eficácia e os resultados das regras e indicar possíveis mudanças.\nVoltar ao início.\n4. Como o passageiro pode se defender\nAvião da Latam decola no Aeroporto de Congonhas após suspensão temporária da operação\nReprodução/TV Globo\nDiretor-executivo do Procon, Luiz Orsatti diz que, \"por ser uma agência federal, a Anac tem todo o poder para regulamentar o setor, porque há fundamento legal, mas essa regulamentação não pode contradizer o Código de Defesa do Consumidor\".\nA principal preocupação de alguns passageiros é que, por se tratar de um processo conduzido por pessoas, haja exageros por parte de funcionários dos aeroportos ou das companhias aéreas, que poderiam enquadrar os clientes de maneira indevida.\n\"Os fatos são objetivos, mas, no calor do caso, pode haver uma interpretação um pouco mais subjetiva\", reconhece Orsatti.\nPor isso, diz ele, qualquer passageiro que se sentir lesado pela aplicação de uma multa ou restrição pode, além de recorrer à própria companhia aérea e à Anac, buscar ajuda do Procon e da Justiça \"para que discuta não a legalidade da punição\", mas sua aplicação.\nEle acrescenta que o Procon foi procurado pela Anac durante a elaboração das regras e sugeriu que houvesse uma ressalva à proibição de voo para questões de caráter humanitário, mas não encontrou apoio das demais entidades envolvidas no processo.\nA exceção se aplicaria, por exemplo, ao caso de um passageiro que precise viajar de avião para fazer um tratamento médico ou para uma transferência que exija rapidez.\nComo essa ressalva não está prevista na resolução da Anac, esse passageiro agora precisaria tentar convencer as companhias a vender a passagem nos balcões de atendimento ou por telefone — o que, reconhece o diretor do Procon, deve ser difícil. A orientação, então, é procurar o plantão do Judiciário em busca de uma liminar.\nVoltar ao início.\n5. Como ficará a proteção de dados pessoais\nAeroporto Afonso Pena Aeroporto de Curitiba Aeroporto São José dos Pinhais\nRodrigo Zanotto\nA resolução da Anac não especifica como funcionará o sistema de compartilhamento de dados entre as companhias aéreas nos casos de inclusão de passageiros na lista de proibição de voo.\nQuestionada pela BBC News Brasil, a Anac disse que \"a ferramenta em questão está sendo desenvolvida em conjunto entre companhias e a Empresa Nacional de Inteligência em Governo Digital e Tecnologia da Informação\".\nA resolução, porém, não traz detalhes sobre a proteção dos dados pessoais dos passageiros para garantir o cumprimento da Lei Geral de Proteção de Dados, conhecida como LGPD.\nA Anac também não esclareceu quais dados dos passageiros incluídos na lista seriam compartilhados entre as companhias aéreas. À BBC, afirmou que \"haverá mudanças nos contratos de transporte aéreo e, caso necessário, ajustes devido à LGPD\".\nO contrato de transporte aéreo é o documento que todos os passageiros aceitam ao comprar uma passagem.\nVoltar ao início.\nArte por Daniel Arce Lopez, da equipe de Jornalismo Visual da BBC News Brasil\nVÍDEOS: agora no g1\nAgora no g1",
+                "caption": "Medida entrou em vigor nesta segunda-feira (14) e também prevê multas de R$ 17,5 mil para casos de conflitos menos graves durante o voo ou o embarque.",
+                "issued": "2026-09-15T03:00:00.640Z",
+                "modified": "2026-09-15T03:00:01.276Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "Turismo e Viagem"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "38l20",
+                        "text": "A Anac implementa nesta segunda-feira (14) novas punições para passageiros indisciplinados. As medidas incluem multas e a proibição de voar em todo o território nacional.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "9etf5",
+                        "text": "Segundo a Abear, o Brasil registrou 1.764 casos de tumultos em aviões e aeroportos em 2025. O número representa alta de 66,57% em relação a 2024.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "3du8m",
+                        "text": "Atos graves geram multa de R$ 17,5 mil pela Anac. Infrações gravíssimas levam à suspensão de voar por até 1 ano, punição aplicada pelas próprias companhias.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "cbre7",
+                        "text": "O Procon alertou para o risco de interpretações subjetivas nas punições. O órgão sugeriu exceções humanitárias à proibição, mas a proposta não foi incluída na resolução da Anac.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/v/v/9UdV34RI65ZXkhS3NyPg/pint1661.jpg",
+                "title": "Brigou no avião? Você poderá ficar até um ano proibido de voar; entenda nova regra da Anac que está em vigor",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=29540a83d08b9dc7b91914ab02fa61a3c5c32be2d1ab9bcf95254121f09993e525f49e880918181c7103982bf5489326e881d1d2928ac6b3e0af27e355d2fa43&k=globocom.busca-headless&pa=1&po=4&q=lgpd&qid=g1.info_query_recency&rid=38899d19620ed0073b38ccac6c572676&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Fturismo-e-viagem%2Fnoticia%2F2026%2F09%2F15%2Fbrigou-no-aviao-voce-podera-ficar-ate-um-ano-proibido-de-voar-entenda-nova-regra-da-anac-que-esta-em-vigor.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "sobre a proteção dos dados pessoais dos passageiros para garantir o cumprimento da Lei Geral de Proteção de Dados, conhecida como <em>LGPD</em>",
+                  "À BBC, afirmou que \"haverá mudanças nos contratos de transporte aéreo e, caso necessário, ajustes devido à <em>LGPD</em>\"."
+                ]
+              }
+            },
+            {
+              "_id": "f5d4d1a9-0d3d-4c92-a3e0-63b5ca95354c",
+              "_score": 2776.282,
+              "_source": {
+                "body": "ANPD multa TikTok em R$ 153,7 milhões por falhas na proteção de menores\nA Agência Nacional de Proteção de Dados (ANPD) anunciou nesta terça-feira (25) a aplicação de multa de R$ 153,7 milhões ao TikTok após identificar irregularidades no tratamento de dados pessoais de crianças e adolescentes.\nO caso é diferente de outra decisão tomada pela ANPD neste mês, envolvendo o Discord. Na ocasião, a agência determinou a suspensão das transmissões ao vivo da plataforma no Brasil como medida preventiva, até que a empresa adotasse medidas efetivas para proteger menores durante o uso do serviço. (Entenda a diferença dos casos).\n🗒️Tem alguma sugestão de reportagem? Envie para o g1\nA agência, que é vinculada ao Ministério da Justiça, tem uma atuação semelhante à de órgãos como a Agência Nacional de Vigilância Sanitária (Anvisa) e a Agência Nacional de Telecomunicações (Anatel), mas voltada à proteção de dados pessoais e à privacidade no ambiente digital.\nNos últimos meses, a atuação da ANPD foi ampliada. A agência também passou a fiscalizar o cumprimento do ECA Digital, que estabelece regras para a proteção de crianças e adolescentes em plataformas digitais, como redes sociais, jogos e sites.\nVale lembrar que a regulação do acesso de crianças e adolescentes às redes sociais é um tema discutido em vários países. A Austrália foi o primeiro país a proibir o acesso de menores de 16 anos às redes sociais. A medida teve repercussão internacional, e vários governos disseram que estudariam medidas semelhantes.\nEntenda as diferenças entre as decisões sobre TikTok e Discord\nPor que o Brasil multou o TikTok e suspendeu lives do Discord? Entenda a diferença entre os casos\nUnsplash/Solen Feyissa e Mariia Berezovsky\nNo caso envolvendo o TikTok, a ANPD afirmou ter identificado cinco infrações à Lei Geral de Proteção de Dados (LGPD) em duas formas de acesso à plataforma: o \"feed sem cadastro\", que permite assistir a vídeos sem criar uma conta, e o \"feed com cadastro\".\nNo feed sem cadastro, a agência identificou duas irregularidades: o tratamento de dados pessoais de crianças e adolescentes sem uma base prevista na lei que permitisse o uso desses dados e a falta de medidas para prevenir o tratamento desses dados.\nNo feed com cadastro, a ANPD identificou mais duas irregularidades: o uso de dados pessoais de crianças e adolescentes para realizar o cadastro sem uma justificativa prevista em lei e a falta de medidas eficazes para impedir o cadastro desse público na plataforma.\nA quinta infração foi identificada nas duas formas de acesso. Segundo a ANPD, o TikTok não demonstrou que adotava medidas eficazes e suficientes para comprovar o cumprimento das normas de proteção de dados.\nANPD inicia monitoramento de redes sociais e ferramentas de IA\nComo parte do plano de conformidade, o TikTok deverá adotar medidas para aumentar a proteção de crianças e adolescentes. Entre elas estão configurações de privacidade mais restritivas para contas de usuários com menos de 16 anos, aplicadas automaticamente, e filtros mais rigorosos para limitar o acesso desse público a conteúdos inadequados.\nProcurado pelo g1, o TikTok afirmou que a multa se refere ao período anterior a um trabalho conjunto da empresa com a ANPD e informou que a agência aprovou em 2025 um Plano de Conformidade que garante o cumprimento da LGPD na plataforma. \"Seguiremos dialogando com a ANPD enquanto avaliamos as medidas cabíveis\", disse a rede social. (leia íntegra ao final da reportagem)\nA empresa tem dez dias úteis, a partir da notificação, para recorrer da decisão.\nDiscord\nIvan Radic/Flickr\nNo caso do Discord, a ANPD suspendeu a funcionalidade \"Go Live\", que permite fazer transmissões ao vivo dentro da plataforma. O Discord é uma plataforma de comunicação amplamente utilizada por jogadores de games online e também por adolescentes. \nDiferentemente do caso do TikTok, a ANPD não aplicou uma multa ao Discord nesta decisão. A agência determinou apenas a suspensão das transmissões ao vivo, como medida preventiva, após identificar riscos à proteção de crianças e adolescentes na plataforma.\nEm comunicado, a ANPD afirmou que não descarta aplicar uma multa ao Discord posteriormente, caso sejam constatadas irregularidades no processo de fiscalização. A multa pode chegar a R$ 50 milhões por infração, conforme previsto no artigo 35 do ECA Digital.\nA medida foi tomada após o caso de uma menina de 13 anos que teria sido induzida, por um grupo de adolescentes, a cometer suicídio durante uma transmissão na plataforma. A decisão da ANPD contra o TikTok, no entanto, não tem relação com o caso do Discord.\nEm nota, o Discord disse que cumpriu a decisão da ANPD e que a empresa \"segue comprometida em trabalhar com formuladores de políticas públicas no Brasil para ajudar a criar uma experiência online mais segura\". (leia íntegra ao final da reportagem)\nEm entrevista ao g1 no início deste mês, Fabrício Guimarães, superintendente de Fiscalização da ANPD, afirmou que o bloqueio total do Discord não foi cogitado, pois uma medida desse tipo exigiria uma ação judicial. \nSegundo ele, como a autoridade precisava agir com urgência, essa opção \"nem entrou no radar\".\nFabrício também explicou que a fiscalização da ANPD não tem como foco investigar crimes individualmente, papel que cabe à polícia. \"O papel da autoridade é olhar para a estrutura da plataforma para verificar se ela possui mecanismos de gestão de riscos e prevenção que dificultem a ocorrência de abusos\", afirmou.\nO que diz o TikTok\n\"Há cinco anos, mantemos um diálogo transparente e colaborativo com a ANPD sobre a segurança de crianças e adolescentes, uma prioridade absoluta para o TikTok. Esse trabalho conjunto resultou em um Plano de Conformidade apresentado e aprovado pela agência em 2025. A decisão que impôs a multa se refere a um período anterior (2021) e não reflete as ações previstas nesse plano nem as medidas voluntariamente implementadas desde então, que garantem o cumprimento da LGPD tanto na experiência logada quanto na não logada. Seguiremos dialogando com a ANPD enquanto avaliamos as medidas cabíveis.''\nO que diz o Discord \n“Em cumprimento à determinação da Agência Nacional de Proteção de Dados (ANPD), suspendemos os recursos de vídeo do Discord no Brasil. O vídeo é uma parte importante e muito valorizada da experiência no Discord, permitindo que nossos usuários se comuniquem e criem conexões significativas ao compartilhar experiências, jogar juntos e manter contato com amigos e familiares. Estamos dialogando ativamente com a ANPD em busca de uma solução que permita restabelecer esses recursos para nossos usuários no Brasil. Seguimos comprometidos em trabalhar com formuladores de políticas públicas no Brasil para ajudar a criar uma experiência online mais segura para todos, tanto no Discord quanto em toda a internet.”\nDiscord: o que é a rede social que terá lives suspensas no Brasil após decisão da ANPD\nPor que tanta gente está falando do Claude? Conheça a IA mais perigosa do mundo",
+                "caption": "ANPD aplicou multa de R$ 153,7 milhões ao TikTok após identificar cinco infrações à LGPD; no Discord, agência adotou medida preventiva e suspendeu transmissões ao vivo para reduzir riscos a crianças e adolescentes.",
+                "issued": "2026-08-25T12:29:25.987Z",
+                "modified": "2026-08-25T19:27:03.279Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "Tecnologia",
+                  "G1",
+                  "Economia",
+                  "G1",
+                  "Política"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "b8e2t",
+                        "text": "A ANPD multou o TikTok em R$ 153,7 milhões após identificar cinco infrações à LGPD relacionadas ao tratamento de dados de crianças e adolescentes.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "e6jbf",
+                        "text": "No caso do Discord, a agência suspendeu as transmissões ao vivo no Brasil como medida preventiva para proteger esse público.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "rre2",
+                        "text": "As decisões têm naturezas diferentes porque a multa aplicada ao TikTok é uma sanção, enquanto a suspensão do Discord ocorre durante um processo de fiscalização.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "7getk",
+                        "text": "A ANPD também passou a fiscalizar o cumprimento do ECA Digital, que estabelece regras para proteger crianças e adolescentes em plataformas digitais.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/L/SkFp6NRWAkA3l4RI8PSg/fotojet-13-.jpg",
+                "title": "Por que o Brasil multou o TikTok e suspendeu lives do Discord? Entenda a diferença entre os casos",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=b815e5cebf15a2ed732a24652afd30881072e75c345a78c12b351a640fa5db5ea39b1ae5b94f06041df17dd03a6075a8b168ab18f0e0628240cd4f256f6555c0&k=globocom.busca-headless&pa=1&po=5&q=lgpd&qid=g1.info_query_recency&rid=38899d19620ed0073b38ccac6c572676&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Ftecnologia%2Fnoticia%2F2026%2F08%2F25%2Fpor-que-a-anpd-multou-o-tiktok-e-suspendeu-lives-do-discord-entenda-a-diferenca-entre-os-casos.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "Mariia Berezovsky\nNo caso envolvendo o TikTok, a ANPD afirmou ter identificado cinco infrações à Lei Geral de Proteção de Dados (<em>LGPD</em>",
+                  "não reflete as ações previstas nesse plano nem as medidas voluntariamente implementadas desde então, que garantem o cumprimento da <em>LGPD</em>"
+                ]
+              }
+            },
+            {
+              "_id": "ed168d7b-f872-4f6f-814f-c99acd3bb4ac",
+              "_score": 2019.8334,
+              "_source": {
+                "body": "A capacitação teve carga horária de 8 horas com conteúdo teóricos e práticos.\nArquivo Unimed\nO Nicoop – Núcleo de Integração Cooperativista e a diretoria executiva da Unimed Vale do São Francisco, concluíram no sábado (15/08), em Petrolina, o curso de formação cooperativista com a capacitação de 8 novos médicos cooperados.\nO curso com uma carga horária de 8 horas, começou na sexta-feira (14/08), abordando os temas “Cooperativismo e Sistema Unimed” e “Aspecto regulamentar e administração Unimed”, apresentados respectivamente pelo presidente e vice-presidente da cooperativa, Francisco Otaviano e Luís Gustavo Mendes.\nPalestras\nOs novos cooperados tiveram acesso a palestras sobre código de conduta, a Lei Geral de Proteção de Dados Pessoais (LGPD) e compliance com a assessoria jurídica, e sobre auditoria médica com as médicas cooperadas Maria Fernanda e Mádia Cecília. Na sequência, o diretor Comercial, Rodrigo Videres, falou sobre aspecto de mercado/diretoria comercial e o diretor Financeiro, Carlos Tadeu, fez uma explanação sobre os aspectos econômicos e financeiros da cooperativa. Assuntos como ISS/INSS e autorização e faturamento também foram abordados durante o curso que teve o encerramento com um estudo de caso.\nNovos cooperados \nOs médicos que concluíram 100% da carga horária do curso, passam a ser cooperados após a conclusão do processo de admissão. Na especialidade Ortopedia e Traumatologia: Aurelio D'Anunciação Araujo Junior, Daniel Osamu Yamaguti, Breno Costa Aguiar Rodrigues e Ramon Oliveira Soares. Oftalmologia: Mariana Barbosa Deolino e Camila Barbosa Deolino. Cirurgia de Cabeça e Pescoço: Leticia Rafaela de Oliveira Ferreira Coelho. Cirurgia Torácica: Tuane de Aquino Sousa.\nANS N° 3232-8",
+                "caption": "O curso capacitou 8 novos médicos de várias especialidades.",
+                "issued": "2026-09-04T21:18:20.181Z",
+                "modified": "2026-09-04T21:18:20.713Z",
+                "pubeditorial": {
+                  "anunciante": {
+                    "logo_grande": "https://s2-g1.glbimg.com/WGl687wEy5krFZYcwfrni7SDEbQ=/600x0/filters:quality(50)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/9/tYjT5LRdKpIzzm2zg3qg/logo-unimed-150x150px.png",
+                    "logo_pequeno": "https://s2-g1.glbimg.com/WGl687wEy5krFZYcwfrni7SDEbQ=/600x0/filters:quality(50)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/H/9/tYjT5LRdKpIzzm2zg3qg/logo-unimed-150x150px.png",
+                    "nome": "Unimed Vale do São Francisco",
+                    "url": "https://www.unimed.coop.br/site/web/valedosaofrancisco"
+                  },
+                  "data_vencimento": "2027-09-08T02:59:00.000Z",
+                  "nome": "Unimed Vale do São Francisco"
+                },
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "PE",
+                  "Petrolina e Região",
+                  "Especial Publicitário",
+                  "Unimed Vale do São Francisco - O Cuidado Está em Tudo"
+                ],
+                "species": "Matéria",
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/A/l/fQ3WZARBiCUNGDHEpusA/03.jpg",
+                "title": "Novos médicos cooperados concluem curso de formação",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=cdc07b27ae4960955873ab532037791949199f0695c4f47971c09df1f893a8b14b1a7f7de0612262eba8cd3072d7a9a48bb3c74481d9df11c78b535a5673b137&k=globocom.busca-headless&pa=1&po=6&q=lgpd&qid=g1.info_query_recency&rid=38899d19620ed0073b38ccac6c572676&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Fpe%2Fpetrolina-regiao%2Fespecial-publicitario%2Funimed-vale-do-sao-francisco-o-cuidado-esta-em-tudo%2Fnoticia%2F2026%2F09%2F04%2Fnovos-medicos-cooperados-concluem-curso-de-formacao.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "Palestras\nOs novos cooperados tiveram acesso a palestras sobre código de conduta, a Lei Geral de Proteção de Dados Pessoais (<em>LGPD</em>)"
+                ]
+              }
+            },
+            {
+              "_id": "b6725960-31de-4c31-a0ac-cec052470014",
+              "_score": 1662.8851,
+              "_source": {
+                "body": "Da vitrine ao atendimento: como a comunicação digital transforma a experiência do consumidor\nDivulgação / Amazon Copy\nA forma como as marcas se comunicam com seus públicos está mudando. Em uma rotina cada vez mais conectada, consumidores e colaboradores convivem diariamente com conteúdos dinâmicos, informações em tempo real e experiências digitais.\nNos ambientes físicos, esse comportamento também influencia a maneira como as empresas pensam sua comunicação.\nCartazes, banners e outros materiais estáticos continuam cumprindo seu papel, mas as soluções digitais ampliam as possibilidades ao permitir atualização de conteúdo, movimento, interatividade e maior flexibilidade para adaptar mensagens de acordo com cada ambiente e necessidade.\nÉ nesse cenário que painéis de LED, totens digitais, telas profissionais e outras tecnologias passam a ocupar diferentes pontos da jornada de comunicação, da atração do público ao atendimento.\nIntegrando o ecossistema de soluções da Amazoncopy, a AC Display amplia o portfólio do grupo com foco em comunicação digital, displays inteligentes e tecnologia para o ponto de venda. Essa sinergia permite oferecer aos clientes uma solução completa, que reúne infraestrutura tecnológica, inovação e suporte especializado em um único parceiro.\nNa Região Norte, a AC Display desenvolve projetos de comunicação digital para varejo, empresas, eventos e ambientes corporativos, reunindo equipamentos, tecnologia, gestão e suporte em soluções personalizadas.\nComunicação digital em diferentes momentos da jornada\nUma das principais características da comunicação digital é sua versatilidade.\nA mesma estratégia pode começar antes mesmo de uma pessoa entrar em uma loja e continuar durante diferentes momentos da experiência.\nEm uma fachada ou vitrine, por exemplo, painéis de LED podem ampliar a visibilidade de campanhas, produtos e ofertas. Dentro do estabelecimento, telas digitais permitem apresentar conteúdos de forma dinâmica e atualizar informações de acordo com promoções, horários ou estratégias comerciais.\nTotens digitais também podem funcionar como pontos de informação e orientação. Quando equipados com recursos interativos, ampliam as possibilidades de autoatendimento e ajudam o público a acessar informações de maneira mais autônoma.\nEm eventos, feiras e ativações, essas mesmas tecnologias podem ser utilizadas para apresentar marcas, transmitir conteúdos, criar experiências interativas ou direcionar participantes.\nEntre as possibilidades estão:\n• Painéis de LED em fachadas, vitrines e ambientes internos;\n • Telas digitais para campanhas, informações e promoções;\n • Totens para comunicação, orientação e atendimento;\n • Totens touch screen para experiências interativas;\n • Soluções digitais para eventos e ativações de marca;\n • Tecnologias voltadas à comunicação interna em ambientes corporativos.\nEm vez de uma mensagem única e permanente, a empresa passa a ter maior liberdade para organizar o conteúdo conforme o momento e o público que deseja alcançar.\nComunicação mais inteligente com dados sobre o público\nA evolução da comunicação digital também abre espaço para soluções que vão além da exibição de conteúdo.\nCom o uso de inteligência artificial, é possível gerar informações sobre características gerais do público que circula por determinado ambiente e utilizar esses dados para apoiar decisões de comunicação e marketing.\nA tecnologia utilizada pela AC Display pode analisar parâmetros do público para fins estatísticos e permitir que conteúdos sejam parametrizados de acordo com características previamente definidas.\nNa prática, uma empresa pode estabelecer diferentes conteúdos para diferentes perfis de audiência, tornando a comunicação mais contextualizada.\nA solução não tem como objetivo identificar individualmente as pessoas. A análise considera características gerais para geração de dados estatísticos e direcionamento das campanhas, dentro de uma proposta desenvolvida considerando os requisitos relacionados à privacidade e à LGPD.\nEssas informações também podem ajudar empresas a compreender melhor o comportamento de quem frequenta seus ambientes e avaliar suas estratégias de comunicação.\nDo conteúdo à experiência\nA comunicação digital permite trabalhar diferentes formatos em uma mesma estrutura.\nUma tela utilizada pela manhã para apresentar informações institucionais pode, ao longo do dia, exibir campanhas, ofertas, vídeos ou outras mensagens previamente programadas.\nEm operações com diferentes unidades, a gestão digital também facilita a atualização dos conteúdos, reduzindo a necessidade de substituir materiais físicos sempre que uma campanha muda.\nUma promoção, um comunicado ou uma nova campanha podem ser atualizados de maneira mais ágil, inclusive em diferentes pontos de exibição.\nEssa flexibilidade pode contribuir para:\n• Ampliar o impacto visual da comunicação;\n • Facilitar a atualização de campanhas e informações;\n • Criar experiências mais interativas;\n • Padronizar a comunicação em diferentes ambientes;\n • Apoiar ações de marketing no ponto de venda;\n • Gerar dados que auxiliem na tomada de decisão.\nMais do que substituir outros formatos, a comunicação digital passa a ser mais uma ferramenta dentro da estratégia das empresas.\nSoluções para diferentes ambientes\nCada projeto possui uma necessidade diferente.\nUma loja pode buscar uma solução para modernizar sua vitrine. Um supermercado pode precisar comunicar promoções em diferentes setores. Uma empresa pode utilizar telas e totens para melhorar a comunicação com colaboradores. Já um evento pode demandar painéis de LED e estruturas digitais temporárias.\nPor isso, a AC Display trabalha com projetos personalizados para diferentes contextos.\nEntre as soluções disponíveis estão painéis de LED indoor e outdoor, totens digitais, totens touch screen, telas profissionais, mobiliário digital e tecnologias voltadas para eventos, feiras e ativações.\nAs soluções podem ser utilizadas tanto em projetos permanentes quanto em demandas temporárias, dependendo da necessidade de cada cliente.\nAlém do equipamento: projeto, gestão e suporte\nImplantar comunicação digital envolve mais do que instalar uma tela ou um totem em determinado ambiente.\nÉ preciso avaliar fatores como objetivo da comunicação, localização dos equipamentos, formato dos conteúdos, utilização da tecnologia, instalação e acompanhamento da operação.\nPor isso, a AC Display trabalha com uma proposta que reúne diferentes etapas do projeto, buscando estruturar a solução de acordo com a realidade de cada cliente.\nAlém do fornecimento dos equipamentos, a empresa atua com instalação, configuração, gestão de conteúdos e suporte técnico especializado.\nEsse acompanhamento ajuda a transformar equipamentos isolados em uma estrutura de comunicação integrada ao ambiente e aos objetivos da empresa.\nLocação amplia o acesso à comunicação digital\nOutro caminho para empresas que desejam incorporar essas tecnologias é a locação.\nEm vez de realizar a aquisição dos equipamentos, o cliente pode contratar uma solução de acordo com o período e a necessidade do projeto.\nA AC Display trabalha tanto com locações temporárias, voltadas para eventos, feiras e ativações, quanto com modelos recorrentes para empresas que desejam manter totens, telas e outras soluções em sua operação.\nO formato permite implementar projetos de comunicação digital sem concentrar o investimento na compra dos equipamentos e com acompanhamento técnico durante a contratação.\nDessa forma, empresas de diferentes portes podem avaliar quais soluções fazem sentido para sua realidade e ampliar a estrutura conforme novas necessidades surgem.\nTecnologia para aproximar marcas e pessoas\nA transformação digital não acontece somente nos canais online.\nLojas, supermercados, empresas, eventos e outros ambientes físicos também estão incorporando novas formas de apresentar informações, orientar pessoas e criar experiências.\nPainéis, telas e totens tornam a comunicação mais dinâmica. Recursos interativos ampliam as possibilidades de atendimento. E tecnologias baseadas em dados podem ajudar empresas a compreender melhor seus públicos e tomar decisões mais assertivas.\nNesse contexto, a AC Display busca integrar tecnologia e comunicação em projetos desenvolvidos de acordo com diferentes objetivos e ambientes.\nSua empresa quer explorar novas possibilidades de comunicação digital? Conheça as soluções da AC Display e descubra como totens, telas, painéis de LED e tecnologias inteligentes podem fazer parte da estratégia do seu negócio.",
+                "caption": "Painéis de LED, totens, telas e soluções inteligentes ampliam as possibilidades de comunicação em lojas, empresas, eventos e ambientes corporativos.",
+                "issued": "2026-09-08T19:52:46.750Z",
+                "modified": "2026-09-09T19:32:31.439Z",
+                "pubeditorial": {
+                  "anunciante": {
+                    "logo_grande": "https://s2-g1.glbimg.com/KX9syB5VZrl6Oq72S9tTczjrCcU=/600x0/filters:quality(50)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/s/l/leHDG1QMS8tsrx0WRIWA/logo-amazon-copy.png",
+                    "logo_pequeno": "https://s2-g1.glbimg.com/KX9syB5VZrl6Oq72S9tTczjrCcU=/600x0/filters:quality(50)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/s/l/leHDG1QMS8tsrx0WRIWA/logo-amazon-copy.png",
+                    "nome": "Amazoncopy",
+                    "url": "https://amazoncopy.com.br/"
+                  },
+                  "data_vencimento": "2028-05-29T13:14:00.815Z",
+                  "nome": "Amazoncopy"
+                },
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "AM",
+                  "Amazonas",
+                  "Especial Publicitário",
+                  "Amazon Copy",
+                  "G1",
+                  "AM",
+                  "Amazonas",
+                  "Amazônia Negócios"
+                ],
+                "species": "Matéria",
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/j/s/qL56TGQXal8BZckwbZ4A/ac-display-produtos.png",
+                "title": "Como a comunicação digital transforma a experiência do consumidor",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=7056c6c808d5830569db21016eaf96ac1b011d4e499c7bfa2672c5b8245f57a5f7b5ebba27a6cea57d0e5a0feaf2b7b5c42b6aeb4847ffd4b256a7fe4f7310a4&k=globocom.busca-headless&pa=1&po=7&q=lgpd&qid=g1.info_query_recency&rid=38899d19620ed0073b38ccac6c572676&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Fam%2Famazonas%2Fespecial-publicitario%2Famazon-copy%2Fnoticia%2F2026%2F09%2F08%2Fcomo-a-comunicacao-digital-transforma-a-experiencia-do-consumidor.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "estatísticos e direcionamento das campanhas, dentro de uma proposta desenvolvida considerando os requisitos relacionados à privacidade e à <em>LGPD</em>"
+                ]
+              }
+            },
+            {
+              "_id": "c3ee9b75-717d-454f-8551-ffc760b2ad46",
+              "_score": 1660.2325,
+              "_source": {
+                "body": "Caso Vorcaro e Banco Master: o sistema vai contra-atacar ou investigar a si mesmo?\nO ministro do Supremo Tribunal Federal (STF) Gilmar Mendes classificou como uma “gravíssima violação ao direito à intimidade” a o vazamento de conversas entre o banqueiro Daniel Vorcaro, preso na semana passada em investigação do banco Master, e Martha Graeff, sua ex-namorada. Graeff estuda acionar o judiciário (veja mais).\nGilmar Mendes afirmou que as conversas são de caráter estritamente privado, sem qualquer relação com práticas ilícitas. \n\"Na semana em que se comemora o Dia Internacional da Mulher, parece ainda mais grave a divulgação de tais diálogos, denotando a urgência de refletir sobre como a intimidade feminina é, historicamente, o alvo preferencial de tentativas de desmoralização e controle\", disse Mendes. \n\"Ao permitir a publicação de diálogos íntimos de um casal, o Estado e seus agentes não apenas falham em seu dever de guarda, mas desrespeitam a legislação, que impõe categoricamente a inutilização de trechos que não interessam à persecução penal\", continua o ministro. \nSegundo o ministro, expor esse tipo de material representa “uma demonstração de barbárie institucional” e ultrapassa “todos os limites impostos pelas leis e pela Constituição\" e evidencia falhas na condução e no tratamento de dados sensíveis dentro do sistema de justiça.\nDefesa da LGPD Penal\nO ministro também reforçou a necessidade urgente de aprovação da Lei Geral de Proteção de Dados aplicada ao âmbito penal (LGPD Penal), em discussão no Congresso. A proposta busca estabelecer regras claras para o tratamento de informações pessoais em investigações criminais.\nSem esse marco, afirma Mendes, há risco de que dados sejam usados de forma indevida, transformando investigações técnicas em “espetáculo” e em “atos de linchamento moral”.\nGilmar Mendes em entrevista.\nReprodução/ TV Globo\nInfluenciadora estuda acionar Justiça\nA defesa da modelo e influenciadora Martha Graeff, ex-namorada de Daniel Vorcaro, afirmou em nota que estuda ir à Justiça contra a exposição em diversos perfis de redes sociais de mensagens íntimas trocadas com o banqueiro.\nA nota afirma que a modelo está sendo vítima de \"grave violência\" com a divulgação nas redes de conversas com o ex-namorado que não dizem respeito à investigação sobre o Banco Master.\nO conteúdo das trocas de mensagens entre a influenciadora e o banqueiro foi extraído dos celulares de Vorcaro apreendidos pela Polícia Federal (PF) durante etapas anteriores da Operação Compliance Zero. Na semana passada, depois de ser enviado para a CPMI do INSS, o material veio à público e foi divulgado pela imprensa.\nSegundo a defesa, serão adotadas todas as providências para a salvaguarda dos direitos de Martha, \"não hesitando em valer-se das medidas judiciais e extrajudiciais pertinentes contra aqueles que venham atentar contra a sua integridade ou privacidade\".\n\"Sra. Martha Graeff, através de seu advogado, informa que resta consternada em face da grave violência que vem sofrendo, considerando a exposição manifestamente ilegal e impressionantemente inútil de mensagens fragmentadas trocadas no sagrado ambiente restrito da intimidade de casal\", diz a nota assinada pelo advogado Lúcio de Constantino.\nAinda de acordo com a nota, Martha Graeff não mantém relacionamento com Daniel Vorcaro há meses e ressalta que \"ela jamais esteve envolvida em qualquer tipo de ilicitude penal\".\nA defesa argumenta que essa publicidade não é \"apenas inócua a qualquer procedimento investigativo penal, mas também subversiva aos valores morais e garantias constitucionais que asseguram a inviolabilidade da intimidade\" de sua cliente.\n\"Na realidade, tal difusão serve mais à desregrada vilipendiação da esfera privada feminina, que no contexto brasileiro ainda é tema que merece prudente atenção, não havendo falar em recreação com devassamento da vida privada de uma mulher\", diz a nota.",
+                "caption": "Segundo o ministro, expor esse tipo de material representa “uma demonstração de barbárie institucional” e ultrapassa “todos os limites impostos pelas leis e pela Constituição\".",
+                "issued": "2026-03-09T19:04:08.099Z",
+                "modified": "2026-03-09T19:04:08.578Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "Política"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "8g3dh",
+                        "text": "O ministro do STF Gilmar Mendes classificou como uma “gravíssima violação ao direito à intimidade” a o vazamento de conversas entre o banqueiro Daniel Vorcaro, preso na semana passada em investigação do banco Master, e Martha Graeff, sua ex-namorada.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "iqt9",
+                        "text": "Gilmar Mendes afirmou que as conversas são de caráter estritamente privado, sem qualquer relação com práticas ilícitas.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "41vtl",
+                        "text": "Segundo o ministro, expor esse tipo de material representa “uma demonstração de barbárie institucional” e ultrapassa “todos os limites impostos pelas leis e pela Constituição\".",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "6i7n4",
+                        "text": "O ministro também reforçou a necessidade urgente de aprovação da Lei Geral de Proteção de Dados aplicada ao âmbito penal (LGPD Penal), em discussão no Congresso.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/A/h/fRdmOARkSgEVhi3S2tIw/jn-jn-gilmar-mendes-idp-123-908-0025-frame-9059.jpeg",
+                "title": "Gilmar Mendes critica vazamento de conversas privadas de Vorcaro e ex-namorada e defende 'LGPD Penal'",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=76ec98621c383a0ec317e93b36ae39df370f383baa4ac4eb8da0c23caee1999205da448bfde1d1c0e87c73a2b9d11959ecf14e9b5d227a6d6fb899c51c06351a&k=globocom.busca-headless&pa=1&po=8&q=lgpd&qid=g1.info_query_recency&rid=38899d19620ed0073b38ccac6c572676&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Fpolitica%2Fnoticia%2F2026%2F03%2F09%2Fgilmar-mendes-critica-vazamento-de-conversas-privadas-de-vorcaro-e-ex-namorada-e-defende-lgpd-penal.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "Defesa da <em>LGPD</em> Penal\nO ministro também reforçou a necessidade urgente de aprovação da Lei Geral de Proteção de Dados aplicada ao âmbito",
+                  "penal (<em>LGPD</em> Penal), em discussão no Congresso."
+                ]
+              }
+            },
+            {
+              "_id": "46ecebe8-9e71-4203-aece-9f245a344cbf",
+              "_score": 1559.6913,
+              "_source": {
+                "body": "Santarém ganha ferramenta digital para população enviar denúncias, reclamações e sugestões ao SUS\nReprodução/ RBS TV\nMoradores de Santarém, no oeste do Pará, ganharam uma nova ferramenta para participar da fiscalização e do acompanhamento dos serviços públicos de saúde. Uma plataforma digital desenvolvida por estudantes do 3º semestre do curso de Medicina da Ulbra Santarém permite que usuários do Sistema Único de Saúde (SUS) enviem denúncias, reclamações, sugestões, elogios e solicitações diretamente ao Conselho Municipal de Saúde (CMS).\n✅ Clique aqui e siga o canal g1 Santarém e Região no WhatsApp\nO formulário é gratuito e pode ser preenchido pelo celular. O acesso pode ser feito por meio de um QR Code ou pelo link disponibilizado pelo Conselho.\nA iniciativa surgiu a partir de um diagnóstico feito pelos acadêmicos sobre as dificuldades enfrentadas principalmente por moradores de comunidades rurais e ribeirinhas para participar das reuniões presenciais do Conselho Municipal de Saúde.\nAs grandes distâncias, as dificuldades de deslocamento e a falta de conhecimento sobre os canais de participação social foram alguns dos obstáculos identificados pelos estudantes.\nSegundo a proposta, a tecnologia pode aproximar a população das decisões relacionadas à saúde pública e facilitar o encaminhamento das demandas até o Conselho.\nComo funciona\nPara enviar uma demanda, o usuário acessa o formulário pelo celular e escolhe o tipo de manifestação que deseja fazer. É possível registrar reclamações, denúncias, sugestões, elogios ou solicitações relacionadas ao SUS.\nA ferramenta foi desenvolvida seguindo as normas da Lei Geral de Proteção de Dados (LGPD) e passou pela avaliação da Comissão de Denúncias do Conselho Municipal de Saúde.\nAntes da implantação, os estudantes fizeram uma visita técnica ao CMS para conhecer a rotina da instituição e identificar quais necessidades poderiam ser atendidas com o uso da tecnologia.\nDepois da criação da plataforma, os conselheiros municipais também receberam capacitação para utilizar o sistema e interpretar as informações que serão encaminhadas pela população.\nProjeto foi aprovado pelo Conselho\nA proposta foi apresentada ao plenário do Conselho Municipal de Saúde e aprovada por unanimidade pelos conselheiros para implantação imediata no município.\nPara os estudantes envolvidos no projeto, a ferramenta representa uma forma de aproximar quem utiliza o SUS dos espaços de controle e fiscalização das políticas públicas de saúde.\nFalar sobre como surgiu a ideia, a partir das dificuldades observadas nas comunidades rurais e ribeirinhas, e como a tecnologia pode facilitar a participação da população no controle social do SUS.\nParticipação da população\nAgora no g1\nO Conselho Municipal de Saúde é um dos espaços de participação popular na construção e acompanhamento das políticas públicas de saúde. Com a nova ferramenta, a expectativa é ampliar o número de pessoas que conseguem encaminhar suas demandas, mesmo sem participar presencialmente das reuniões.\nExplicar como as informações recebidas pela plataforma serão utilizadas pelo Conselho e qual o impacto da ferramenta para a gestão e fiscalização do SUS em Santarém.\nPara quem utiliza os serviços públicos de saúde, a possibilidade de fazer uma manifestação diretamente pelo celular pode representar mais praticidade.\nRelatar como era difícil fazer uma reclamação ou sugestão anteriormente e avaliar a facilidade de poder encaminhar a demanda pelo celular.\nA expectativa é que a ferramenta também ajude o Conselho Municipal de Saúde a identificar problemas recorrentes e conhecer melhor as necessidades dos usuários.\nCom o novo canal, a população passa a ter mais uma forma de fazer parte da construção e do acompanhamento das políticas públicas de saúde em Santarém, sem precisar sair de casa e com a demanda na palma da mão.\nVÍDEOS: mais vistos do g1 Santarém e Região ",
+                "caption": "Plataforma foi desenvolvida por estudantes de Medicina e permite que usuários encaminhem demandas ao Conselho Municipal de Saúde pelo celular.",
+                "issued": "2026-09-04T20:33:29.771Z",
+                "modified": "2026-09-04T20:33:30.561Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "PA",
+                  "Santarém e Região"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "f1fmj",
+                        "text": "Moradores de Santarém ganharam uma ferramenta digital para enviar denúncias, reclamações e sugestões ao Conselho Municipal de Saúde. O formulário gratuito é acessado pelo celular.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "dn8rm",
+                        "text": "A iniciativa de estudantes de Medicina da Ulbra surgiu para facilitar a participação de moradores de comunidades rurais e ribeirinhas nas decisões da saúde pública.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "948pm",
+                        "text": "Aprovada por unanimidade pelo conselho, a plataforma segue a LGPD. Os conselheiros municipais passaram por capacitação para utilizar o novo sistema de fiscalização.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/q/E/1nRx4kSH6aFRaDVmGFAg/golpe-idosos-frame-8169.png",
+                "title": "Santarém lança canal digital para denúncias e reclamações sobre o SUS",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=15ce254acbf007661a225e0fc2b12c9a0d0845f3c84e994d9f0b3f5dd485a94c0f6dde2293638806fc11ebd1dec446485576ec8288cbc163dc091aef4122110e&k=globocom.busca-headless&pa=1&po=9&q=lgpd&qid=g1.info_query_recency&rid=38899d19620ed0073b38ccac6c572676&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Fpa%2Fsantarem-regiao%2Fnoticia%2F2026%2F09%2F04%2Fsantarem-lanca-canal-digital-para-denuncias-e-reclamacoes-sobre-o-sus.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "A ferramenta foi desenvolvida seguindo as normas da Lei Geral de Proteção de Dados (<em>LGPD</em>) e passou pela avaliação da Comissão de Denúncias"
+                ]
+              }
+            },
+            {
+              "_id": "2c982679-8f4f-4795-a8d9-259b9d5803f6",
+              "_score": 1508.7477,
+              "_source": {
+                "body": "O Ministério dos Portos e Aeroportos lançou na tarde desta segunda-feira (31) uma política para ampliar e padronizar o uso de biometria em aeroportos, portos e hidrovias. \nA iniciativa busca reforçar a segurança e agilizar a identificação de passageiros e trabalhadores nesses locais.\nBatizada de \"Política Nacional Setorial de Identificação Biométrica\", a medida uniformiza o uso de tecnologias, como reconhecimento facial e digital nesses espaços. \nAs diretrizes incluem: \na padronização dos procedimentos de identificação e autenticação biométrica; \na integração entre sistemas de informação; \ne a adoção de soluções que contribuam para viagens mais fluídas e com menos etapas de contato físico. \nAgora no g1\nSegundo o Ministério dos Portos e Aeroportos, a política tem o objetivo de ampliar a segurança e facilitar o embarque de passageiros tanto em voos domésticos como nos internacionais.\nMinistro de Portos e Aeroportos visita Aeroporto do Galeão\nReprodução/ TV Globo\nComo vai funcionar\nA identificação, que é manual, será gradualmente substituída por sistemas automatizados, que serão integrados a bases públicas, como as da Polícia Federal, da Receita Federal, do Tribunal Superior Eleitoral (TSE) e da Secretaria Nacional de Trânsito (Senatran).\nO processo será guiado pela Lei Geral de Proteção de Dados (LGPD), garantiu o ministério, e será supervisionado pela Autoridade Nacional de Proteção de Dados (ANPD).\n\"Outro princípio da política é a neutralidade tecnológica, ou seja, o governo não adotará uma solução específica de mercado, mas requisitos de desempenho, segurança e interoperabilidade, que poderão ser atendidos por diferentes tecnologias, desde que cumpram os padrões definidos pelos órgãos reguladores\", explicou o Ministério dos Portos e Aeroportos. \nA primeira etapa, já realizada, se deu com uma prova de conceito no Porto de Santos, em São Paulo. A dinâmica inclui testes de integração de sistemas e a eficiência das tecnologias em ambientes com grande circulação. \nA próxima etapa ocorrerá no Aeroporto Internacional de Viracopos, em Campinas, com apoio da Agência Nacional de Aviação Civil (Anac). ",
+                "caption": "Diretrizes anunciadas pelo Ministério de Portos e Aeroportos incluem integração de sistemas e adoção de tecnologias para agilizar embarques. Reforço da segurança é uma das metas.",
+                "issued": "2026-08-31T17:30:11.675Z",
+                "modified": "2026-08-31T22:52:12.712Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "Economia",
+                  "G1",
+                  "Política"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "1vle",
+                        "text": "O Ministério dos Portos e Aeroportos lançou nesta segunda-feira (31) uma política para ampliar e padronizar o uso de biometria em aeroportos, portos e hidrovias.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "c0k8o",
+                        "text": "A iniciativa busca reforçar a segurança e agilizar a identificação de passageiros e trabalhadores. A medida vale para embarques domésticos e internacionais.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "65id3",
+                        "text": "Os detalhes sobre o lançamento serão divulgados em coletiva de imprensa. O evento ocorre às 15h na sede do ministério.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/m/6/zzXnB8TaAr1EwDBeY5oQ/rj1-galeao4.jpeg",
+                "title": "Governo lança medidas para padronizar uso de biometria em portos e aeroportos",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=37358a1913a853043b1b65c36ab8ac1760711440eb946c83ca1113ce2dd53d2603610b64bd752875e0f6c52ce856382f5f6cb60020e641316492b4fdd3f463f9&k=globocom.busca-headless&pa=1&po=10&q=lgpd&qid=g1.info_query_recency&rid=38899d19620ed0073b38ccac6c572676&t=g1&ts=1789589661&u=https%3A%2F%2Fg1.globo.com%2Feconomia%2Fnoticia%2F2026%2F08%2F31%2Fgoverno-quer-padronizar-uso-de-biometria-em-portos-e-aeroportos.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "O processo será guiado pela Lei Geral de Proteção de Dados (<em>LGPD</em>), garantiu o ministério, e será supervisionado pela Autoridade Nacional"
+                ]
+              }
+            }
+          ],
+          "max_score": 18416.303,
+          "total": {
+            "relation": "eq",
+            "value": 1219
+          }
+        },
+        "aggregations": {
+          "species": {
+            "buckets": [
+              {
+                "doc_count": 1124,
+                "key": "Matéria"
+              },
+              {
+                "doc_count": 73,
+                "key": "Vídeo On Demand"
+              },
+              {
+                "doc_count": 22,
+                "key": "Blog"
+              }
+            ],
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0
+          }
+        }
+      },
+      "status": 200
+    }
+  ]
+}

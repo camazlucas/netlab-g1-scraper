@@ -1,0 +1,751 @@
+{
+  "coletado_em": "2026-09-16T17:13:26-03:00",
+  "status_http": 200,
+  "corpo_requisicao": [
+    {
+      "search_profile": "sp_g1_globo_com",
+      "query": "g1.info_query_recency",
+      "params": {
+        "q": "lgpd",
+        "from": 20,
+        "size": 10
+      }
+    }
+  ],
+  "resposta": [
+    {
+      "search_profile": "sp_g1_globo_com",
+      "query": "g1.info_query_recency",
+      "params": {
+        "from": 20,
+        "q": "lgpd",
+        "size": 10
+      },
+      "result": {
+        "took": 61,
+        "status": 200,
+        "hits": {
+          "hits": [
+            {
+              "_id": "ec538ae9-c685-4c3f-bdfb-f8595ff19b3f",
+              "_score": 976.7701,
+              "_source": {
+                "body": "Homem é preso suspeito de agredir a irmã em Itatiba\nUm homem de 73 anos foi preso na quarta-feira (19) em Itatiba, na região de Jundiaí (SP), suspeito de agredir a irmã de 77 anos. A vítima foi socorrida e levada para a Santa Casa da cidade.\nSegundo a equipe médica, a idosa deu entrada no hospital com hematomas pelo corpo, ferimentos na cabeça, fratura no antebraço e sangramento no ouvido. Parte das lesões pode ser antiga, de acordo com os profissionais de saúde.\n📲 Participe do canal do g1 Sorocaba e Jundiaí no WhatsApp\nO suspeito, irmão da vítima, esteve no hospital e negou envolvimento nas agressões. Mesmo assim, a Polícia Civil abriu investigação. A casa onde os dois moram passou por perícia e testemunhas foram ouvidas. Com base nos relatos e nas informações médicas, o homem foi preso em flagrante.\nDe acordo com a polícia, o idoso seguirá preso e ficará à disposição da Justiça. Ele deve passar por audiência de custódia. A vítima continua internada com múltiplos ferimentos.\nA Santa Casa não informou o estado de saúde da paciente, alegando restrições da Lei Geral de Proteção de Dados (LGPD). O caso é tratado como violência doméstica e também se enquadra no Estatuto do Idoso.\nDelegacia de Itatiba (SP)\nDivulgação\nInitial plugin text\nVeja mais notícias da região no g1 Sorocaba e Jundiaí\nVÍDEOS: assista às reportagens da TV TEM",
+                "caption": "Vítima tem 77 anos e foi levada para a Santa Casa com vários ferimentos. A polícia investiga as circunstâncias da agressão.",
+                "issued": "2026-08-20T20:30:38.110Z",
+                "modified": "2026-08-20T23:17:40.066Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "SP",
+                  "Sorocaba e Jundiaí"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "42uht",
+                        "text": "Um homem de 73 anos foi preso na quarta-feira (19) em Itatiba (SP). Ele é suspeito de agredir a irmã de 77 anos.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "9k2lm",
+                        "text": "A idosa deu entrada no hospital com ferimentos na cabeça, fratura no antebraço e sangramento no ouvido. Parte das lesões pode ser antiga.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "6btub",
+                        "text": "O suspeito negou as agressões. A polícia realizou perícia na casa, ouviu testemunhas e efetuou a prisão em flagrante.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "4qmcc",
+                        "text": "O investigado passará por audiência de custódia e seguirá preso. O caso é enquadrado como violência doméstica e no Estatuto do Idoso.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/c/p/FimvGkS0i3sqoXUawBHQ/image.jpg",
+                "title": "Homem é preso suspeito de agredir a irmã em Itatiba",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=12d386bbe0a8fcc67c63662f967cc043bac5afcbdb75e783d50756f30ba89d82ef0a1b11fb65416b10746499ad3f1171d550c977d38f375995b3fe807667f866&k=globocom.busca-headless&pa=3&po=1&q=lgpd&qid=g1.info_query_recency&rid=75be7c8703e5024c254df47f72acff99&t=g1&ts=1789589662&u=https%3A%2F%2Fg1.globo.com%2Fsp%2Fsorocaba-jundiai%2Fnoticia%2F2026%2F08%2F20%2Fhomem-e-preso-suspeito-de-agredir-a-irma-em-itatiba.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "A Santa Casa não informou o estado de saúde da paciente, alegando restrições da Lei Geral de Proteção de Dados (<em>LGPD</em>)."
+                ]
+              }
+            },
+            {
+              "_id": "9840a72a-7026-44a2-baa9-dca5758ee7f0",
+              "_score": 942.8345,
+              "_source": {
+                "body": "Delegada Vilma Alves\nLucas Marreiros/g1\nVilma Alves, delegada conhecida por décadas de atuação na segurança pública do Piauí, segue internada em um hospital de Teresina após sofrer um infarto na noite da terça-feira (18). De acordo com familiares, ela permanece hospitalizada.\nATUALIZAÇÃO: Delegada Vilma Alves morre aos 79 anos; relembre trajetória da 1ª delegada negra do PI\nEm nota, a diretoria do Hospital São Marcos, onde a delegada está internada, informou que informações oficiais sobre o estado clínico de Vilma serão repassadas exclusivamente aos familiares (leia a nota completa ao fim da reportagem).\n✅ Siga o canal do g1 Piauí no WhatsApp\nA delegada tem 79 anos e dedicou mais de 40 anos ao cargo na Polícia Civil do Piauí. Ela atuou principalmente na defesa dos direitos das mulheres e pelo combate à violência de gênero.\nEm publicação nas redes sociais, uma filha da delegada informou que a delegada segue lutando pela vida.\nMeses atrás, Vilma costumava atualizar as redes sociais com viagens, convites para corridas e exercícios físicos, além de passeios e momentos com amigos e familiares.\n\"Ela era bem ativa. (O infarto) foi repentino\", disse a filha Wirna Alves ao g1.\nNota do Hospital São Marcos\nA Diretoria do Hospital São Marcos informa que a delegada aposentada Vilma Alves encontra-se internada para cuidados médicos.\nEm respeito à privacidade da paciente, ao sigilo das informações de saúde, ao Código de Ética Médica e à Lei Geral de Proteção de Dados Pessoais (LGPD), a Diretoria esclarece que informações oficiais sobre seu estado clínico são repassadas exclusivamente aos familiares pela equipe médica responsável.\nDessa forma, o Hospital São Marcos não reconhece como oficiais as informações sobre o estado de saúde da paciente que estejam circulando em sites, redes sociais, aplicativos de mensagens ou outros meios de comunicação sem confirmação da família ou da equipe médica responsável.\nNeste momento, solicitamos que a privacidade da paciente e de seus familiares seja respeitada e que informações não confirmadas sejam evitadas e não compartilhadas.\nDelegada Vilma Alves sofre infarto e está internada na UTI\nVÍDEOS: assista aos vídeos mais vistos da Rede Clube",
+                "caption": "A delegada tem 79 anos e dedicou mais de 40 anos ao cargo na Polícia Civil do Piauí. Ela foi hospitalizada na terça-feira (18).",
+                "issued": "2026-08-21T14:10:59.824Z",
+                "modified": "2026-08-23T12:09:55.559Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "PI",
+                  "Piauí"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "cu1vp",
+                        "text": "A delegada Vilma Alves segue internada em estado grave em Teresina. Ela sofreu um infarto na noite desta terça-feira (18).",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "236d0",
+                        "text": "A delegada de 79 anos dedicou mais de 40 anos à Polícia Civil. Ela atuou na defesa dos direitos das mulheres.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "1agr6",
+                        "text": "Uma filha de Vilma informou em redes sociais que a mãe segue lutando pela vida.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "cu7lp",
+                        "text": "A filha Wirna Alves disse ao g1 que o infarto foi repentino. \"Ela era bem ativa\", relatou.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/K/k/DD81kARBWKUcSyrBp26Q/g1-bg-01-2-.png",
+                "title": "Delegada Vilma Alves segue internada após sofrer infarto em Teresina: 'lutando pela vida', diz filha",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=08de5801631e1cf350d9a4991f5f36f674ad57708cdc25a8bdd02b8212d7fddb66f6468e06c09c4973e171d0dd0529e73a41c1b91a1006a4af2b0b8ac44cb22b&k=globocom.busca-headless&pa=3&po=2&q=lgpd&qid=g1.info_query_recency&rid=75be7c8703e5024c254df47f72acff99&t=g1&ts=1789589662&u=https%3A%2F%2Fg1.globo.com%2Fpi%2Fpiaui%2Fnoticia%2F2026%2F08%2F21%2Fdelegada-teresina-filha.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "privacidade da paciente, ao sigilo das informações de saúde, ao Código de Ética Médica e à Lei Geral de Proteção de Dados Pessoais (<em>LGPD</em>"
+                ]
+              }
+            },
+            {
+              "_id": "2a3376eb-66e7-4da9-985a-bd4de2c296b9",
+              "_score": 916.31213,
+              "_source": {
+                "body": "Vazamento de dados de mais de 600 pessoas com HIV na BA viola Constituição, LGPD e outras\nO vazamento dos nomes e dados de mais de 600 pessoas que vivem com o HIV pela Prefeitura de Feira de Santana viola ao menos quatro direitos fundamentais da Constituição Brasileira, a Lei Geral de Proteção de Dados Pessoais (LGPD), o Código de Ética Médica e as normas do Sistema Único de Saúde (SUS). A lista, que também incluia o nome de pessoas com fibromialgia e anemia falciforme, foi divulgada no Diário Oficial da cidade, no fim de semana. \nSegundo Bráulio Coutinho, advogado especialista em direito digital, dados de saúde são sensíveis e a divulgação deste tipo de informação possui uma série de restrições.\n\"[o vazamento] viola fundamentos da Constituição federal, como: direito a dignidade da pessoa humana, ao sigilo, a privacidade, viola como os dados digitais devem ser tratados. Viola também a LGPD, como os dados devem ser tratados, pois informações sobre saúde são dados sensíveis e tem restrições para serem divulgados\", afirmou o advogado, em entrevista à TV Subaé.\nMulher que teve nome divulgado em lista de pessoas que vivem com HIV relata indignação: 'Desrespeito e desamparo'\nO Código de Ética Médica e normas do Sistema Único de Saúde (SUS) também afirmam que existe a necessidade de confidencialidade em informações relacionadas à saúde e orientam que a identidade de pessoas que vivem com HIV deve ser protegida para evitar estigmatização e discriminação.\nA Defensoria Pública da Bahia considera a publicação como indevida e deve acompanhar o caso. \"Já fomos procurados pelo Conselho de Pessoas com Deficiência, que disse que vai representar o caso e a Defensoria [já] pode ajuizar uma ação coletiva\", afirmou o defensor público de estado, João Gabriel de Melo.\nO órgão afirmou ainda que poderá adotar as medidas necessárias à remoção pública do conteúdo indevidamente exposto em sites e outros veículos de internet, para resguardar o direito de personalidade dos atingidos e se colocou à disposição para prestar o atendimento jurídico necessário ao resguardo dos direitos violados.\n📲 Clique aqui e entre no grupo do WhatsApp do g1 Feira de Santana e região\nPor meio de nota, a prefeitura de Feira de Santana informou que uma sindicância será aberta para identificar as causas do vazamento e responsabilizar eventuais envolvidos. Além disso, o processo tem o objetivo de implementar novas medidas para evitar futuros incidentes. \nA gestão municipal informou que o resultado da sindicância será publicado nos próximos 15 dias e reiterou que tem feito \"todo o possível para reparar o erro e evitar que situações como esta ocorram novamente\".\nDirigentes de associações que reúnem pessoas com fibromialgia e anemia falciforme também começaram a se movimentar para judicializar o caso. Eles consideram o caso um desrespeito e uma humilhação das pessoas diagnosticadas.\n\"Isso aí é um crime que não pode passar impune. A gente quer entrar com uma ação coletiva [...] e andar de mãos dadas nessa questão\", enfatizou Suzana Neves, representante da Associação Feirense de Pessoas com Fibromialgia.\nEm nota, o Ministério Público da Bahia (MP-BA) informou que também vai instaurar procedimento para apurar o caso.\n'Falha do sistema'\nPrefeitura na Bahia publica lista com nomes de pessoas que vivem com HIV ao suspender benefício\nReprodução/Redes Sociais\nNo domingo (21), procurada pela g1, a Secretaria Municipal de Mobilidade Urbana informou que a divulgação dos nomes foi feita após uma falha do sistema.\nAtualmente, um diagnóstico positivo para o vírus HIV não é mais considerado uma \"sentença de morte\". Embora a cura ainda não tenha sido descoberta, a expectativa de vida de pessoas que vivem com o vírus HIV foi transformada ao longo dos anos com os avanços da medicina. Com o tratamento adequado, é possível levar uma rotina ativa e saudável.\nAlém disso, há medicamentos que atuam na proteção contra o vírus, como a profilaxia pré-exposição, mais conhecida como PrEP. Segundo o Ministério da Saúde, a função do remédio é justamente evitar que o HIV infecte o organismo.\nPode ser tomado esporadicamente, até 24 horas antes de uma relação sexual sem proteção, ou diariamente. Nesse caso, a recomendação é para pessoas que deixam de usar preservativo com frequência, que têm histórico de infecções sexualmente transmissíveis ou estão em situação de vulnerabilidade ao HIV.\nSuspensão do passe livre\nSegundo foi informado no Diário Oficial, a medida cumpre decisão judicial que revogou uma tutela provisória de urgência anteriormente concedida pela Justiça. \nDe acordo com a portaria, os beneficiários devem devolver seus cartões no prazo de cinco dias úteis, além de apresentar defesa escrita ou documentos junto à Secretaria Municipal de Mobilidade Urbana, sob pena de suspensão ou cancelamento definitivo do benefício. \nA portaria ainda estabelecia que as defesas devem ser protocoladas presencialmente na sede da Secretaria Municipal de Mobilidade, no bairro Mangabeira, durante o horário de expediente.\nSecretaria de Saúde desmente surto de HIV entre jovens na Bahia\nProteção de informações sensíveis\nA divulgação desse tipo de dado pode configurar violação às normas constitucionais e legais de proteção de informações sensíveis. \nA Constituição Federal assegura a inviolabilidade da intimidade, da vida privada e do sigilo de dados. Já a Lei Geral de Proteção de Dados considera como sensíveis os dados referentes à saúde.\nO Código de Ética Médica e normas do Sistema Único de Saúde (SUS) também afirmam que existe a necessidade de confidencialidade em informações relacionadas à saúde e orientam que a identidade de pessoas que vivem com HIV deve ser protegida para evitar estigmatização e discriminação.\nA Defensoria Pública da Bahia (DPE-BA) afirmou que pediu um efeito para renovar a liminar na segunda instância para continuar valendo o benefício do passe livre e seu reuniu com representantes da sociedade civil e dos movimentos sociais nesta segunda-feira (22), na Casa dos Conselhos, em Feira de Santana, para escutar os atingidos, oferecer apoio jurídico e discutir as medidas necessárias para reparar os danos e prevenir que situações como essa se repitam.\nO órgão afirmou que poderá adotar as medidas necessárias à remoção pública do conteúdo indevidamente exposto em sites e outros veículos de internet, para resguardar o direito de personalidade dos atingidos e se colocou à disposição para prestar o atendimento jurídico necessário ao resguardo dos direitos violados. \nLEIA TAMBÉM:\nVazamento de dados expõe 16 bilhões de senhas, diz site; especialistas contestam número\nInfluenciadora que teve vídeos íntimos vazados após roubo de celular diz que foi assaltada em corrida por aplicativo na Bahia\nVeja mais notícias de Feira de Santana e região.\nAssista aos vídeos do g1 e TV Subaé 💻",
+                "caption": "Código de Ética Médica e as normas do Sistema Único de Saúde (SUS) também foram violadas após a Prefeitura de Feira de Santana divulgar os dados sigilosos.",
+                "issued": "2025-09-23T07:00:48.378Z",
+                "modified": "2025-09-23T13:15:17.806Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "BA",
+                  "Feira de Santana e Região"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "5ka47",
+                        "text": "O vazamento dos nomes e dados de mais de 600 pessoas que vivem com o HIV pela Prefeitura de Feira de Santana viola ao menos quatro direitos fundamentais da Constituição Brasileira, a Lei Geral de Proteção de Dados Pessoais, o Código de Ética Médica e as normas do Sistema Único de Saúde (SUS).",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "b7j98",
+                        "text": "A lista, que também incluia o nome de pessoas com fibromialgia e anemia falciforme, foi divulgada no Diário Oficial da cidade, no fim de semana.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "9vbfo",
+                        "text": "A Defensoria Pública da Bahia considera a publicação como indevida e deve acompanhar o caso de perto.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/g/c/bn2hIKSluQHtnCwAnqDA/tamanho-g1ba-2025-09-21t133434.523.jpg",
+                "title": "Vazamento de dados de mais de 600 pessoas com HIV na BA viola Constituição, LGPD e outras normas",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=c331147271e89607e232fefcb095883568f6a3b5821ae6e061da830daf9bcac5aadb47a1a16c3bfa20ead7224708c7c796190f7a0baf41ba2d76724e69671bea&k=globocom.busca-headless&pa=3&po=3&q=lgpd&qid=g1.info_query_recency&rid=75be7c8703e5024c254df47f72acff99&t=g1&ts=1789589662&u=https%3A%2F%2Fg1.globo.com%2Fba%2Ffeira-de-santana-regiao%2Fnoticia%2F2025%2F09%2F23%2Fvazamento-de-dados-de-pessoas-com-hiv-na-ba-viola-leis-e-normas.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "Vazamento de dados de mais de 600 pessoas com HIV na BA viola Constituição, <em>LGPD</em> e outras\nO vazamento dos nomes e dados de mais de",
+                  "Feira de Santana viola ao menos quatro direitos fundamentais da Constituição Brasileira, a Lei Geral de Proteção de Dados Pessoais (<em>LGPD</em>"
+                ]
+              }
+            },
+            {
+              "_id": "1ba5f62e-805b-44e1-839c-da6e9711f35d",
+              "_score": 899.2613,
+              "_source": {
+                "body": "Óculos inteligentes viram febre em pegadinhas nas redes com exposição de terceiros\nO Instituto de Defesa de Consumidores (Idec) e a organização Coding Rights pediram nesta quinta-feira (20) que a Agência Nacional de Proteção de Dados (ANPD), a Secretaria Nacional do Consumidor (Senacon) e o Ministério Público Federal (MPF) investiguem a comercialização dos óculos inteligentes Ray-Ban Meta no Brasil. \nAs entidades alegam que o produto pode colocar em risco a privacidade das pessoas e violar a Lei Geral de Proteção de Dados (LGPD) e o Código de Defesa do Consumidor (CDC).\n🗒️Tem alguma sugestão de reportagem? Mande para o g1\nNo ofício, as organizações pedem que os três órgãos atuem de forma coordenada para verificar se o produto atende à legislação brasileira e se oferece mecanismos suficientes para proteger não apenas os consumidores, mas também qualquer pessoa que possa ser filmada sem saber.\nLançados no Brasil em setembro de 2025, os óculos inteligentes possuem câmeras, microfones e alto-falantes embutidos. \n🔎 Além de tirar fotos, gravar vídeos e captar áudio, o dispositivo permite atender ligações, transmitir conteúdo para redes sociais e utilizar recursos de inteligência artificial, como tradução em tempo real e respostas sobre o ambiente observado pelo usuário.\nSegundo o Idec e a Coding Rights, o principal problema não é a capacidade de gravar imagens, mas a dificuldade de terceiros perceberem que estão sendo registrados. \nDiferentemente de um celular, que precisa ser levantado para filmar, os óculos permitem que a gravação seja feita de maneira muito mais discreta.\nEmbora o equipamento tenha um LED que indica quando a câmera está ligada, as entidades afirmam que a luz é pequena, pouco perceptível e pode ser desativada por meio de modificações no aparelho amplamente divulgadas em tutoriais na internet. \nPara elas, um mecanismo de segurança que pode ser facilmente burlado não oferece proteção suficiente.\nOutro ponto levantado pelas organizações é o tratamento das imagens e dos áudios captados. Segundo o documento, esse material pode ser enviado aos servidores da Meta e utilizado para treinar sistemas de inteligência artificial. \nAs entidades também demonstram preocupação com o desenvolvimento de ferramentas de reconhecimento facial. \nEmbora a funcionalidade não esteja disponível atualmente, elas afirmam que documentos divulgados neste ano indicam que a empresa chegou a testar esse recurso.\nPegadinhas impulsionam debate\nContas no Instagram e no TikTok fazem pegadinhas com anônimos usando óculos inteligentes.\nReprodução/TikTok\nA representação foi apresentada em um momento em que os óculos inteligentes vêm ganhando popularidade nas redes sociais, principalmente em vídeos de \"pegadinhas\". \nComo mostrou o g1, criadores de conteúdo utilizam os dispositivos para gravar desconhecidos em locais públicos sem que eles percebam.\nEm parte dos vídeos, os participantes autorizam a publicação das imagens ao final da gravação. Em outros casos, porém, não fica claro se houve consentimento antes da divulgação do conteúdo.\nUma das brincadeiras mais populares consiste em esconder um cartão de pagamento por aproximação dentro da embalagem de um produto. \nNo caixa do supermercado, o criador aproxima a embalagem da maquininha e registra a reação de surpresa do funcionário ao ver a compra ser paga sem um cartão aparente.\nEspecialistas ouvidos pelo g1 afirmam que gravar alguém em espaço público não é necessariamente ilegal, mas publicar essas imagens sem autorização pode gerar pedidos de remoção do conteúdo e ações por danos morais, especialmente quando há exposição vexatória. (veja quais são os direitos do consumidor nesses casos)\nA Meta afirma que os óculos possuem mecanismos para indicar quando estão gravando e que os usuários são responsáveis por cumprir a legislação e utilizar o equipamento de forma segura e respeitosa.\nCasos já registrados\nO documento protocolado pelas entidades cita episódios que reforçam as preocupações com a tecnologia. Um deles ocorreu em Salvador (BA), onde um médico ginecologista foi denunciado por utilizar óculos inteligentes durante o atendimento a uma paciente.\nPara o Idec e a Coding Rights, dispositivos capazes de registrar imagens e sons de forma praticamente imperceptível podem facilitar situações de assédio, invasão de privacidade e violência, especialmente contra mulheres e meninas.\n\"Sob a ótica do consumidor, o que temos aqui é uma empresa que colocou no mercado um produto perigoso e transferiu para quem nem sequer comprou o dispositivo a tarefa de se proteger dele\", afirma Julia Abad, do Idec.\nEntre os pedidos encaminhados à ANPD, à Senacon e ao MPF, estão:\na abertura de investigações; \na análise dos riscos do produto para consumidores e terceiros; \na criação de mecanismos para que pessoas filmadas possam exercer seus direitos previstos na LGPD; \na proibição da ativação de recursos de reconhecimento facial sem autorização prévia das autoridades brasileiras.\nDebate também avança no exterior\no CEO da Meta, Mark Zuckerberg, usa óculos Meta Ray-Ban Display durante apresentação da nova linha de óculos inteligentes no evento Meta Connect, em Menlo Park, Califórnia (EUA), em 17 de setembro de 2025.\nREUTERS/Carlos Barria\nAs preocupações com os óculos inteligentes também têm crescido fora do Brasil. Com mais de 7 milhões de unidades vendidas no mundo em 2025, o dispositivo vem sendo alvo de debates sobre privacidade em diversos países.\nNa Alemanha, especialistas defendem regras mais rígidas para o uso da tecnologia devido ao risco de gravações sem consentimento. \nSegundo a imprensa local, autoridades de proteção de dados analisam medidas para impedir filmagens ocultas e estudam a aplicação de multas em casos de uso irregular.",
+                "caption": "Representação questiona a segurança do dispositivo, a coleta de dados de terceiros e o uso da tecnologia para gravações sem consentimento. ",
+                "issued": "2026-08-21T13:40:17.299Z",
+                "modified": "2026-08-21T13:50:19.593Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "Tecnologia",
+                  "G1",
+                  "Economia"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "8qlgu",
+                        "text": "O Idec e a Coding Rights pediram nesta quinta-feira (20) que MPF, ANPD e Senacon investiguem os óculos Ray-Ban Meta no Brasil. As entidades alegam riscos à privacidade.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "94rqb",
+                        "text": "Lançados no Brasil em setembro de 2025, os óculos possuem câmeras e microfones embutidos. Eles gravam vídeos, tiram fotos e usam inteligência artificial.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "c6fg",
+                        "text": "As entidades afirmam que o LED indicador de gravação é pequeno, pouco perceptível e fácil de burlar. Há também preocupação com o uso de dados para treinar inteligência artificial.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "a6l26",
+                        "text": "O g1 mostrou que criadores de conteúdo usam o dispositivo para gravar desconhecidos sem consentimento em locais públicos. Em Salvador (BA), um ginecologista foi denunciado pelo uso dos óculos.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "17fia",
+                        "text": "Os órgãos devem analisar os riscos e proibir o reconhecimento facial sem autorização. Fora do Brasil, mais de 7 milhões de unidades foram vendidas em 2025, gerando debates semelhantes.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/V/0/hzOryUTPaKLSa8Z5CWkA/2026-03-31t133918z-899513602-rc21ugast36e-rtrmadp-3-meta-platforms-ray-ban-ai.jpg",
+                "title": "Entidades acionam MPF contra óculos inteligentes da Meta por riscos à privacidade e aos consumidores",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=8fa411302d000f689323cc1f0ba8e8fa87ae658602ff576221e03731f659949302e830fece080a8beea4000d01bff6af161eddc5581c5d5f57c54607c713eb7a&k=globocom.busca-headless&pa=3&po=4&q=lgpd&qid=g1.info_query_recency&rid=75be7c8703e5024c254df47f72acff99&t=g1&ts=1789589662&u=https%3A%2F%2Fg1.globo.com%2Ftecnologia%2Fnoticia%2F2026%2F08%2F21%2Fentidades-acionam-mpf-contra-oculos-inteligentes-da-meta-por-riscos-a-privacidade-e-aos-consumidores.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "As entidades alegam que o produto pode colocar em risco a privacidade das pessoas e violar a Lei Geral de Proteção de Dados (<em>LGPD</em>)",
+                  "produto para consumidores e terceiros; \na criação de mecanismos para que pessoas filmadas possam exercer seus direitos previstos na <em>LGPD</em>"
+                ]
+              }
+            },
+            {
+              "_id": "a5fe7a36-266a-4cf1-88bc-b843766ddb58",
+              "_score": 848.66785,
+              "_source": {
+                "body": "O cão da raça pastor belga malinois que atacou uma veterinária do Senado Federal, em Brasília, nesta terça-feira (18), foi retirado das atividades operacionais e passará por exames. \nSegundo o Senado, o animal está com a vacinação em dia e permanecerá em observação. A instituição também informou que apura as circunstâncias do episódio.\nVitória Valle de Oliveira Pinha, de 36 anos, é servidora terceirizada da Casa Legislativa e o cachorro que a atacou faz parte do Serviço de Cinotecnia.\n➡️ A vítima foi mordida no pescoço e sofreu uma parada cardiorrespiratória. Nesta terça, a profissional passou por cirurgia. Ela segue internada na UTI do Hospital de Base do Distrito Federal e estado de saúde é grave.\n✅ Clique aqui para seguir o canal do g1 DF no WhatsApp\nVitória Valle, de 36 anos, que foi atacada por cão do Senado em Brasília\nArquivo pessoal/Reprodução\nO Senado informou que acompanha o estado de saúde dela e presta assistência à vítima e à família.\nA TV Globo apurou que o ataque aconteceu quando Vitória foi dar ração para o animal. A veterinária ficou alguns minutos sozinha, machucada, até que um policial legislativo a encontrou deitada e sangrando. \n🔎 Segundo o Senado, o Serviço de Cinotecnia treina e comanda cães que auxiliam atividades de patrulha e policiamento, detecção de substâncias ilícitas, explosivos e armas de fogo, intervenção em distúrbios civis, suporte em busca e apreensão e outras medidas correlatas à Polícia Legislativa.\nImagens feitas pela TV Globo mostram o canil do Senado:\nImagens mostram canil do Senado, em Brasília\nO policial que encontrou a veterinária após o ataque realizou os primeiros socorros e chamou uma ambulância. A vítima foi levada para o hospital em estado crítico.\nVitória é contratada da empresa prestadora de serviços que cuida dos animais da Casa. Em nota, a Polo Administração lamentou o acidente e reforçou que \"prioriza a segurança e a integridade de sua equipe em todas as operações\".\nTambém em nota, o Senado informou que acompanha o atendimento médico e presta o suporte necessário à profissional e à família (leia íntegra abaixo).\nImagem mostra canil do Senado, em Brasília\nTV Globo/Reprodução\nO que diz o IgesDF\n\"O Instituto de Gestão Estratégica de Saúde do Distrito Federal (IgesDF) informa que a mulher atacada por um cão na Esplanada dos Ministérios nesta terça-feira (18) chegou ao Hospital de Base do Distrito Federal (HBDF) nesta manhã e foi encaminhada ao centro cirúrgico, onde está sendo assistida pela equipe de Cirurgia do Trauma neste momento.\nO Instituto informa, ainda, que, em respeito ao sigilo médico e à legislação vigente, não divulga informações detalhadas sobre o estado de saúde ou dados pessoais de pacientes atendidos nas unidades sob sua gestão.\nEssa conduta observa as normas do Conselho Federal de Medicina (CFM), o Código de Ética Médica e a Lei Geral de Proteção de Dados (LGPD), que asseguram a confidencialidade das informações constantes no prontuário médico.\nO IgesDF reafirma seu compromisso com uma assistência pública segura, humanizada e de qualidade à população do Distrito Federal.\"\nO que diz o Senado\n\"Na manhã desta terça-feira (18), ocorreu um incidente envolvendo um dos cães do Serviço de Cinotecnia do Senado Federal e uma tratadora contratada por empresa prestadora de serviços responsável pelo cuidado dos animais.\nA profissional recebeu atendimento imediato e foi prontamente encaminhada ao Hospital de Base do Distrito Federal, com apoio do Corpo de Bombeiros e do SAMU. Neste momento, o Senado acompanha o estado de saúde da profissional, que se encontra na UTI, e presta assistência a ela e à família.\nParalelamente, a instituição está apurando os fatos decorrentes do episódio. O cão envolvido no incidente, da raça pastor belga malinois, possui vacinação em dia. O animal foi imediatamente retirado das atividades operacionais, passará por exames e permanecerá em observação.\nEm relação ao estado de saúde e aos dados pessoais da colaboradora, o Senado Federal ressalta que a divulgação de informações clínicas está sujeita ao sigilo médico e à Lei Geral de Proteção de Dados (LGPD).\"\nO que diz a empresa\nA Polo Administração confirma e lamenta profundamente o acidente de trabalho ocorrido com um de seus colaboradores no dia 18/08/2026, pela manhã, em um órgão público que terceiriza nossa equipe para cuidados veterinários. A colaboradora recebeu atendimento de primeiros socorros no local e foi encaminhado prontamente para o Hospital de Base. A gestão da empresa está em contato direto com a família para prestar todo o suporte necessário neste momento. A Polo Administração reforça que prioriza a segurança e a integridade de sua equipe em todas as operações. Novas informações oficiais serão repassadas por meio desta assessoria, respeitando a privacidade do colaborador e de sua família.\nLeia mais notícias sobre a região no g1 DF.",
+                "caption": "Senado informou que cão está com a vacinação em dia. Vitória Valle de Oliveira Pinha, de 36 anos, segue internada em estado grave na UTI do Hospital de Base. ",
+                "issued": "2026-08-19T03:00:42.302Z",
+                "modified": "2026-08-19T03:00:42.953Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "DF",
+                  "Distrito Federal"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [
+                          {
+                            "length": 29,
+                            "offset": 116,
+                            "style": "BOLD"
+                          }
+                        ],
+                        "key": "7jju",
+                        "text": "Um cão pastor-belga que atacou uma veterinária no Senado Federal nesta terça-feira (18) foi retirado das atividades. O animal passará por exames.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [
+                          {
+                            "length": 31,
+                            "offset": 11,
+                            "style": "BOLD"
+                          }
+                        ],
+                        "key": "ee68j",
+                        "text": "A vítima é Vitória Valle de Oliveira Pinha, de 36 anos. Ela sofreu parada cardiorrespiratória e está internada na UTI em estado grave.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [
+                          {
+                            "length": 58,
+                            "offset": 0,
+                            "style": "BOLD"
+                          }
+                        ],
+                        "key": "ivrp",
+                        "text": "O ataque ocorreu quando a profissional foi alimentar o cão. Um policial legislativo a encontrou ferida e realizou os primeiros socorros.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "2j1jt",
+                        "text": "O Senado Federal apura o caso e acompanha o atendimento médico. A empresa Polo Administração informou que presta assistência à família da funcionária.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/9/e/ZdKeATSredu3zcAEa9Pg/vitoria-caes.jpg",
+                "title": "Pastor-belga que atacou veterinária no Senado é retirado das atividades e passará por exames",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=a1d51a4162b423c2d3769643b98a78bc391fa81abef1b61ea25df8ccf4d5baac4a49524e3061f1520a009d4112b8a2a480907cc7bcdcbe11fb54381003c18823&k=globocom.busca-headless&pa=3&po=5&q=lgpd&qid=g1.info_query_recency&rid=75be7c8703e5024c254df47f72acff99&t=g1&ts=1789589662&u=https%3A%2F%2Fg1.globo.com%2Fdf%2Fdistrito-federal%2Fnoticia%2F2026%2F08%2F19%2Fpastor-belga-que-atacou-veterinaria-no-senado-e-retirado-das-atividades-e-passara-por-exames.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "Essa conduta observa as normas do Conselho Federal de Medicina (CFM), o Código de Ética Médica e a Lei Geral de Proteção de Dados (<em>LGPD</em>",
+                  "Senado Federal ressalta que a divulgação de informações clínicas está sujeita ao sigilo médico e à Lei Geral de Proteção de Dados (<em>LGPD</em>"
+                ]
+              }
+            },
+            {
+              "_id": "43f98130-22a2-4cce-ac9e-fb412a566f58",
+              "_score": 829.5482,
+              "_source": {
+                "body": "Brigou no avião? Você poderá ficar até um ano proibido de voar; entenda, em cinco pontos, a nova regra da Anac\nBBC\nEnquanto confusões dentro de aviões se multiplicam em vídeos compartilhados nas redes sociais, a Agência Nacional de Aviação Civil (Anac) se prepara para implementar um sistema de punições a passageiros indisciplinados, que vai desde multas até a proibição de viajar em voos nacionais de qualquer companhia aérea.\nA prática, conhecida em inglês como no-fly list, ou lista de proibição de voo, já é adotada em alguns países do exterior — nos Estados Unidos, por exemplo, está em vigor desde 2001, após os ataques às Torres Gêmeas, em Nova York.\nNo Brasil, ela entra em vigor em 14 de setembro. Em entrevista à BBC News Brasil, o superintendente da Anac afirma que a medida atende a pedidos dos próprios passageiros e das empresas, diante do aumento dos conflitos no ar.\nSegundo a Associação Brasileira das Empresas Aéreas (Abear) — que representa Latam, Gol e Azul —, foram registrados, em 2025, 1.764 casos de tumultos, brigas e depredações em aviões e aeroportos brasileiros, ante 1.059 em 2024, o que representa uma alta de 66,57% em um ano.\n\"Já tivemos de tudo, desde confusão entre passageiros até disparo acidental de arma e alarme falso de bomba na aeronave, provocado por um passageiro que queria pregar uma peça\", relata Giovano Palma, superintendente da Anac.\nPalma explica que, nas circunstâncias atuais, uma simples briga que obrigue a aeronave a retornar ao aeroporto de origem não apenas causa transtorno para todos os passageiros daquele voo e do seguinte, que utilizaria o mesmo avião, como também obriga a companhia aérea a reacomodar em outra viagem até mesmo quem provocou o conflito.\n\"Além disso, as contramedidas que você consegue adotar são poucas, porque você está dentro de um avião, no ar. O risco para a operação é muito grande, então a gente buscou focar esses casos gravíssimos quando pensamos na lista de proibição de voo\", acrescenta.\nAs sanções administrativas da Anac foram criadas principalmente para atos de indisciplina em voos domésticos regulares e em aeroportos brasileiros — inclusive nas áreas em aeroportos destinadas a passageiros de voos internacionais.\nMas as regras não se aplicam a voos internacionais. \nEntenda, a seguir, como funcionará a nova resolução da Anac e o que muda para os passageiros.\nCasos de conflitos em aviões e aeroportos cresceram 66,57% no último ano no Brasil\nPablo Porciuncula/AFP via Getty Images\n1. O que pode gerar multa\nAtos de indisciplina considerados graves vão gerar uma multa de R$ 17,5 mil ao passageiro. São eles:\nViolência física contra funcionários de companhias aéreas ou aeroportos;\nViolência física contra outro passageiro dentro do avião;\nFumar a bordo;\nDanificar ou destruir intencionalmente bens da aeronave, quando isso afeta a operação;\nAmeaçar ou intimidar um membro da tripulação, de forma que afete a segurança do voo;\nFazer falsa comunicação de bomba, explosivos ou armas dentro do avião.\n2. O que pode gerar a suspensão de um passageiro\nAtos de indisciplina considerados gravíssimos levarão o cliente à lista de proibição de voo. A sanção será aplicada pela companhia aérea em que ocorreu o conflito e compartilhada com as demais empresas, que serão obrigadas a barrar aquele passageiro também.\nIsso impedirá o cliente de emitir passagens, fazer check-in e embarcar durante o período da suspensão, que varia de seis meses a um ano.\nSe o passageiro já tiver comprado uma passagem para o período, aliás, terá direito ao reembolso integral, que inclui as tarifas aeroportuárias.\nMas o cliente não receberá qualquer ressarcimento relacionado ao voo em que ocorreu o ato de indisciplina, o que se aplica no caso de conexões ou escalas e haja o impedimento de seguir a viagem.\nO que pode levar à suspensão por 6 meses:\nAdulterar, danificar ou destruir um dispositivo de segurança do avião, mas sem impedir ou dificultar a operação;\nAgredir fisicamente um membro da tripulação, como comissários e pilotos, mas sem impedir ou dificultar a operação;\nCometer violência ou atentado contra a dignidade sexual de tripulante ou passageiro, violando sua integridade física, psíquica ou liberdade sexual.\nO que pode levar à suspensão por um ano:\nAdulterar, danificar ou destruir dispositivo de segurança do avião e isso impedir ou dificultar a operação;\nAgredir fisicamente um membro da tripulação e, com isso, impedir ou dificultar a operação;\nLevar ou manusear explosivos ou armas dentro do avião, salvo exceções previstas em regulamentação;\nEntrar ou tentar entrar na cabine de comando sem autorização;\nFazer qualquer tentativa ilegal de tomar o controle da aeronave.\nProibição de voar será imposta a passageiros que cometerem infrações gravíssimas durante o voo\nTon Molina/NurPhoto via Getty Images\n3. Como serão aplicadas a multa e a suspensão\nA multa será aplicada pela Anac, por meio de um processo administrativo que vai apurar a infração. A companhia aérea ou o aeroporto deverá comunicar o ocorrido à agência e fornecer as evidências necessárias para comprovar o ato de indisciplina e identificar o passageiro.\nJá a inclusão na lista de proibição de voar será feita pela própria companhia aérea responsável pelo voo, em até cinco dias após a infração, em um sistema compartilhado pelas empresas.\nO passageiro deverá ser comunicado da decisão, com a descrição do ocorrido e os canais para reclamação. Ele terá direito à defesa, e a companhia terá até cinco dias para responder à reclamação.\nSe rever sua decisão, deverá retirar imediatamente o passageiro da lista. O cerceamento do direito de defesa ou a falta de comunicação ao passageiro poderá resultar em multa de R$ 35 mil para a empresa.\nEm casos de infrações graves e gravíssimas, as companhias e os aeroportos terão de guardar por cinco anos os registros que comprovem a ocorrência e a autoria do ato.\nAs próprias empresas também poderão ser multadas se descumprirem as regras. Não aplicar a suspensão em um caso gravíssimo, por exemplo, poderá resultar em multa de R$ 70 mil. Já o descumprimento da obrigação de aderir ao sistema de compartilhamento de dados poderá gerar multa de R$ 70 mil por mês.\nTodas essas medidas passarão por uma reavaliação após dois anos de vigência da resolução. A Anac ficará encarregada de produzir um relatório sobre a eficácia e os resultados das regras e indicar possíveis mudanças.\nInfrações cometidas no aeroporto não resultarão em proibição de voar, mas podem render multa de até R$ 17,5 mil\nCris Faga/NurPhoto via Getty Images\n4. Como o passageiro pode se defender\nDiretor-executivo do Procon, Luiz Orsatti diz que, \"por ser uma agência federal, a Anac tem todo o poder para regulamentar o setor, porque há fundamento legal, mas essa regulamentação não pode contradizer o Código de Defesa do Consumidor\".\nA principal preocupação de alguns passageiros é que, por se tratar de um processo conduzido por pessoas, haja exageros por parte de funcionários dos aeroportos ou das companhias aéreas, que poderiam enquadrar os clientes de maneira indevida.\n\"Os fatos são objetivos, mas, no calor do caso, pode haver uma interpretação um pouco mais subjetiva\", reconhece Orsatti.\nPor isso, diz ele, qualquer passageiro que se sentir lesado pela aplicação de uma multa ou restrição pode, além de recorrer à própria companhia aérea e à Anac, buscar ajuda do Procon e da Justiça \"para que discuta não a legalidade da punição\", mas sua aplicação.\nEle acrescenta que o Procon foi procurado pela Anac durante a elaboração das regras e sugeriu que houvesse uma ressalva à proibição de voo para questões de caráter humanitário, mas não encontrou apoio das demais entidades envolvidas no processo.\nA exceção se aplicaria, por exemplo, ao caso de um passageiro que precise viajar de avião para fazer um tratamento médico ou para uma transferência que exija rapidez.\nComo essa ressalva não está prevista na resolução da Anac, esse passageiro agora precisaria tentar convencer as companhias a vender a passagem nos balcões de atendimento ou por telefone — o que, reconhece o diretor do Procon, deve ser difícil. A orientação, então, é procurar o plantão do Judiciário em busca de uma liminar.\nContratos de transporte deverão ser alterados em razão da Lei Geral de Proteção de Dados (LGPD)\nRenato Pajuelo/AFP via Getty Images\n5. Como ficará a proteção de dados pessoais\nA resolução da Anac não especifica como funcionará o sistema de compartilhamento de dados entre as companhias aéreas nos casos de inclusão de passageiros na lista de proibição de voo.\nQuestionada pela BBC News Brasil, a Anac disse que \"a ferramenta em questão está sendo desenvolvida em conjunto entre companhias e a Empresa Nacional de Inteligência em Governo Digital e Tecnologia da Informação\".\nA resolução, porém, não traz detalhes sobre a proteção dos dados pessoais dos passageiros para garantir o cumprimento da Lei Geral de Proteção de Dados, conhecida como LGPD.\nA Anac também não esclareceu quais dados dos passageiros incluídos na lista seriam compartilhados entre as companhias aéreas. À BBC, afirmou que \"haverá mudanças nos contratos de transporte aéreo e, caso necessário, ajustes devido à LGPD\".\nO contrato de transporte aéreo é o documento que todos os passageiros aceitam ao comprar uma passagem.\nArte por Daniel Arce Lopez, da equipe de Jornalismo Visual da BBC News Brasil\nLEIA TAMBÉM:\nÔnibus atinge asa de avião da Gol durante embarque no Aeroporto Internacional de SP, em Guarulhos",
+                "caption": "Medida entra em vigor em setembro e também prevê multas de R$ 17,5 mil para casos de conflitos menos graves durante o voo ou o embarque.",
+                "issued": "2026-08-20T10:28:41.296Z",
+                "modified": "2026-08-20T10:38:32.283Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "Turismo e Viagem",
+                  "G1",
+                  "Mundo"
+                ],
+                "species": "Matéria",
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/B/5/XKHZ9iQLeOboTaOjr7YQ/9088e0c0-9bed-11f1-aed2-8d6da8d75094.jpg.webp",
+                "title": "Brigou no avião? Você poderá ficar até um ano proibido de voar; entenda, em cinco pontos, a nova regra da Anac",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=d948d726fe78bcc0f87cb063dba8a52f206a01ec9517d79d9a9a6feea4c2857348efb8bd69910a2e90f6f214971f96c0b9531483d5baa16270ab0ddf37745e28&k=globocom.busca-headless&pa=3&po=6&q=lgpd&qid=g1.info_query_recency&rid=75be7c8703e5024c254df47f72acff99&t=g1&ts=1789589662&u=https%3A%2F%2Fg1.globo.com%2Fturismo-e-viagem%2Fnoticia%2F2026%2F08%2F20%2Fbrigou-no-aviao-voce-podera-ficar-ate-um-ano-proibido-de-voar-entenda-em-cinco-pontos-a-nova-regra-da-anac.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "Contratos de transporte deverão ser alterados em razão da Lei Geral de Proteção de Dados (<em>LGPD</em>)\nRenato Pajuelo/AFP via Getty Images",
+                  "À BBC, afirmou que \"haverá mudanças nos contratos de transporte aéreo e, caso necessário, ajustes devido à <em>LGPD</em>\"."
+                ]
+              }
+            },
+            {
+              "_id": "07886a12-188b-4d52-9b9f-cf2137701fa3",
+              "_score": 814.88837,
+              "_source": {
+                "body": "Motorista de caminhonete persegue e esfaqueia motoboy em pizzaria após briga de trânsito\nO motorista de uma caminhonete perseguiu e esfaqueou um motoboy na frente de uma pizzaria após uma briga de trânsito e foi encontrado e preso com ajuda de inteligência artificial (IA). \nO crime aconteceu na noite de quarta-feira (19) em Guarapuava, na região central do Paraná, e foi filmado por uma câmera de segurança. Assista acima.\nApós a agressão o homem fugiu do local, mas foi localizado pela Polícia Militar (PM) na cidade vizinha de Turvo, que fica a cerca de 40 km.\nO motoboy ficou ferido, recebeu atendimento médico na Unidade de Pronto Atendimento (UPA) de Guarapuava e recebeu alta. O nome do motorista da caminhonete não foi divulgado.\n✅ Siga o g1 Ponta Grossa e região no WhatsApp\n\"A ocorrência teve início após um desentendimento entre os dois homens no bairro Vila Bela. O motociclista teria parado para dar preferência a um pedestre, irritando o motorista de uma caminhonete. Após a discussão, o condutor da caminhonete foi até a pizzaria onde o motociclista trabalha e o golpeou no ombro com uma arma branca\", explica a polícia.\nCom as informações do veículo do agressor, os policiais do 16º Batalhão da PM iniciaram uma busca pela região. Com o cruzamento de dados das imagens da rede de câmeras inteligentes com as informações da caminhonete, o veículo foi localizado na rodovia em direção a Turvo.\nOs policiais afirmam que a plataforma também os ajudou a planejarem as possíveis rotas do suspeito; ele foi localizado e abordado com apoio da equipe do Choque, cerca de duas horas após a agressão. Ele foi preso em flagrante por lesão corporal.\nLeia também:\nFenômeno climático: El Niño se intensifica e vai provocar mais tempestades fortes no Paraná até o início de 2027\nAcidente com 23 mortos: 'Ter sobrevivido a um acidente desta magnitude não tem explicação', diz jovem que estava no micro-ônibus \nLuto: Veja quem eram as 23 pessoas que morreram no acidente entre micro-ônibus e carreta\nCrime foi registrado por câmera de segurança\nReprodução\nUso de IA na polícia do Paraná\nO sistema de inteligência artificial utilizado pelas forças de segurança do Paraná é coordenado de forma integrada pela Secretaria da Segurança Pública (Sesp), pela Secretaria das Cidades e pela Superintendência-Geral de Governança de Serviços e Dados (SGGSD), com operação em conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD).\n\"Ele atua como recurso auxiliar às investigações e ações policiais, com foco no monitoramento de veículos, identificação de suspeitos e localização de criminosos com mandados de prisão. A tecnologia apoia o trabalho das polícias Militar e Civil na identificação e na localização de veículos e suspeitos, cruzando dados, e mantendo os agentes de segurança como protagonistas das ações\".\nVídeos mais assistidos do g1 Paraná:\nd\nLeia mais notícias em g1 Campos Gerais e Sul",
+                "caption": "Crime foi registrado por câmera de segurança. Segundo a polícia, desentendimento iniciou porque motociclista parou para dar preferência a um pedestre e motorista da caminhonete se irritou. Ele foi preso em flagrante. ",
+                "issued": "2026-08-21T14:51:24.958Z",
+                "modified": "2026-08-21T14:51:44.315Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "PR",
+                  "Campos Gerais e Sul",
+                  "G1",
+                  "PR",
+                  "Paraná",
+                  "G1",
+                  "PR",
+                  "Norte e Noroeste",
+                  "G1",
+                  "PR",
+                  "Oeste e Sudoeste"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "9pj6f",
+                        "text": "O motorista de uma caminhonete esfaqueou um motoboy após uma briga de trânsito na quarta-feira (19) em Guarapuava. ",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "etln8",
+                        "text": "Ele fugiu do local, mas foi localizado e preso com auxílio de um sistema de inteligência artificial da polícia.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "a3ro2",
+                        "text": "O motoboy recebeu atendimento médico e recebeu alta.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/S/x/mBpBnLTCSIWBE3bNc9fw/g1-35-.png",
+                "title": "Motorista de caminhonete persegue e esfaqueia motoboy em pizzaria no PR após briga de trânsito e é encontrado com ajuda de IA",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=f4ea3020ab0e3b36bc8ca7680174df43090bd4311bd26fd7e94d1b426ed3aacb9cf3ebaf3250962b9196fbd0e769aa9a4b6ed7db884df28d11352ef5ddb9134e&k=globocom.busca-headless&pa=3&po=7&q=lgpd&qid=g1.info_query_recency&rid=75be7c8703e5024c254df47f72acff99&t=g1&ts=1789589662&u=https%3A%2F%2Fg1.globo.com%2Fpr%2Fcampos-gerais-sul%2Fnoticia%2F2026%2F08%2F21%2Fmotorista-de-caminhonete-persegue-e-esfaqueia-motoboy-em-pizzaria-no-pr-apos-briga-de-transito-e-e-encontrado-com-ajuda-de-ia.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "Superintendência-Geral de Governança de Serviços e Dados (SGGSD), com operação em conformidade com a Lei Geral de Proteção de Dados Pessoais (<em>LGPD</em>"
+                ]
+              }
+            },
+            {
+              "_id": "e2b64b01-ce9f-4a86-9d2c-d4f064acd3a5",
+              "_score": 793.8009,
+              "_source": {
+                "body": "Empresário Du Pereira oficializa candidatura ao governo\nReprodução/Instagram Du Pereira\nA criação de um painel público de obras, a estruturação de um escritório estadual de projetos para auxiliar prefeituras e a realização de um diagnóstico completo das rodovias e pontes do Tocantins estão entre as principais promessas do plano de governo de Du Pereira (DC). O documento foi registrado pelo candidato no Tribunal Superior Eleitoral (TSE) para as eleições de 2026.\nTodos os candidatos ao governo são obrigados a apresentar um plano de governo para registrar a candidatura na Justiça Eleitoral. Os documentos estão disponíveis para consulta pública na plataforma de dados Divulgacand, do Tribunal Superior Eleitoral (TSE). \n📱 Clique aqui para seguir o canal do g1 TO no WhatsApp\nO programa de governo de Du Pereira possui 40 páginas e é estruturado em 12 eixos temáticos, que reúnem propostas com metas, indicadores sugeridos e fontes de financiamento. Veja o plano completo.\nOs 12 eixos apresentados pelo candidato abrangem:\nGovernança, municipalismo, transparência e estado digital;\nEducação, juventude, ciência e tecnologia;\nSaúde e qualidade de vida;\nSegurança pública, justiça, defesa civil e proteção;\nDesenvolvimento social, direitos humanos e inclusão;\nInfraestrutura, logística, mobilidade e conectividade;\nHabitação, regularização fundiária, saneamento e cidades;\nDesenvolvimento econômico, emprego, indústria, tributação e energia;\nAgronegócio, agricultura familiar e desenvolvimento rural;\nMeio ambiente, água, clima e proteção animal;\nDesenvolvimento regional e redução das desigualdades;\nCultura, turismo, esporte, comunicação e economia criativa.\nAgora no g1\nPara orientar a execução das metas e sinalizar à sociedade o que a candidatura considera prioritário, o documento traz um capítulo específico intitulado \"20 Entregas Prioritárias do Mandato\".\nA lista é encabeçada pela implantação do Painel público de metas, obras e execução do Plano de Governo. O candidato foca em transparência ativa, o controle social e a fiscalização de prazos, custos e aditivos contratuais em tempo real.\nO programa de governo enfatiza a descentralização dos serviços públicos informando que pretende romper com a dependência da capital, buscando o fortalecimento dos 139 municípios tocantinenses. O texto traz ainda uma \"matriz de conformidade jurídica\" com garantias que impedem promessas sem previsão orçamentária no Plano Plurianual (PPA), na Lei de Diretrizes Orçamentárias (LDO) e na Lei Orçamentária Anual (LOA).\nLEIA TAMBÉM:\nDorinha fala em continuidade, Laurez destaca parcerias e Vicentinho aposta em renovação no primeiro dia de campanha na TV\nQuaest no TO: 61% aprovam e 21% desaprovam governo de Wanderlei Barbosa\nQuaest no TO: Lula, 37%; Flávio Bolsonaro, 32%; Ronaldo Caiado, 7%; Renan Santos; 3%\nConfira abaixo o resumo dos principais eixos do programa de governo do candidato do DC:\nGovernança, transparência e municipalismo\nO primeiro eixo do plano propõe uma reforma na gestão pública estadual, priorizando a modernização administrativa, a cooperação com prefeituras e a transformação digital. Entre as principais propostas desse eixo estão:\nImplantar o Escritório Estadual de Projetos e Investimentos, oferecendo suporte técnico de engenharia, arquitetura e captação de recursos para o Estado e pequenos municípios;\nLançar o Portal Tocantins Transparente 2.0 e o Aplicativo Único do Cidadão, integrando os serviços estaduais à plataforma GOV.BR;\nEstabelecer a Política Estadual de Dados e Inteligência Artificial, garantindo o uso ético da tecnologia para serviços públicos com supervisão humana e conformidade com a LGPD;\nCriar o Centro Estadual de Cibersegurança para proteção de sistemas críticos e fortalecimento dos mecanismos de integridade e combate à corrupção (Lei nº 14.133/2021);\nAmpliar a rede credenciada do plano de saúde dos servidores estaduais (SERVIR) nas cidades do interior.\nEducação, juventude, ciência e tecnologia\nO segundo eixo concentra ações voltadas à alfabetização na idade certa, expansão do ensino em tempo integral e qualificação profissional dos jovens. Entre as principais promessas desse eixo estão:\nCriar cinco Polos Estaduais de Formação Técnica em parceria com o IFTO, Unitins e Sistema S, oferecendo itinerários formativos do Novo Ensino Médio voltados a vocações como agronegócio, logística, energias renováveis e tecnologia;\nFortalecer o programa Tocantins Alfabetiza, prestando cooperação técnica e financeira intensiva aos municípios com menores índices de alfabetização;\nImplementar o programa Escola Conectada, levando internet banda larga e infraestrutura digital a 100% das unidades da rede estadual, incluindo escolas rurais, indígenas e quilombolas;\nCriar laboratórios de robótica, programação e inteligência artificial por meio do projeto Escola do Futuro;\nEstruturar o programa Professor que Transforma, com premiação por boas práticas e evolução escolar, além de parcerias com universidades públicas para oferta de mestrado e doutorado aos docentes da rede;\nLançar o programa Juventude Primeiro Passo, criando oportunidades de estágio e jovem aprendiz com seleção impessoal.\nSaúde e qualidade de vida\nO terceiro eixo estratégico estabelece como diretrizes centrais a descentralização dos serviços de média e alta complexidade, a eliminação do represamento cirúrgico e o atendimento digital. Entre as principais promessas desse eixo estão:\nImplantar o programa Saúde Perto de Casa, estruturando especialidades médicas e procedimentos nos hospitais regionais para reduzir a necessidade de viagens de pacientes a Palmas;\nCriar o sistema fila transparente, permitindo que o cidadão consulte digitalmente sua posição nas filas de consultas, exames e cirurgias eletivas;\nExecutar o Programa Permanente de Redução de Filas, realizando mutirões contínuos e contratualização complementar com a rede hospitalar privada e municipal;\nExpandir a rede TeleSaúde Tocantins, garantindo consultas com médicos especialistas e telediagnósticos para municípios remotos;\nReestruturar a rede materno-infantil, ampliando leitos de UTI neonatal e pediátrica e qualificando o atendimento ao pré-natal de alto risco;\nCriar centros regionais para diagnóstico precoce e terapias de reabilitação voltadas a pessoas com deficiência e com Transtorno do Espectro Autista (TEA).\nSegurança pública, justiça e proteção social\nO quarto e o quinto eixos do plano tratam da integração das forças policiais, inteligência investigativa, combate a crimes patrimoniais no campo e amparo aos cidadãos em vulnerabilidade. Entre as principais promessas dessas áreas estão:\nArticular o programa Tocantins Seguro, unificando operações e metas regionais entre Polícia Militar, Polícia Civil, Polícia Penal, Bombeiros e Perícia Técnica com georreferenciamento de manchas criminais;\nFocar as ações de inteligência na desarticulação financeira e patrimonial de facções criminosas, tráfico de drogas, lavagem de dinheiro e roubo de cargas;\nIntensificar o patrulhamento ostensivo rural e monitoramento tecnológico de divisas para coibir o furto de maquinários, gado e insumos agrícolas;\nPlanejar concursos públicos periódicos pautados no déficit real de efetivo e na Lei de Responsabilidade Fiscal;\nRegionalizar delegacias e núcleos de atendimento à mulher (combate ao feminicídio), proteção à infância e enfrentamento a golpes cibernéticos contra idosos;\nInfraestrutura, logística e transportes\nO sexto eixo do programa reúne os projetos voltados à recuperação da malha viária estadual, intermodalidade de transporte e transparência em obras públicas. Entre as principais promessas desse eixo estão:\nRealizar o mapeamento georreferenciado e diagnóstico estrutural de 100% da malha rodoviária estadual;\nExecutar o programa Estrada Boa, adotando contratos contínuos de conservação por nível de serviço e desempenho das empresas;\nImplementar o programa Pontes Seguras, realizando inventário técnico para substituição e recuperação de pontes de madeira e estruturas em risco;\nViabilizar uma solução definitiva de engenharia para a travessia e ligação viária da TO-010 na região de Rio Sono;\nRequalificar os acessos rodoviários aos terminais e pátios multimodais de carga da Ferrovia Norte-Sul;\nPavimentar e conservar corredores de escoamento da produção e acessos aos polos turísticos do Jalapão, Serras Gerais e Cantão;\nDisponibilizar o Painel Público de Obras, com imagens, medições e demonstrativos de custos abertos à fiscalização da sociedade.\nHabitação, regularização fundiária e saneamento\nNo sétimo eixo, o candidato propõe medidas conjuntas com os municípios para diminuir o déficit habitacional urbano e destravar títulos de propriedade. Entre as principais promessas desse eixo estão:\nEstruturar a carteira estadual Morar Tocantins, mapeando terrenos públicos dotados de infraestrutura para construção de unidades habitacionais;\nCriar o Escritório de REURB para Pequenos Municípios, disponibilizando equipes volantes de engenharia e topografia para acelerar a regularização fundiária urbana;\nAtualizar o Plano Estadual de Saneamento e formatar uma carteira regional de projetos para universalização do esgotamento sanitário e tratamento de água;\nApoiar os municípios com convênios para drenagem sustentável, pavimentação urbana e contenção de áreas de risco.\nDesenvolvimento econômico, agronegócio e meio ambiente\nOs eixos econômicos e ambientais reúnem propostas para atrair indústrias, modernizar o agronegócio e promover a conservação ecológica dos biomas tocantinenses. Entre as principais promessas dessas áreas estão:\nImplementar a política Tocantins Transforma, atraindo agroindústrias de esmagamento de grãos, frigoríficos, biocombustíveis e laticínios para agregar valor à produção agrícola local;\nLançar o programa Fornecedor Tocantinense, qualificando micro e pequenas empresas para disputar compras corporativas e licitações públicas com base na legislação nacional;\nReestruturar o Ruraltins e a Adapec, garantindo assistência técnica permanente à agricultura familiar e manutenção de certificados sanitários internacionais;\nDigitalizar integralmente os procedimentos do Naturatins, estabelecendo prazos claros e previsibilidade para a emissão de licenças ambientais sem relaxar o rigor técnico;\nExpandir o programa Produtor de Água, aplicando Pagamento por Serviços Ambientais (PSA) a produtores rurais que conservarem nascentes e matas ciliares no Cerrado;\nAdotar o Manejo Integrado do Fogo (MIF) de forma permanente para prevenção e combate a queimadas florestais em parceria com os Bombeiros e brigadas comunitárias.\nVeja mais notícias da região no g1 Tocantins.",
+                "caption": "Programa de governo enfatiza a descentralização dos serviços públicos informando que pretende romper com a dependência da capital, buscando o fortalecimento dos 139 municípios.",
+                "issued": "2026-09-03T09:01:16.905Z",
+                "modified": "2026-09-03T09:01:20.134Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "TO",
+                  "Tocantins",
+                  "Eleições",
+                  "Eleições 2026 no Tocantins"
+                ],
+                "species": "Matéria",
+                "summaryBlocks": [
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "ejdc9",
+                        "text": "O candidato Du Pereira registrou no TSE seu plano de governo para as eleições de 2026. O documento propõe um escritório de projetos e diagnóstico de rodovias.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "2hfaj",
+                        "text": "Intitulado \"Renovar para Desenvolver\", o programa possui 40 páginas. O texto é estruturado em 12 eixos temáticos.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "80grv",
+                        "text": "O documento destaca 20 entregas prioritárias, lideradas pela implantação de um painel público de metas. A proposta busca transparência e fiscalização de prazos e custos.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  },
+                  {
+                    "blocks": [
+                      {
+                        "data": {},
+                        "depth": 0,
+                        "entityRanges": [],
+                        "inlineStyleRanges": [],
+                        "key": "89o0l",
+                        "text": "O plano adota perfil técnico, visando fortalecer os 139 municípios tocantinenses. Uma matriz de conformidade garante que as promessas tenham previsão no orçamento.",
+                        "type": "unstyled"
+                      }
+                    ],
+                    "entityMap": {}
+                  }
+                ],
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/P/c/yjgFazSAq4Y4mYMNYqaw/image-19-.png",
+                "title": "Plano de governo: Du Pereira promete painel público, escritório estadual de projetos e diagnóstico das rodovias",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=71814d97dfd2f05dab48d6d06c43e4bb8833ba3cc3eb430d45f2b0548e0d66450ca9eb38c6abb7716bda8ac4f18b2f9be77cd8bcb5533293a877cef0bc63a1a7&k=globocom.busca-headless&pa=3&po=8&q=lgpd&qid=g1.info_query_recency&rid=75be7c8703e5024c254df47f72acff99&t=g1&ts=1789589662&u=https%3A%2F%2Fg1.globo.com%2Fto%2Ftocantins%2Feleicoes%2F2026%2Fnoticia%2F2026%2F09%2F03%2Fplano-de-governo-du-pereira-promete-painel-publico-escritorio-estadual-de-projetos-e-diagnostico-das-rodovias.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "e Inteligência Artificial, garantindo o uso ético da tecnologia para serviços públicos com supervisão humana e conformidade com a <em>LGPD</em>"
+                ]
+              }
+            },
+            {
+              "_id": "30ac3e16-0d3f-483e-a1d2-12d2ae65346c",
+              "_score": 792.7932,
+              "_source": {
+                "body": "Latam não revelou quantos clientes foram afetados por vazamento de dados\nGabriel Magacho/Divulgação Aeroporto da Zona da Mata\nA companhia aérea Latam informou nesta quarta-feira (19) que uma falha em seu sistema permitiu que dados de clientes fossem consultados por pessoas não autorizadas. A empresa não informou quantos clientes foram afetados.\nO incidente foi identificado em 29 de julho e expôs dados como nome completo, data de nascimento, e-mail, telefone, endereço residencial, número de sócio e categoria no programa de fidelidade Latam Pass, saldo de milhas e pontos qualificáveis.\n🗒️ Tem alguma sugestão de reportagem? Envie para o g1\n\"Identificou uma situação envolvendo dados pessoais de uma parcela limitada de membros do seu programa de fidelidade\", disse a empresa em nota enviada ao g1. A empresa disse ainda que acionou os clientes afetados e a Agência Nacional de Proteção de Dados (ANPD). (Leia a íntegra ao final da reportagem).\nAgora no g1\nO vazamento permitiu ainda acesso indevido a dados parciais do cartão de crédito, como os primeiros seis e últimos quatro dígitos, bandeira, nome de titular e data de validade. Segundo a Latam, não houve exposição do número completo e do código de segurança do cartão, nem de senhas.\n\"Como algumas informações de contato foram visualizadas, orientamos atenção redobrada quanto a potenciais tentativas de mensagens ou ligações falsas\", afirmou a Latam.\nEm comunicado, a Latam explicou que comunicou o incidente agora depois de realizar uma análise técnica dos registros para saber quais clientes e quais dados foram afetados.\nA empresa disse que, assim que identificou o incidente, bloqueou endereços de IP suspeitos, corrigiu o código-fonte do sistema, aplicou travas adicionais de segurança e notificou o caso à Agência Nacional de Proteção de Dados (ANPD).\nA companhia também orientou que clientes fiquem atentos a eventuais tentativas de golpes que citam dados cadastrais para pedir pagamentos, transferências, senhas ou códigos de confirmação.\n\"A Latam jamais solicita senhas de acesso, tokens enviados por SMS ou dados completos de cartão de crédito por telefone ou aplicativos de mensagens\", afirmou.\nO que diz a Latam\n\"A LATAM Airlines Brasil informa que identificou uma situação envolvendo dados pessoais de uma parcela limitada de membros do seu programa de fidelidade. Em respeito aos clientes e em cumprimento à Lei Geral de Proteção de Dados (LGPD) e a legislação aplicável, a companhia comunicou o público potencialmente afetado e a Agência Nacional de Proteção de Dados (ANPD). Assim que identificou a ocorrência, a empresa adotou medidas imediatas de contenção e cibersegurança.\nA companhia reforça que a segurança e a privacidade dos dados de seus clientes são prioridades e mantém processos contínuos de avaliação e aprimoramento de seus sistemas e controles de proteção de dados.\"",
+                "caption": "Companhia aérea disse que vazamento de dados foi identificado em 29 de julho e recomendou que clientes tenham atenção redobrada a possíveis mensagens ou ligações falsas.",
+                "issued": "2026-08-19T21:26:49.283Z",
+                "modified": "2026-08-20T13:25:38.510Z",
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "Tecnologia",
+                  "G1",
+                  "Economia"
+                ],
+                "species": "Matéria",
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/W/Z/fEp7ieRX66wBzMNIbAmw/gabriel-magachodivulgacao-cazm.jpg",
+                "title": "Latam diz que falha de segurança expôs nome, endereço e parte do cartão de crédito de clientes",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=af0ea7e30811397c4e646ab8b56d404b9fd12f6cedd9a81558b33dca63a23d622b6a6890c51da482ac6b3a14e5433bf36529ed72f393e8b209ce5485b36ab3c2&k=globocom.busca-headless&pa=3&po=9&q=lgpd&qid=g1.info_query_recency&rid=75be7c8703e5024c254df47f72acff99&t=g1&ts=1789589662&u=https%3A%2F%2Fg1.globo.com%2Ftecnologia%2Fnoticia%2F2026%2F08%2F19%2Flatam-incidente-seguranca-dados.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "Em respeito aos clientes e em cumprimento à Lei Geral de Proteção de Dados (<em>LGPD</em>) e a legislação aplicável, a companhia comunicou o"
+                ]
+              }
+            },
+            {
+              "_id": "fbf4546e-c866-4308-bbf9-05d2f2cf7f47",
+              "_score": 777.4577,
+              "_source": {
+                "body": "A HostDime Brasil foi a primeira empresa do Brasil a conquistar a ISO 27701, da LGPD.\nFreepik\nA Lei Geral de Proteção de Dados (LGPD) trouxe um novo cenário para empresas que lidam com dados pessoais no Brasil. Desde sua implementação, tornou-se essencial que as empresas adotem práticas rigorosas de segurança para garantir a proteção de dados e compliance com a legislação. Para muitas organizações, o maior desafio é garantir que sua infraestrutura de TI esteja adequadamente alinhada à LGPD.\nA HostDime Brasil não apenas atendeu a essa exigência, mas também se antecipou a ela, sendo a primeira empresa no Brasil a conquistar a ISO 27701, a certificação específica para a LGPD. Isso significa que a HostDime já garante conformidade total com a legislação, permitindo que empresas que migram para seus serviços fiquem tranquilas quanto à proteção de seus dados pessoais.\nPor que a HostDime é a escolha ideal para garantir conformidade com a LGPD\nSe sua empresa está em busca de um parceiro estratégico para garantir a segurança e conformidade com a LGPD, a HostDime é a escolha ideal. Além de ser a primeira no Brasil a obter a certificação ISO 27701, que valida o compromisso com a privacidade dos dados, a HostDime oferece um data center certificado, com infraestrutura robusta e tecnologia de ponta para suportar operações de missão crítica.\nAo migrar para a HostDime, sua empresa se beneficia de um ambiente totalmente alinhado com a LGPD, com controle completo sobre dados, segurança de nível internacional e infraestrutura escalável. A HostDime oferece soluções personalizadas, como servidores dedicados, colocation e nuvem privada, todas projetadas para atender aos mais altos padrões de segurança e conformidade.\nComo a HostDime garante a proteção de dados e conformidade com a LGPD\nA certificação ISO 27701 da HostDime atesta que a empresa segue rigorosos protocolos de proteção e que todos os processos envolvidos no tratamento de dados pessoais estão em total conformidade com as exigências da LGPD. Isso inclui:\nColeta e armazenamento responsável de dados pessoais.\nConsentimento explícito dos titulares dos dados para o tratamento de informações sensíveis\nPolíticas claras de acesso e segurança dos dados, com criptografia e controle de acessos.\nProcedimentos bem definidos para atender solicitações de acesso, correção ou exclusão de dados.\nTransparência total nas práticas de privacidade e proteção de dados.\nVantagens de migrar para a HostDime\nMigrar para um data center especializado e já alinhado com a LGPD traz diversas vantagens para as empresas. Além da conformidade legal, que evita multas e problemas jurídicos, as empresas que optam pela HostDime ganham:\nSegurança avançada com certificações internacionais de proteção de dados.\nAlta disponibilidade e confiabilidade para operações de missão crítica.\nEscalabilidade para atender às crescentes necessidades de dados, especialmente em ambientes de inteligência artificial (IA) e big data.\nRedução de riscos ao minimizar a exposição a ciberameaças e ataques.\nEconomia de custos operacionais com soluções de infraestrutura compartilhada e tecnologia eficiente.\nA HostDime está pronta para atender às necessidades de sua empresa\nCom data centers próprios no Brasil, a HostDime oferece soluções de TI robustas e seguras, ideais para empresas que buscam conformidade com a LGPD. Além disso, com suporte especializado e infraestrutura personalizada, a empresa se destaca por atender a diversos setores, incluindo saúde, finanças, indústria e e-commerce, oferecendo soluções escaláveis, seguras e sustentáveis.\nSaiba mais sobre como a HostDime pode ajudar sua empresa a garantir conformidade com a LGPD e proteger os dados pessoais de seus clientes em www.hostdime.com.br",
+                "caption": "A HostDime foi a primeira empresa no Brasil a conquistar a ISO 27701, garantindo conformidade com a LGPD. ",
+                "issued": "2025-05-21T20:56:11.154Z",
+                "modified": "2025-05-21T20:56:11.645Z",
+                "pubeditorial": {
+                  "anunciante": {
+                    "logo_grande": "https://s2-g1.glbimg.com/WsL_F8J9zHg1yHvQ5Bf5lt0t3zs=/600x0/filters:quality(50)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/h/2/7P3BpwRJ28VFQmf1VvAQ/logo-150x150px.png",
+                    "logo_pequeno": "https://s2-g1.glbimg.com/WsL_F8J9zHg1yHvQ5Bf5lt0t3zs=/600x0/filters:quality(50)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/h/2/7P3BpwRJ28VFQmf1VvAQ/logo-150x150px.png",
+                    "nome": "HostDime",
+                    "url": "https://www.hostdime.com.br/"
+                  },
+                  "data_vencimento": "2025-06-30T03:00:00.000Z",
+                  "nome": "HostDime"
+                },
+                "publisher": "G1",
+                "section": [
+                  "G1",
+                  "PB",
+                  "Paraíba",
+                  "Especial Publicitário",
+                  "HostDime"
+                ],
+                "species": "Matéria",
+                "thumbnail": "https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/r/P/5xITdgQ0yGmArxljMmAg/iamgem-1.png",
+                "title": "LGPD em TI: Como empresas podem garantir conformidade com suas operações",
+                "url": "https://measures.globo.com/v1/click?c=busca-headless&h=3d85a5b5f372662fc1fa869cc26247cd084a066b831283b65cd2b928c74a48245b7949424ee70fb4e93bc06716c9fa327cdae5c6cceb317cedfebaf96ecd1c88&k=globocom.busca-headless&pa=3&po=10&q=lgpd&qid=g1.info_query_recency&rid=75be7c8703e5024c254df47f72acff99&t=g1&ts=1789589662&u=https%3A%2F%2Fg1.globo.com%2Fpb%2Fparaiba%2Fespecial-publicitario%2Fhostdime%2Fnoticia%2F2025%2F05%2F21%2Flgpd-em-ti-como-empresas-podem-garantir-conformidade-com-suas-operacoes.ghtml"
+              },
+              "highlight": {
+                "body": [
+                  "A HostDime Brasil foi a primeira empresa do Brasil a conquistar a ISO 27701, da <em>LGPD</em>.",
+                  "para garantir a segurança e conformidade com a <em>LGPD</em>, a HostDime é a escolha ideal."
+                ]
+              }
+            }
+          ],
+          "max_score": 18416.168,
+          "total": {
+            "relation": "eq",
+            "value": 1219
+          }
+        },
+        "aggregations": {
+          "species": {
+            "buckets": [
+              {
+                "doc_count": 1124,
+                "key": "Matéria"
+              },
+              {
+                "doc_count": 73,
+                "key": "Vídeo On Demand"
+              },
+              {
+                "doc_count": 22,
+                "key": "Blog"
+              }
+            ],
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0
+          }
+        }
+      },
+      "status": 200
+    }
+  ]
+}
