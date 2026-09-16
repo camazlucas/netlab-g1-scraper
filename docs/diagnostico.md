@@ -69,21 +69,37 @@ Os HTMLs brutos ficam em `data/baseline/html/`.
 
 ## 6. Revisão do código original
 
-## 6. Revisão do código original
+### 6.1 Bugs internos (falhariam mesmo com o site intacto)
 
-Esta primeira versão do diagnóstico documenta apenas os problemas que serão corrigidos
-nesta etapa. Os demais pontos levantados na revisão seguem em avaliação e podem ser
-incluídos em versões posteriores.
+| # | Problema | Efeito |
+|---|----------|--------|
+| B1 | `resultados = dados_pagina` sobrescreve a lista a cada página | Só a última página seria salva (correto: `extend`) |
+| B2 | Sem `timeout`, `try/except` nem `raise_for_status()` | Erros HTTP (403, 404, página de bloqueio) viram "0 resultados" sem aviso; a falha fica silenciosa |
+| B3 | URL montada por concatenação | Termos com espaço ou acento quebram a busca (usar `params=`) |
+| B4 | `executar()` no nível do módulo, sem `if __name__ == "__main__"` | Importar o módulo dispara a coleta; impede testes |
+| B5 | Coleta, parsing e gravação na mesma função | Dificulta testar cada etapa isoladamente |
 
-| # | Problema | Efeito | Correção |
-|---|----------|--------|----------|
-| B1 | `resultados = dados_pagina` sobrescreve a lista a cada página | Só a última página seria salva | `resultados.extend(dados_pagina)` |
-| B4 | `executar()` chamado no nível do módulo | Importar o arquivo dispara a coleta; o pytest faria requisições reais | `if __name__ == "__main__":` (será resolvido na modularização) |
-| B5 | Requisição, parsing e gravação na mesma função | Não é possível testar a extração com HTML salvo | Separar rede, extração e gravação em funções distintas (será resolvido na modularização) |
-| M2 | CSV aberto sem `encoding` e `newline` | No Windows, usa cp1252 (falha com caracteres fora da tabela, como emoji) e gera linhas em branco entre registros. Só se manifesta quando houver dados a gravar | `open(caminho, "w", encoding="utf-8", newline="")` |
+### 6.2 Problemas mascarados (só aparecem quando houver cards)
 
-**Observação:** essas correções não resolvem o CSV vazio. A causa do resultado vazio
-será investigada na seção 7.
+| # | Problema | Efeito esperado |
+|---|----------|-----------------|
+| M1 | `.find(...).get_text()` encadeado | `AttributeError` se um campo faltar em um card |
+| M2 | CSV sem `encoding="utf-8"` e `newline=""` | No Windows: cp1252 (erro com emoji etc.) e linhas em branco |
+| M3 | Sem `.strip()` nem deduplicação | Espaços extras e resultados repetidos entre páginas |
+| M4 | `href` usado sem normalização | Links relativos ou de redirecionamento |
+| M5 | `datetime.now()` sem fuso | Horário da coleta ambíguo |
+
+### 6.3 Dependentes do site (a verificar)
+
+| # | Ponto | Onde será verificado |
+|---|-------|----------------------|
+| S1 | Seletores `div.resultado`, `div.titulo`, `p.resumo`, `span.data` | Seção 7 |
+| S2 | Ausência de User-Agent (hoje recebe HTTP 200, mas é um risco) | Seção 7 |
+| S3 | `range(5)` começa em `page=0` e não coleta `page=5` | Seção 8 (base da paginação) |
+
+**Conclusão parcial:** o CSV vazio não se explica só pelo código. Mesmo corrigindo B1–B5,
+os seletores não encontram nada (0 `div.resultado`, "lgpd" ausente no HTML), o que aponta
+para mudança no site. B2 explica por que a falha passou despercebida.
 
 ## 7. Mudanças no site
 
@@ -181,5 +197,5 @@ entre outros. `total` = 1219 resultados para "lgpd".
 
 - O arquivo `paginacao_size_500.json` (3,7 MB) não é versionado; pode ser
   regenerado com o script.
-  
+
 Evidências: `data/baseline/api/paginacao_*.json` e `estabilidade_rep_*.json`.
