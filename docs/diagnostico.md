@@ -67,9 +67,23 @@ Os HTMLs brutos ficam em `data/baseline/html/`.
 - O termo "lgpd" não aparece no HTML recebido: hipótese de resultados renderizados via JavaScript (verificar na etapa 3).
 - Nenhum `div.resultado` encontrado; CSV gerado vazio (só cabeçalho).
 
-## 6. Bugs internos do código
+## 6. Revisão do código original
 
-(etapa 2)
+## 6. Revisão do código original
+
+Esta primeira versão do diagnóstico documenta apenas os problemas que serão corrigidos
+nesta etapa. Os demais pontos levantados na revisão seguem em avaliação e podem ser
+incluídos em versões posteriores.
+
+| # | Problema | Efeito | Correção |
+|---|----------|--------|----------|
+| B1 | `resultados = dados_pagina` sobrescreve a lista a cada página | Só a última página seria salva | `resultados.extend(dados_pagina)` |
+| B4 | `executar()` chamado no nível do módulo | Importar o arquivo dispara a coleta; o pytest faria requisições reais | `if __name__ == "__main__":` (será resolvido na modularização) |
+| B5 | Requisição, parsing e gravação na mesma função | Não é possível testar a extração com HTML salvo | Separar rede, extração e gravação em funções distintas (será resolvido na modularização) |
+| M2 | CSV aberto sem `encoding` e `newline` | No Windows, usa cp1252 (falha com caracteres fora da tabela, como emoji) e gera linhas em branco entre registros. Só se manifesta quando houver dados a gravar | `open(caminho, "w", encoding="utf-8", newline="")` |
+
+**Observação:** essas correções não resolvem o CSV vazio. A causa do resultado vazio
+será investigada na seção 7.
 
 ## 7. Mudanças no site
 
