@@ -199,3 +199,39 @@ entre outros. `total` = 1219 resultados para "lgpd".
   regenerado com o script.
 
 Evidências: `data/baseline/api/paginacao_*.json` e `estabilidade_rep_*.json`.
+
+## 9. Amostra de referência (etapa 5)
+
+### 9.1 Objetivo
+Montar um gabarito independente, antes da correção, para medir a qualidade da base gerada pelo scraper corrigido.
+
+### 9.2 Coleta
+- **Fonte:** página renderizada no navegador (janela anônima) em `https://g1.globo.com/busca/?q=lgpd`. A API não foi usada como fonte, para que a comparação não seja circular.
+- **Extração:** texto dos cards via console (`innerText`). A URL real foi decodificada do parâmetro `u=` e conferida abrindo alguns cards, incluindo um vídeo.
+- **Tamanho:** 30 primeiros cards (páginas 0, 1 e 2, equivalentes a `from` = 0, 10, 20).
+- **Arquivo:** `data/reference/amostra_manual.csv` (UTF-8), com as colunas do CSV legado mais `posicao` e `eh_anuncio`. `data_publicacao` foi guardada como exibida, inclusive datas relativas ("há 1 dia").
+- **Snapshot:** logo após a coleta, `scripts/snapshot_referencia.py` salvou as respostas da API em `data/reference/snapshot_from_{0,10,20}.json`, com o horário da coleta.
+- **Fim dos resultados:** não entra na amostra manual (exigiria cerca de 121 carregamentos). É coberto por teste automatizado de contagem (seção 9.4).
+
+### 9.3 Observações
+- **Carregamento:** os primeiros carregamentos são disparados por rolagem infinita, e o botão "Ver mais" só aparece depois. Cada carregamento continua sendo `from` +10 com `size=10`, o que confirma a seção 8.
+- **Cards de vídeo:** usam a classe `li.video-widget--card`, diferente de `li.widget--card`. A amostra tem 4 vídeos, todos em `g1.globo.com`.
+- **Anúncios:** identificados pelo selo "Especial Publicitário". São 5 na amostra (3, 1 e 1 por página), a mesma contagem de hits com `pubeditorial` no snapshot.
+- **Títulos semelhantes:** há itens com títulos quase iguais e URLs diferentes (ex.: vídeo e notícia sobre o vazamento de dados de pessoas com HIV na BA). A deduplicação deve usar a URL, não o título.
+- **Resumo:** o card exibe trechos com o termo buscado, com reticências e trechos unidos por " — ".
+
+### 9.4 Métricas (calculadas após a correção)
+Calculadas sobre os itens com `eh_anuncio = nao`, casando amostra e base pela URL.
+
+| Métrica | Definição | Esperado |
+|---|---|---|
+| Cobertura | Fração das URLs da amostra presentes na base | 100% |
+| Acurácia por campo | Percentual de acertos em `titulo`, `resumo` e `data_publicacao` após normalizar espaços | 100% |
+| Vazamento de anúncios | Itens com `eh_anuncio = sim` presentes na base | 0 |
+| Duplicatas | URLs repetidas na base | 0 |
+
+Critérios de comparação:
+- **Ordem:** não conta como erro, só é registrada, porque a relevância pondera recência.
+- **Data:** comparação pelo dia no fuso `-03:00`. Datas relativas são convertidas a partir de `coletado_em`, com tolerância.
+- **Resumo:** critério (igualdade exata ou tolerante) a definir na comparação, porque o site exibe trechos.
+- **Contagem (teste automatizado):** itens na base + anúncios descartados + duplicatas descartadas = `hits.total.value`.
