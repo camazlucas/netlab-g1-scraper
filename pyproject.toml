@@ -5,7 +5,7 @@ description = "Correção de rotina de web scraping da busca do G1 (desafio NetL
 authors = [{ name = "Lucas Camaz Ferreira" }]
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = ["requests (>=2.34.2,<3.0.0)", "beautifulsoup4 (>=4.15.0,<5.0.0)"]
+dependencies = ["requests (>=2.34.2,<3.0.0)", "beautifulsoup4 (>=4.15.0,<5.0.0)", "tzdata (>=2026.4,<2027.0)"]
 
 [tool.poetry]
 packages = [{ include = "g1_scraper", from = "src" }]
