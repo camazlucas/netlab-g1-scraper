@@ -69,37 +69,111 @@ Os HTMLs brutos ficam em `data/baseline/html/`.
 
 ## 6. Revisão do código original
 
-### 6.1 Bugs internos (falhariam mesmo com o site intacto)
+Esta seção lista os problemas identificados na leitura do código original
+(`legacy/scraper_original.py`), sem executá-lo. Os identificadores atribuídos aqui
+(B, M, S) são usados no restante do documento e nas mensagens de commit.
 
-| # | Problema | Efeito |
-|---|----------|--------|
-| B1 | `resultados = dados_pagina` sobrescreve a lista a cada página | Só a última página seria salva (correto: `extend`) |
-| B2 | Sem `timeout`, `try/except` nem `raise_for_status()` | Erros HTTP (403, 404, página de bloqueio) viram "0 resultados" sem aviso; a falha fica silenciosa |
-| B3 | URL montada por concatenação | Termos com espaço ou acento quebram a busca (usar `params=`) |
-| B4 | `executar()` no nível do módulo, sem `if __name__ == "__main__"` | Importar o módulo dispara a coleta; impede testes |
-| B5 | Coleta, parsing e gravação na mesma função | Dificulta testar cada etapa isoladamente |
+> **Nota de revisão (etapa 6).** As tabelas abaixo foram escritas na etapa 2, antes de
+> a origem dos dados ser conhecida. O inventário de problemas permanece o mesmo — ele
+> descreve o código original, que não mudou —, mas a **coluna de status foi
+> reclassificada** após as seções 7 a 9, por dois motivos:
+>
+> 1. A descoberta de que os resultados vêm da API `busca.globo.com/v1/search`
+>    (seção 7) tornou alguns itens obsoletos: eles descrevem problemas de um caminho
+>    de coleta que deixou de existir.
+> 2. Durante a etapa 2 vigorou uma restrição de escopo deliberada: corrigir apenas
+>    B1, B4, B5 e M2, para não alterar o comportamento do código enquanto o
+>    diagnóstico estava em andamento. Essa restrição valia para a **fase de
+>    diagnóstico**, não para a entrega. Os demais itens foram então marcados como
+>    "adiados", rótulo que não indicava destino. A revisão substitui esse rótulo por
+>    uma classificação com destino explícito.
+>
+> Os itens B6 a B9, M6 e M7 receberam identificador nesta revisão; na versão anterior
+> apareciam sem numeração no texto corrido.
 
-### 6.2 Problemas mascarados (só aparecem quando houver cards)
+### 6.1 Legenda de status
 
-| # | Problema | Efeito esperado |
-|---|----------|-----------------|
-| M1 | `.find(...).get_text()` encadeado | `AttributeError` se um campo faltar em um card |
-| M2 | CSV sem `encoding="utf-8"` e `newline=""` | No Windows: cp1252 (erro com emoji etc.) e linhas em branco |
-| M3 | Sem `.strip()` nem deduplicação | Espaços extras e resultados repetidos entre páginas |
-| M4 | `href` usado sem normalização | Links relativos ou de redirecionamento |
-| M5 | `datetime.now()` sem fuso | Horário da coleta ambíguo |
+| Status | Significado |
+|--------|-------------|
+| **Obrigatório** | Exigido explicitamente pelo enunciado do desafio. Corrigido na etapa indicada. |
+| **Obsoleto** | A mudança da fonte de dados (HTML → API) eliminou o problema. Mantido no registro como histórico. |
+| **Descartado** | Hipótese verificada e afastada, com a evidência registrada na seção indicada. |
+| **Limitação** | Fica fora do escopo desta entrega e é documentado no README. |
 
-### 6.3 Dependentes do site (a verificar)
+### 6.2 Bugs internos (falhariam mesmo com o site intacto)
 
-| # | Ponto | Onde será verificado |
-|---|-------|----------------------|
-| S1 | Seletores `div.resultado`, `div.titulo`, `p.resumo`, `span.data` | Seção 7 |
-| S2 | Ausência de User-Agent (hoje recebe HTTP 200, mas é um risco) | Seção 7 |
-| S3 | `range(5)` começa em `page=0` e não coleta `page=5` | Seção 8 (base da paginação) |
+| # | Problema | Efeito | Status |
+|---|----------|--------|--------|
+| B1 | `resultados = dados_pagina` sobrescreve a lista a cada página | Só a última página seria salva (correto: `extend`) | Obrigatório — etapa 6 |
+| B2 | Sem `timeout`, `try/except` nem `raise_for_status()` | Erros HTTP (403, 404, página de bloqueio) viram "0 resultados" sem aviso; a falha fica silenciosa | Obrigatório — etapa 6 |
+| B3 | URL montada por concatenação, sem *URL encoding* | Termos com espaço ou acento quebrariam a busca (correto: `params=`) | Obsoleto — a consulta agora vai no corpo JSON do POST |
+| B4 | `executar()` no nível do módulo, sem `if __name__ == "__main__"` | Importar o módulo dispara a coleta; impede testes | Obrigatório — etapa 6 |
+| B5 | Coleta, parsing e gravação na mesma função | Dificulta testar cada etapa isoladamente | Obrigatório — etapa 6 |
+| B6 | `TOTAL_PAGINAS` fixo, sem condição de parada derivada da resposta | Coleta páginas inexistentes ou interrompe antes do fim dos resultados | Obrigatório — etapa 6 |
+| B7 | `print` como único mecanismo de log, sem nível nem horário; mensagem final ("Coleta finalizada.") exibida mesmo com zero registros | Impede acompanhar e diagnosticar a execução; mascara o resultado vazio | Obrigatório — etapa 6 |
+| B8 | `sleep(0.2)` fixo e muito curto para um portal de grande porte | Risco de sobrecarga e de bloqueio | Obrigatório — etapa 6 |
+| B9 | Nomes dos campos duplicados entre o dicionário do registro e `fieldnames` | Alterar um exige lembrar do outro; fonte de inconsistência | Obrigatório — etapa 6 (`dataclass` como fonte única) |
 
-**Conclusão parcial:** o CSV vazio não se explica só pelo código. Mesmo corrigindo B1–B5,
-os seletores não encontram nada (0 `div.resultado`, "lgpd" ausente no HTML), o que aponta
-para mudança no site. B2 explica por que a falha passou despercebida.
+### 6.3 Problemas mascarados (só apareceriam quando houvesse resultados)
+
+Na execução original o laço nunca chegou a rodar, porque nenhum card foi encontrado.
+Estes problemas, portanto, não produziram sintoma — mas produziriam assim que a coleta
+voltasse a funcionar. A mudança para a API altera a **forma** de vários deles, não a
+sua existência.
+
+| # | Problema (no código original) | Forma correspondente na coleta via API | Status |
+|---|-------------------------------|----------------------------------------|--------|
+| M1 | `.find(...).get_text()` encadeado lança `AttributeError` se um campo faltar | Chaves ausentes no `_source` de um hit (nem todo hit traz `summaryBlocks`, `issued` etc.) | Obrigatório — etapa 6 |
+| M2 | CSV sem `encoding="utf-8"` e `newline=""` | Inalterado | Obrigatório — etapa 6 |
+| M3 | Sem `.strip()` nos textos e sem deduplicação | `strip` segue necessário; a deduplicação passa a usar a **URL real**, conforme decidido na seção 9 | Obrigatório — etapa 6 |
+| M4 | `href` usado sem normalização (link relativo, de redirecionamento, e `find("a")` pega o primeiro link do card) | O campo `url` do `_source` é link de rastreamento; a URL real está no parâmetro `u=` e precisa ser decodificada | Obrigatório — etapa 6 (deixou de ser opcional: sem isso não há URL real nem chave de deduplicação) |
+| M5 | `datetime.now()` sem fuso horário no campo `coletado_em` | Inalterado | Obrigatório — etapa 6 |
+| M6 | Data de publicação gravada como texto bruto, sem normalização | `issued` vem em ISO, mas com fusos mistos (`Z` e `-03:00`), exigindo normalização para comparação e ordenação | Obrigatório — etapa 6 |
+| M7 | Arquivo de saída com nome fixo, sobrescrevendo coletas anteriores | Inalterado | Obrigatório — etapa 6 (nome com timestamp) |
+
+### 6.4 Dependentes do site
+
+| # | Ponto | Verificação | Status |
+|---|-------|-------------|--------|
+| S1 | Seletores `div.resultado`, `div.titulo`, `p.resumo`, `span.data` não encontram nada | Confirmado na seção 7: os resultados são inseridos via JavaScript e não existem no HTML recebido pelo `requests` | Obsoleto — o caminho HTML foi substituído pela coleta via API |
+| S2 | Ausência de User-Agent de navegador | Testado na seção 7: UA padrão e UA de navegador produzem resposta idêntica | Descartado |
+| S3 | `range(5)` começa em `page=0` e nunca coleta `page=5` | Ver correção de registro abaixo | Descartado |
+
+**Correção de registro — S3.** Na etapa 3, S3 foi descartada com a justificativa de que
+"a paginação do G1 começa em `page=0`". A seção 8 mostrou que essa justificativa está
+errada: o parâmetro `page=N` da URL é **ignorado** pelo site — em `page=0`, `page=1` e
+`page=2` a página envia sempre `from=0` à API. A paginação real ocorre por rolagem
+infinita e pelo botão "Ver mais", que incrementam `from` de 10 em 10. A conclusão
+(S3 não é a causa do CSV vazio) se mantém, mas pelo motivo correto.
+
+### 6.5 Pontos positivos do código original
+
+Registrados para leitura equilibrada do legado:
+
+- imports separados entre biblioteca padrão e externas, conforme a PEP 8;
+- constantes de configuração isoladas no topo do arquivo;
+- uso de `with open(...)`, garantindo o fechamento do arquivo;
+- `csv.DictWriter` com `fieldnames` explícito, fixando a ordem das colunas;
+- campos `pagina` e `coletado_em` já presentes, cobrindo parte da rastreabilidade
+  exigida pelo desafio;
+- pausa entre requisições já prevista, ainda que curta demais (B8).
+
+### 6.6 Escopo consolidado da correção
+
+| Destino | Itens |
+|---------|-------|
+| Etapa 6 (implementação) | B1, B2, B4, B5, B6, B7, B8, B9, M1, M2, M3, M4, M5, M6, M7 |
+| Obsoletos (registro histórico) | B3, S1 |
+| Descartados (hipóteses afastadas) | S2, S3 |
+| Limitações (README, etapa 10) | Uso de API não documentada publicamente; ausência do Beautiful Soup no caminho principal de coleta; exclusão de anúncios da base; teto `from + size ≤ 10000`; variação de `max_score` entre execuções |
+
+### 6.7 Conclusão parcial
+
+O CSV vazio não se explica pelo código sozinho. Mesmo corrigindo B1 a B9 e M1 a M7, os
+seletores não encontrariam nada: o HTML recebido não contém a palavra "lgpd" nem um
+único `div.resultado`. A causa está em mudança no site (S1), detalhada na seção 7; B2 e
+B7 explicam por que a falha passou despercebida, ao transformar a ausência de resultados
+em uma execução aparentemente bem-sucedida.
 
 ## 7. Mudanças no site
 
