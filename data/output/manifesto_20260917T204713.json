@@ -1,0 +1,40 @@
+{
+  "executado_em": "2026-09-17T20:47:13.440771-03:00",
+  "commit": "3c2e66d59629f458a3c01dc3b6fa527165ab4f39",
+  "termo": "lgpd",
+  "parametros": {
+    "size": 10,
+    "max_paginas": 200,
+    "pausa": 1.5,
+    "timeout": [
+      5.0,
+      30.0
+    ],
+    "fuso": "America/Sao_Paulo"
+  },
+  "metricas": {
+    "paginas_coletadas": 122,
+    "paginas_com_falha": 0,
+    "total_declarado": 1219,
+    "registros_brutos": 1021,
+    "registros_na_base": 1015,
+    "duplicados_descartados": 6,
+    "anuncios_filtrados": 198,
+    "registros_sem_url": 0,
+    "campos_ausentes": {
+      "titulo": 0,
+      "url": 0,
+      "resumo": 1,
+      "data_publicacao": 0,
+      "data_atualizacao": 0,
+      "pagina": 0,
+      "posicao": 0,
+      "coletado_em": 0
+    },
+    "motivo_parada": "fim do conjunto (from=1220 >= total=1219)"
+  },
+  "versoes": {
+    "requests": "2.34.2",
+    "beautifulsoup4": "4.15.0"
+  }
+}
