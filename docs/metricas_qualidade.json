@@ -1,0 +1,151 @@
+{
+  "base_avaliada": "g1_lgpd_20260917T204713.csv",
+  "precisao_snapshots": {
+    "encontrados": 25,
+    "total_referencia": 25,
+    "proporcao": 1.0,
+    "faltantes": []
+  },
+  "precisao_amostra_manual": {
+    "encontrados": 25,
+    "total_referencia": 25,
+    "proporcao": 1.0,
+    "faltantes": []
+  },
+  "acuracia": {
+    "pareados": 25,
+    "por_campo": {
+      "titulo": {
+        "iguais": 25,
+        "total": 25,
+        "proporcao": 1.0,
+        "divergentes": []
+      },
+      "resumo": {
+        "iguais": 25,
+        "total": 25,
+        "proporcao": 1.0,
+        "divergentes": []
+      },
+      "data_atualizacao": {
+        "iguais": 25,
+        "total": 25,
+        "proporcao": 1.0,
+        "divergentes": []
+      }
+    }
+  },
+  "unicidade": {
+    "registros_brutos": 1021,
+    "duplicados_descartados": 6,
+    "proporcao": 0.9941234084231146
+  },
+  "completude": {
+    "titulo": {
+      "ausentes": 0,
+      "total": 1015,
+      "proporcao": 1.0
+    },
+    "url": {
+      "ausentes": 0,
+      "total": 1015,
+      "proporcao": 1.0
+    },
+    "resumo": {
+      "ausentes": 1,
+      "total": 1015,
+      "proporcao": 0.9990147783251232
+    },
+    "data_publicacao": {
+      "ausentes": 0,
+      "total": 1015,
+      "proporcao": 1.0
+    },
+    "data_atualizacao": {
+      "ausentes": 0,
+      "total": 1015,
+      "proporcao": 1.0
+    },
+    "pagina": {
+      "ausentes": 0,
+      "total": 1015,
+      "proporcao": 1.0
+    },
+    "posicao": {
+      "ausentes": 0,
+      "total": 1015,
+      "proporcao": 1.0
+    },
+    "coletado_em": {
+      "ausentes": 0,
+      "total": 1015,
+      "proporcao": 1.0
+    }
+  },
+  "consistencia": {
+    "data_publicacao": {
+      "validos": 1011,
+      "total": 1015,
+      "proporcao": 0.9960591133004926
+    },
+    "data_atualizacao": {
+      "validos": 1011,
+      "total": 1015,
+      "proporcao": 0.9960591133004926
+    },
+    "url": {
+      "validos": 1015,
+      "total": 1015,
+      "proporcao": 1.0
+    },
+    "pagina": {
+      "validos": 1015,
+      "total": 1015,
+      "proporcao": 1.0
+    },
+    "posicao": {
+      "validos": 1015,
+      "total": 1015,
+      "proporcao": 1.0
+    }
+  },
+  "atualidade": {
+    "intervalo_referencia_coleta_horas": 27.563177991944443,
+    "distribuicao_por_ano": {
+      "2010": 2,
+      "2011": 1,
+      "2012": 2,
+      "2013": 2,
+      "2015": 2,
+      "2018": 6,
+      "2019": 14,
+      "2020": 59,
+      "2021": 164,
+      "2022": 147,
+      "2023": 90,
+      "2024": 146,
+      "2025": 205,
+      "2026": 175
+    },
+    "idade_media_dias": 1087.5182266009851,
+    "idade_min_dias": 2,
+    "idade_max_dias": 5827
+  },
+  "rastreabilidade": {
+    "campos_preenchidos": 1015,
+    "total": 1015,
+    "proporcao": 1.0,
+    "commit_registrado": true
+  },
+  "vazamento_anuncios": {
+    "total_anuncios_referencia": 10,
+    "vazados": [],
+    "quantidade": 0
+  },
+  "teste_contagem": {
+    "aplica": true,
+    "soma": 1219,
+    "total_declarado": 1219,
+    "bate": true
+  }
+}
