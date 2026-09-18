@@ -4,11 +4,11 @@
 
 | Item | Valor |
 |---|---|
-| Data/hora (UTC) | |
-| Sistema operacional | |
-| Python | |
-| requests / beautifulsoup4 | |
-| Commit | |
+| Data/hora (UTC) | 2026-09-16T13:28:04+00:00 |
+| Sistema operacional | Windows 11 |
+| Python | 3.12 |
+| requests / beautifulsoup4 | 2.34.2 / 4.15.0 |
+| Commit | `d325dac` (chore: adiciona script de coleta de evidências do baseline) |
 
 ## 2. Execução do código original
 
@@ -22,10 +22,17 @@ poetry run python ../../legacy/scraper_original.py
 Saída do console:
 
 ```text
-(colar aqui)
+Coletando: https://g1.globo.com/busca/?q=lgpd&page=0
+Coletando: https://g1.globo.com/busca/?q=lgpd&page=1
+Coletando: https://g1.globo.com/busca/?q=lgpd&page=2
+Coletando: https://g1.globo.com/busca/?q=lgpd&page=3
+Coletando: https://g1.globo.com/busca/?q=lgpd&page=4
+Coleta finalizada.
 ```
 
-Exceções levantadas: (nenhuma / descrever)
+Exceções levantadas: nenhuma — a execução termina normalmente e imprime
+"Coleta finalizada.", apesar do CSV sair vazio (só cabeçalho). É exatamente o
+tipo de falha silenciosa que o diagnóstico investiga a seguir.
 
 ## 3. Evidências por página
 
@@ -56,7 +63,7 @@ Os HTMLs brutos ficam em `data/baseline/html/`.
 
 ## 4. CSV gerado pelo legado
 
-``titulo,resumo,data_publicacao,url,pagina,coletado_em``
+`titulo,resumo,data_publicacao,url,pagina,coletado_em`
 
 
 
@@ -175,8 +182,6 @@ seletores não encontrariam nada: o HTML recebido não contém a palavra "lgpd" 
 B7 explicam por que a falha passou despercebida, ao transformar a ausência de resultados
 em uma execução aparentemente bem-sucedida.
 
-## 7. Mudanças no site
-
 ## 7. Estrutura atual da página
 
 ### 7.1 Hipótese S2 – User-Agent
@@ -294,18 +299,29 @@ Montar um gabarito independente, antes da correção, para medir a qualidade da 
 - **Títulos semelhantes:** há itens com títulos quase iguais e URLs diferentes (ex.: vídeo e notícia sobre o vazamento de dados de pessoas com HIV na BA). A deduplicação deve usar a URL, não o título.
 - **Resumo:** o card exibe trechos com o termo buscado, com reticências e trechos unidos por " — ".
 
-### 9.4 Métricas (calculadas após a correção)
-Calculadas sobre os itens com `eh_anuncio = nao`, casando amostra e base pela URL.
+### 9.4 Métricas — resultado final
 
-| Métrica | Definição | Esperado |
+Calculadas sobre os itens com `eh_anuncio = nao`, casando amostra e base pela
+URL real. Metodologia completa, números por campo e as duas ressalvas sobre
+os resultados estão em `docs/avaliacao_qualidade.md`
+(`docs/metricas_qualidade.json` para os dados brutos).
+
+| Métrica | Definição | Resultado |
 |---|---|---|
-| Cobertura | Fração das URLs da amostra presentes na base | 100% |
-| Acurácia por campo | Percentual de acertos em `titulo`, `resumo` e `data_publicacao` após normalizar espaços | 100% |
-| Vazamento de anúncios | Itens com `eh_anuncio = sim` presentes na base | 0 |
-| Duplicatas | URLs repetidas na base | 0 |
+| Cobertura | Fração das URLs da amostra presentes na base | 25/25 (100%) em ambas as referências |
+| Acurácia por campo | Igualdade exata em `titulo`, `resumo` e `data_atualizacao` | 25/25 (100%) nos três campos |
+| Vazamento de anúncios | Itens com `eh_anuncio = sim` presentes na base | 0/10 |
+| Duplicatas | URLs repetidas na base final | 0 (6 descartadas de 1021 brutos) |
 
-Critérios de comparação:
-- **Ordem:** não conta como erro, só é registrada, porque a relevância pondera recência.
-- **Data:** comparação pelo dia no fuso `-03:00`. Datas relativas são convertidas a partir de `coletado_em`, com tolerância.
-- **Resumo:** critério (igualdade exata ou tolerante) a definir na comparação, porque o site exibe trechos.
-- **Contagem (teste automatizado):** itens na base + anúncios descartados + duplicatas descartadas = `hits.total.value`.
+Critérios de comparação (fechados):
+- **Ordem:** não conta como erro, só é registrada, porque a relevância pondera
+  recência — confirmado na seção 8.5 (deriva de `max_score` entre execuções).
+- **Data:** comparação pelo dia no fuso `-03:00`, contra `data_atualizacao`
+  (não `data_publicacao` — é o campo que o card do G1 exibe). Datas relativas
+  da amostra manual foram convertidas a partir de `coletado_em`, com
+  tolerância.
+- **Resumo:** igualdade exata — decisão fechada na etapa 6, já que reticências
+  e a formatação de junção (`" — "`) passaram a ser tratadas como dado, não
+  como apresentação (ver seção 6.3, M3).
+- **Contagem (teste automatizado):** registros na base + anúncios filtrados =
+  `hits.total.value`. Confirmado na coleta final: `1021 + 198 = 1219`.
